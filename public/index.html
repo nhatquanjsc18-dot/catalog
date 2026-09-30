@@ -125,6 +125,9 @@
   .chip .count{font-size:10.5px; font-weight:700; opacity:0.65; font-variant-numeric:tabular-nums;}
   .chip.on{color:var(--text); border-color:var(--chrome-line); background:var(--surface);}
   .chip:focus-visible{outline:2px solid var(--accent); outline-offset:1px;}
+  .chip-select-all{border-style:dashed; font-weight:700;}
+  .chip-select-all.on{border-style:solid;}
+  .topbar .chip-select-all{border-color:rgba(255,255,255,0.45);}
 
   .industry-row{max-width:1320px; margin:0 auto; padding:6px 28px 16px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
   .industry-chip{
@@ -1163,6 +1166,7 @@
 <script src="data/mirka-accessories.js"></script>
 <script src="data/mirka-dustextractor-accessories.js"></script>
 <script src="data/mirka-spareparts.js"></script>
+<script src="data/mirka-superabrasives.js"></script>
 <script src="data/devilbiss-products.js"></script>
 <script src="data/anestiwata-products-hand-spray-gun.js"></script>
 <script src="data/anestiwata-products-wider-series.js"></script>
@@ -1197,7 +1201,6 @@
 
 <script>
 const BRAND_META = [
-  { id:"tonghop",    name:"Tổng hợp",    country:"—",         category:"Đa dụng / nhiều hãng",  color:"#2F7A4D", on:"#FFFFFF" },
   { id:"mirka",      name:"Mirka",       country:"Phần Lan", category:"Máy chà nhám",         color:"#FDC100", on:"#141414" },
   { id:"devilbiss",  name:"DeVilbiss",   country:"Mỹ",        category:"Súng phun sơn",         color:"#C4300E", on:"#FFFFFF" },
   { id:"anestiwata", name:"Anest Iwata", country:"Nhật Bản",  category:"Súng phun sơn",         color:"#007C9C", on:"#FFFFFF" },
@@ -1207,6 +1210,7 @@ const BRAND_META = [
   { id:"oem",        name:"OEM",         country:"Sản xuất tại Châu Âu", category:"Phụ kiện & linh kiện thay thế", color:"#4A5568", on:"#FFFFFF" },
   { id:"prona",      name:"Prona",       country:"Trung Quốc", category:"Súng phun sơn & dụng cụ khí nén", color:"#0170C1", on:"#FFFFFF" },
   { id:"wagner",     name:"Wagner",      country:"Đức",       category:"Thiết bị phun sơn CN",  color:"#FFCB00", on:"#141414" },
+  { id:"tonghop",    name:"Tổng hợp",    country:"—",         category:"Đa dụng / nhiều hãng",  color:"#2F7A4D", on:"#FFFFFF" },
 ];
 
 const INDUSTRIES = [
@@ -1330,6 +1334,19 @@ function productsForBrand(brandId){
 function renderFilters(){
   const bar = document.getElementById("filterBar");
   bar.querySelectorAll(".chip").forEach(el=>el.remove());
+
+  const allSelected = BRAND_META.every(b=>state.activeBrands.has(b.id));
+  const selectAllChip = document.createElement("button");
+  selectAllChip.className = "chip chip-select-all" + (allSelected ? " on" : "");
+  selectAllChip.style.setProperty("--dot", "var(--chrome-line)");
+  selectAllChip.innerHTML = `<span class="dot"></span>${allSelected ? "Bỏ chọn tất cả" : "Chọn tất cả"}`;
+  selectAllChip.addEventListener("click", ()=>{
+    if(allSelected) state.activeBrands.clear();
+    else BRAND_META.forEach(b=>state.activeBrands.add(b.id));
+    renderFilters(); renderAll();
+  });
+  bar.appendChild(selectAllChip);
+
   BRAND_META.forEach(b=>{
     const count = ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
     const chip = document.createElement("button");
