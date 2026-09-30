@@ -81,6 +81,36 @@
     letter-spacing:0.14em; text-transform:uppercase; color:var(--chrome-text-dim); margin-bottom:4px;
   }
   .subtitle{font-size:13px; color:var(--chrome-text-dim); max-width:520px; text-align:right;}
+  .brand-row-right{display:flex; align-items:center; gap:14px; flex-wrap:wrap; justify-content:flex-end;}
+
+  .header-search{position:relative; display:flex; align-items:center;}
+  .header-search-btn{
+    width:38px; height:38px; border-radius:50%; border:1.5px solid rgba(255,255,255,0.35);
+    background:rgba(255,255,255,0.08); color:var(--chrome-text); display:flex; align-items:center; justify-content:center;
+    cursor:pointer; flex:none; transition:background .24s var(--ease), border-color .24s var(--ease);
+  }
+  .header-search-btn:hover, .header-search-btn:focus-visible{background:rgba(255,255,255,0.18); border-color:var(--chrome-line);}
+  .header-search-btn svg{width:18px; height:18px;}
+  .header-search-input{
+    position:absolute; right:0; top:50%; transform:translateY(-50%);
+    width:0; opacity:0; pointer-events:none;
+    padding:9px 40px 9px 16px; border-radius:999px; border:1.5px solid var(--border-strong);
+    background:var(--surface); color:var(--text); font-size:13.5px; font-family:var(--font-body);
+    transition:width .32s var(--ease), opacity .24s var(--ease);
+  }
+  .header-search.open .header-search-input{width:280px; opacity:1; pointer-events:auto;}
+  .header-search.open .header-search-btn{opacity:0; pointer-events:none;}
+  .header-search-input:focus-visible{outline:2px solid var(--chrome-line);}
+  .header-search-close{
+    position:absolute; right:8px; top:50%; transform:translateY(-50%);
+    width:22px; height:22px; border-radius:50%; border:none; background:transparent;
+    color:var(--text-muted); font-size:16px; line-height:1; cursor:pointer;
+    display:none; align-items:center; justify-content:center;
+  }
+  .header-search.open .header-search-close{display:flex;}
+  @media (max-width:640px){
+    .header-search.open .header-search-input{width:min(60vw,220px);}
+  }
   .layout-tabs{
     display:flex; gap:4px; border-bottom:1px solid rgba(255,255,255,0.18);
     overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
@@ -726,7 +756,16 @@
         <span class="eyebrow">Công ty CP Công nghiệp Nhất Quán</span>
         <h1 id="pageTitle">Catalog thông số sản phẩm</h1>
       </div>
-      <div class="subtitle" id="subtitleCount">Dữ liệu thật, lấy trực tiếp từ website chính hãng.</div>
+      <div class="brand-row-right">
+        <div class="subtitle" id="subtitleCount">Dữ liệu thật, lấy trực tiếp từ website chính hãng.</div>
+        <div class="header-search" id="headerSearch">
+          <button class="header-search-btn" id="headerSearchBtn" type="button" aria-label="Tìm kiếm sản phẩm" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          </button>
+          <input class="header-search-input" id="headerSearchInput" type="text" placeholder="Tìm sản phẩm theo tên hoặc mã…" autocomplete="off">
+          <button class="header-search-close" id="headerSearchClose" type="button" aria-label="Đóng tìm kiếm">&times;</button>
+        </div>
+      </div>
     </div>
     <div class="layout-tabs" id="siteTabs">
       <button class="layout-tab site-tab active" data-page="home" aria-label="Trang chủ" title="Trang chủ"><svg class="tab-ic" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span class="tab-label">Trang chủ<small>Nhất Quán</small></span></button>
@@ -1876,10 +1915,47 @@ window.addEventListener("hashchange", ()=>{
 });
 
 let searchDebounce;
-document.getElementById("searchInput").addEventListener("input", (e)=>{
+function applySearchQuery(val){
   clearTimeout(searchDebounce);
-  const val = e.target.value;
   searchDebounce = setTimeout(()=>{ state.query = val.trim(); renderAll(); }, 150);
+}
+document.getElementById("searchInput").addEventListener("input", (e)=>{
+  applySearchQuery(e.target.value);
+  headerSearchInput.value = e.target.value;
+});
+
+const headerSearchWrap = document.getElementById("headerSearch");
+const headerSearchBtn = document.getElementById("headerSearchBtn");
+const headerSearchInput = document.getElementById("headerSearchInput");
+const headerSearchClose = document.getElementById("headerSearchClose");
+const mainSearchInput = document.getElementById("searchInput");
+
+function openHeaderSearch(){
+  headerSearchWrap.classList.add("open");
+  headerSearchBtn.setAttribute("aria-expanded", "true");
+  headerSearchInput.focus();
+}
+function closeHeaderSearch(){
+  headerSearchWrap.classList.remove("open");
+  headerSearchBtn.setAttribute("aria-expanded", "false");
+}
+headerSearchBtn.addEventListener("click", openHeaderSearch);
+headerSearchClose.addEventListener("click", ()=>{
+  headerSearchInput.value = "";
+  mainSearchInput.value = "";
+  applySearchQuery("");
+  closeHeaderSearch();
+});
+headerSearchInput.addEventListener("input", (e)=>{
+  applySearchQuery(e.target.value);
+  mainSearchInput.value = e.target.value;
+  if(e.target.value.trim() && !document.getElementById("page-products").classList.contains("active")){
+    setPage("products");
+    history.replaceState(null, "", "#products");
+  }
+});
+headerSearchInput.addEventListener("keydown", (e)=>{
+  if(e.key === "Escape") closeHeaderSearch();
 });
 
 renderFilters();
