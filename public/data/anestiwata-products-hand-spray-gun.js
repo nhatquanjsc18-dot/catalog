@@ -172,48 +172,6 @@
       specConfidence: "verified"
     },
     {
-      slug: "wider1l-series",
-      name: "Súng phun sơn áp lực thấp WIDER1L Series",
-      brand: "Anest Iwata",
-      industries: ["collision", "wood", "construction"],
-      shortDesc: "Phù hợp nhất cho sửa chữa sơn ô tô (auto refinishing) và phun vật thể nhỏ. Hiệu suất chuyển sơn cao, ít bắn tóe giúp tiết kiệm 20-30% sơn so với model trước, bảo vệ sức khỏe thợ sơn và giữ buồng sơn sạch lâu hơn.",
-      img: "https://anest-iwata.vn/wp-content/uploads/2024/12/WIDER1L-1-300x222.png",
-      specs: {
-        "Đường kính béc phun": "1.2 - 1.6 mm (7 model: WIDER1L-12G2P, WIDER1L-2-12J2S, 14J2S, 16J2S, 12J2G, 14J2G, 16J2G)",
-        "Kiểu cấp sơn": "Áp lực (Pressure) / Hút (Suction) / Trọng lực (Gravity)",
-        "Áp suất khí hóa sương": "0.1 - 0.34 MPa",
-        "Áp suất khí trong đầu khí": "0.049 - 0.069 MPa",
-        "Tiêu thụ khí": "200 - 530 lít/phút",
-        "Lưu lượng sơn": "60 - 350 ml/phút",
-        "Bề rộng vệt phun": "170 - 270 mm",
-        "Khoảng cách phun tiêu chuẩn": "200 mm",
-        "Trọng lượng": "290 g",
-        "Ứng dụng": "Sửa chữa sơn ô tô, gỗ/nội thất, kim loại"
-      },
-      specConfidence: "verified"
-    },
-    {
-      slug: "wider2l-series",
-      name: "Súng phun sơn áp lực thấp WIDER2L Series",
-      brand: "Anest Iwata",
-      industries: ["automotive"],
-      shortDesc: "Lý tưởng cho các vật thể lớn như chi tiết cỡ lớn, xe cộ. Hiệu suất chuyển sơn cao giúp tiết kiệm 20-30% sơn, bảo vệ sức khỏe thợ sơn. Có tuỳ chọn phụ kiện chịu mài mòn (nozzle/needle) cho sơn có tính mài mòn cao dùng thường xuyên.",
-      img: "https://anest-iwata.vn/wp-content/uploads/2024/12/WIDER2L-1-300x228.png",
-      specs: {
-        "Đường kính béc phun": "1.0 - 1.4 mm (5 model: WIDER2L-10G2P, 12G2P, 14G2P, WIDER2L-2-10G2P, 2-12G2P)",
-        "Kiểu cấp sơn": "Áp lực (Pressure)",
-        "Áp suất khí hóa sương": "0.2 MPa",
-        "Áp suất khí trong đầu khí": "0.069 MPa",
-        "Tiêu thụ khí": "430 - 470 lít/phút",
-        "Lưu lượng sơn": "130 - 500 ml/phút",
-        "Bề rộng vệt phun": "250 - 300 mm",
-        "Khoảng cách phun tiêu chuẩn": "200 mm",
-        "Trọng lượng": "375 g",
-        "Ứng dụng": "Chi tiết lớn, xe cộ, sơn dây chuyền"
-      },
-      specConfidence: "verified"
-    },
-    {
       slug: "lph-50-101-series",
       name: "Súng phun sơn áp lực thấp LPH-50/101 Series",
       brand: "Anest Iwata",
