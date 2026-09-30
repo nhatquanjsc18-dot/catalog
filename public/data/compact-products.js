@@ -1,0 +1,1 @@
+var COMPACT_PRODUCTS = window.COMPACT_PRODUCTS || [];

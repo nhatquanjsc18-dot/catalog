@@ -1,0 +1,17 @@
+{
+  "name": "nhatquan-catalog",
+  "version": "1.0.0",
+  "description": "Website giới thiệu công ty & catalog sản phẩm Công ty CP Công nghiệp Nhất Quán",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
