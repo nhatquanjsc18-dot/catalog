@@ -124,7 +124,6 @@
 
   /* ---------- Mobile: simplify Products tab — brand filter stays, pick one at a time ---------- */
   @media (max-width:640px){
-    body:has(#page-products.active) #layoutTabs,
     body:has(#page-products.active) .brand-row-title{
       display:none !important;
     }
@@ -807,11 +806,6 @@
       <button class="layout-tab site-tab" data-page="customers" aria-label="Khách hàng & Đối tác" title="Khách hàng & Đối tác"><svg class="tab-ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M2 20c0-3.3 3-5.5 7-5.5s7 2.2 7 5.5"/><circle cx="17" cy="8" r="2.4"/><path d="M17 14.5c2.7.3 5 2.2 5 5.5"/></svg><span class="tab-label">Khách hàng & Đối tác<small>Đã tin dùng</small></span></button>
       <button class="layout-tab site-tab" data-page="products" aria-label="Sản phẩm" title="Sản phẩm"><svg class="tab-ic" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span class="tab-label">Sản phẩm<small id="productsTabCount">370 sản phẩm, 6 thương hiệu</small></span></button>
       <button class="layout-tab site-tab" data-page="workphotos" aria-label="Hình ảnh tại xưởng khách hàng" title="Hình ảnh tại xưởng khách hàng"><svg class="tab-ic" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13.5" r="3.2"/></svg><span class="tab-label">Hình ảnh<small>Thực tế công trình</small></span></button>
-    </div>
-    <div class="layout-tabs" id="layoutTabs">
-      <button class="layout-tab active" data-view="grid">Lưới sản phẩm</button>
-      <button class="layout-tab" data-view="table">Bảng thông số</button>
-      <button class="layout-tab" data-view="sheet">Datasheet</button>
     </div>
   </div>
 </div>
@@ -1604,23 +1598,13 @@ function renderSheet(){
 }
 
 function renderAll(){
-  renderGrid(); renderTable(); renderSheet();
-  ["view-grid","view-table","view-sheet"].forEach(id=>{
-    const root = document.getElementById(id);
-    if(root.children.length === 0){
-      root.innerHTML = `<div class="disclaimer">Không có sản phẩm nào khớp với bộ lọc/tìm kiếm hiện tại.</div>`;
-    }
-  });
+  renderGrid();
+  const root = document.getElementById("view-grid");
+  if(root.children.length === 0){
+    root.innerHTML = `<div class="disclaimer">Không có sản phẩm nào khớp với bộ lọc/tìm kiếm hiện tại.</div>`;
+  }
 }
 
-document.getElementById("layoutTabs").addEventListener("click", (e)=>{
-  const btn = e.target.closest(".layout-tab");
-  if(!btn) return;
-  document.querySelectorAll("#layoutTabs .layout-tab").forEach(t=>t.classList.remove("active"));
-  btn.classList.add("active");
-  document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
-  document.getElementById("view-" + btn.dataset.view).classList.add("active");
-});
 
 const PAGE_TITLES = {
   home: "Nhất Quán — Giải pháp hoàn thiện bề mặt",
@@ -1776,7 +1760,6 @@ function setPage(page){
   document.getElementById("page-customers").classList.toggle("active", page === "customers");
   document.getElementById("page-products").classList.toggle("active", page === "products");
   document.getElementById("page-workphotos").classList.toggle("active", page === "workphotos");
-  document.getElementById("layoutTabs").style.display = page === "products" ? "" : "none";
   document.getElementById("pageTitle").textContent = PAGE_TITLES[page];
   document.getElementById("homeFabBtn").classList.toggle("is-hidden", page === "home");
   window.scrollTo(0, 0);
