@@ -116,8 +116,12 @@
 
   /* ---------- Mobile: simplify Products tab — brand filter stays, pick one at a time ---------- */
   @media (max-width:640px){
-    body:has(#page-products.active) #layoutTabs{
+    body:has(#page-products.active) #layoutTabs,
+    body:has(#page-products.active) .brand-row-title{
       display:none !important;
+    }
+    body:has(#page-products.active) .brand-row{
+      padding-bottom:0;
     }
     #page-products .industry-row,
     #page-products .disclaimer,
@@ -780,7 +784,7 @@
 <div class="topbar">
   <div class="topbar-inner">
     <div class="brand-row">
-      <div>
+      <div class="brand-row-title">
         <span class="eyebrow">Công ty CP Công nghiệp Nhất Quán</span>
         <h1 id="pageTitle">Catalog thông số sản phẩm</h1>
       </div>
