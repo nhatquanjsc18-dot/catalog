@@ -58,7 +58,7 @@
       model: "DEROS II 625",
       mirkaCode: "MID6254044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Chà nhám không bụi mọi loại bề mặt, phù hợp nhám mịn và đánh bóng sơ bộ.",
       img: "https://img.mirka.com/medias/MID6254044a.jpg?context=bWFzdGVyfGltYWdlc3wzMDM3NzR8aW1hZ2UvanBlZ3xhR05oTDJnMU9DOHhNVE13TXpFeE9ERXhNRGMxTUM5TlNVUTJNalUwTURRMFlTNXFjR2N8ODJjNTA4MjM1ZmRkM2U2MDcxNTg2ZDRkYzlhNDcyZWM5NDVkNDVmZGNlMDRmYzRmODBlZjI1ZTAyMzZiMWRiYQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -84,7 +84,7 @@
       model: "DEROS II 325",
       mirkaCode: "MID3254044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Dùng cho các khu vực chà nhám nhỏ, phù hợp nhám mịn và đánh bóng sơ bộ.",
       img: "https://img.mirka.com/medias/MID3254044-Mirka-DEROS-II-325-77mm-Orbit-2.5-1.jpg?context=bWFzdGVyfGltYWdlc3wzNTcyNjd8aW1hZ2UvanBlZ3xhRFZrTDJneU9DOHhNVFV5TlRFeU1EUTFPRGM0TWk5TlNVUXpNalUwTURRMExVMXBjbXRoTFVSRlVrOVRMVWxKTFRNeU5TMDNOMjF0TFU5eVltbDBMVEl1TlMweExtcHdad3wzODcyZGJhOGRjMzQxYTgyZTIwZDk0ZTllYWQzZWZiNTIxOTVkNTdkNThiM2RkYzExMDdmOTAxMWE1NDUxOTQ3&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -110,7 +110,7 @@
       model: "DEROS II 5650",
       mirkaCode: "MID5650404CA",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám 2 trong 1, không bụi, cho mọi loại bề mặt, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MID5650404CA-Mirka-DEROS-II-5650-125-150mm-Orbit-5.0-Case-1.jpg?context=bWFzdGVyfGltYWdlc3w0MTcyNTd8aW1hZ2UvanBlZ3xhREF3TDJnME1DOHhNVFV5TlRFek9ESTRORFUzTkM5TlNVUTFOalV3TkRBMFEwRXRUV2x5YTJFdFJFVlNUMU10U1VrdE5UWTFNQzB4TWpVdE1UVXdiVzB0VDNKaWFYUXROUzR3TFVOaGMyVXRNUzVxY0djfGVkNDZmNDg3NjVlM2VhYWNjMmYyNDA3NmNkYWYxMzViNzRhNjhiYTMxMGVhZDM0YzBiNzE5ZjBhMzVhYjNlZTA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -136,7 +136,7 @@
       model: "DEROS II 550",
       mirkaCode: "MID5504044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Chà nhám không bụi mọi loại bề mặt, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MID5504044a.jpg?context=bWFzdGVyfGltYWdlc3wzMTU4ODl8aW1hZ2UvanBlZ3xhR1pqTDJnMk5TOHhNVE13TXpFd09EWXdPREF6TUM5TlNVUTFOVEEwTURRMFlTNXFjR2N8ZGQwYWJiNjMyNjViNDA3MzBhOTkzNDVjZjEzZDA5NmYyZTE1N2U4NGI5M2IzYjQ4NzU5NTU4Mzc0ZDgzY2Q2Mg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -162,7 +162,7 @@
       model: "DEROS II 350",
       mirkaCode: "MID3504044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Dùng cho các khu vực chà nhám nhỏ, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MID3504044.jpg?context=bWFzdGVyfGltYWdlc3w0MDYxMDd8aW1hZ2UvanBlZ3xhREUzTDJnNVpTOHhNVEU1TkRNNE16YzJNVFF6T0M5TlNVUXpOVEEwTURRMExtcHdad3wwZGIwMzg1OTdjYzM4NzJiODc5Nzc2YjNiYWYyOGI4Nzk1YjQ0NTIxZTlhY2NkYTA1MmE2YTEzZTk3NGJmMGQ0&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -188,7 +188,7 @@
       model: "DEROS II 680",
       mirkaCode: "MID6804044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Chà nhám không bụi hiệu quả cho mọi bề mặt, phù hợp bóc tách vật liệu nhanh.",
       img: "https://img.mirka.com/medias/MID6804044a.jpg?context=bWFzdGVyfGltYWdlc3wzMjYyOTN8aW1hZ2UvanBlZ3xhRFZoTDJoaU5TOHhNVE13TXpFeE5ESTBOREV5Tmk5TlNVUTJPREEwTURRMFlTNXFjR2N8NzFjYmVhM2JlY2U0ZjU4MjM4OTMxYWZlOTYzMjA5ZjYwZTJkMGQ3NzAwMjE1MjRiNTJmOTU5ZTJmOTU3MzNmMA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -214,7 +214,7 @@
       model: "DEROS II 750",
       mirkaCode: "MID7504044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Chà nhám không bụi cho bề mặt lớn, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MID7504044.jpg?context=bWFzdGVyfGltYWdlc3wzOTMyMDl8aW1hZ2UvanBlZ3xhR1U0TDJobFppOHhNVEU1TkRNNE5EQTFOak0xTUM5TlNVUTNOVEEwTURRMExtcHdad3xiZWRiMmRmYzI0MjBhMGUyOTIxODFlZjgzMjg3NTk0Yzg2MjY4MGRjNzdkMWQzNDFmMjA0MjZmNDU3OTAxYzc2&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -240,7 +240,7 @@
       model: "DEROS II 650",
       mirkaCode: "MID6504044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Chà nhám không bụi hiệu quả cho mọi bề mặt, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MID6504044a.jpg?context=bWFzdGVyfGltYWdlc3wyOTI3MDF8aW1hZ2UvanBlZ3xhRFV3TDJnMU9TOHhNVE13TXpFeE16WTFORE13TWk5TlNVUTJOVEEwTURRMFlTNXFjR2N8OGEzM2E2NzBmYmI4MjhjY2I1NDBlMDIzMWRlZDMzYzEwMjYzZWFmZWU1MmQxZDgzOGYwZjJlZTEwZjY0NTAyMQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -266,7 +266,7 @@
       model: "DEROS RS 600",
       mirkaCode: "MRS6002100",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám xoay tròn công thái học cho công việc nặng và chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/MRS6002100-001.jpg?context=bWFzdGVyfGltYWdlc3wyNzk5NzJ8aW1hZ2UvanBlZ3xhRE13TDJoallTOHhNVGM0TlRNMU16RTVPVFkwTmk5TlVsTTJNREF5TVRBd1h6QXdNUzVxY0djfDU5NjM5NTU5M2IwMTczNTM5NDc1ZjBlZWI2ZTAzZjA3OWJiYjczNWYwMDJmNmJlYWRkZTFjNTRhNDgwZmJlZjg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -291,7 +291,7 @@
       model: "DEOS II 343",
       mirkaCode: "MID3434044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Lý tưởng cho vị trí khó tiếp cận hoặc chi tiết nhỏ: cửa sổ, cửa ra vào, khung, xử lý bột trét gỗ.",
       img: "https://img.mirka.com/medias/MID3434044a.jpg?context=bWFzdGVyfGltYWdlc3wzNDY5MDd8aW1hZ2UvanBlZ3xhREl6TDJoak15OHhNVE13TXpFeU1qYzVOalUzTkM5TlNVUXpORE0wTURRMFlTNXFjR2N8ZWNlNDVjYWExZTYyMTcwNWQwYjM3NjJlZTczMmMyZTg5ODMxOTQ3ODA1NmI3ODFiZTRmOGQ1N2JmYWM3Mzc2Ng&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -318,7 +318,7 @@
       model: "DEOS II 383",
       mirkaCode: "MID3834044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Thiết kế chủ yếu cho sửa chữa thân xe ô tô, phù hợp chà nhám bột trét và lớp lót.",
       img: "https://img.mirka.com/medias/MID3834044a.jpg?context=bWFzdGVyfGltYWdlc3wyOTQ4OTV8aW1hZ2UvanBlZ3xhR1JsTDJnM1pDOHhNVE13TXpFeE5qQTBOak0yTmk5TlNVUXpPRE0wTURRMFlTNXFjR2N8YjNiZjdkYzM1MTA5NDI3Yjc1MDRhYjFkYTMzYzcyNWNlZjY5NDUzNTQ1ODFjMWUzODc4M2U2NWZlYjNjMDI2MA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -345,7 +345,7 @@
       model: "DEOS II 353",
       mirkaCode: "MID3534044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Lý tưởng cho mộc và sơn trang trí: cửa, cửa sổ, góc cạnh và khu vực khó tiếp cận.",
       img: "https://img.mirka.com/medias/MID3534044a.jpg?context=bWFzdGVyfGltYWdlc3wzMDkwNDB8aW1hZ2UvanBlZ3xhRFptTDJnMk5pOHhNVE13TXpFeE5qY3dNVGN5Tmk5TlNVUXpOVE0wTURRMFlTNXFjR2N8ZWYzMmU5MGQ2MDAzOGFlOWRhMGIwNGQ0ZDY0MGYwYTY0YjIzNjk3YjdmM2I2OTM3NjA0YTI0NDc3YzU5OThjMw&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -372,7 +372,7 @@
       model: "DEOS II 663 Delta",
       mirkaCode: "MID6634044",
       subCategory: "Máy chà nhám điện",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám điện dạng tam giác delta, lý tưởng cho khu vực khó tiếp cận ở mọi góc độ.",
       img: "https://img.mirka.com/medias/MID6634044a.jpg?context=bWFzdGVyfGltYWdlc3wyNjQ2ODR8aW1hZ2UvanBlZ3xhREJrTDJnMU1pOHhNVE13TXpFeU1UVTFNVE01TUM5TlNVUTJOak0wTURRMFlTNXFjR2N8YWU3ZTM2MDRhZWZmZDNjMTk2OGY5YTVlNjZkYTVlMGZhZjI0OTdlODc0YTM0YjA1MDA3ZDczYTA3NmQ4Y2I3Yg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {

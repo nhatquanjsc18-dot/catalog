@@ -1231,6 +1231,12 @@ const INDUSTRIES = [
   { id:"marine",        label:"Tàu thuyền",                     icon:'<path d="M4 15l1.8 4.2a2 2 0 0 0 1.9 1.3h8.6a2 2 0 0 0 1.9-1.3L20 15"/><path d="M6 15V7h9l3 8"/><path d="M9 7V4h3v3"/>', customer:"Xưởng đóng tàu, đơn vị bảo dưỡng và sửa chữa tàu biển" },
   { id:"automotive",    label:"Giải pháp ngành sản xuất Ô tô",  icon:'<circle cx="12" cy="12" r="3.2"/><path d="M12 3v2.4M12 18.6V21M3 12h2.4M18.6 12H21M5.6 5.6l1.7 1.7M16.7 16.7l1.7 1.7M18.4 5.6l-1.7 1.7M7.3 16.7l-1.7 1.7"/>', customer:"Nhà máy lắp ráp ô tô (OEM), nhà cung cấp linh kiện Tier 1" },
   { id:"composite",     label:"Vật liệu composite",             icon:'<path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5L12 12l8-4.5M12 12v9"/>', customer:"Nhà sản xuất vật liệu composite, thuyền/canoe, cánh quạt" },
+  { id:"metalworking",  label:"Gia công kim loại",              icon:'<circle cx="7" cy="6" r="1.8"/><path d="M7 7.8V12l6 2.5V20"/><circle cx="13" cy="20" r="1.8"/><path d="M4 20h1.2M12 4h2"/>', customer:"Xưởng cơ khí, gia công kim loại tấm, hàn & làm sạch bề mặt kim loại" },
+  { id:"tool-manufacturing", label:"Sản xuất dụng cụ",          icon:'<path d="M14.7 6.3a4 4 0 0 1-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 1 5.4-5.4L14 13"/>', customer:"Nhà sản xuất dao cắt, khuôn mẫu, dụng cụ hợp kim cứng" },
+  { id:"aerospace",     label:"Hàng không",                     icon:'<path d="M3 11l18-8-8 18-2-8-8-2z"/>', customer:"Nhà sản xuất & bảo dưỡng linh kiện composite hàng không" },
+  { id:"wind-energy",   label:"Điện gió",                       icon:'<path d="M12 3v9M12 3c2 0 3.5 1.5 3.5 3.5S14 12 12 12M12 12c-2 0-3.5 1.8-3 4s2.5 3 2.5 5M12 12c2.2 0 4 1.3 4.5 3.5S15.8 20 13.5 21"/><circle cx="12" cy="12" r="1"/>', customer:"Nhà sản xuất & bảo trì cánh quạt turbine gió (composite)" },
+  { id:"powder-coating", label:"Sơn tĩnh điện",                 icon:'<path d="M12 2v6M8 5l4 3 4-3"/><circle cx="12" cy="14" r="7"/><path d="M12 11v3l2 2"/>', customer:"Nhà máy sơn tĩnh điện bột cho khung kim loại, nhôm, thép" },
+  { id:"pharma-food",   label:"Dược phẩm & Thực phẩm",          icon:'<path d="M9 2v6l-5 10a2 2 0 0 0 1.8 3h12.4a2 2 0 0 0 1.8-3L15 8V2"/><path d="M8.5 15h7"/>', customer:"Nhà máy dược phẩm, chế biến thực phẩm — đánh bóng bề mặt inox vệ sinh" },
 ];
 
 function normalizeBrand(raw, brandId, catFallback){
@@ -1793,16 +1799,16 @@ const SOLUTIONS = [
 const MIRKA_INDUSTRIES = [
   { label:"Chế biến gỗ", filterId:"wood", photo:"img/wood-processing.jpg", pos:"58% 55%" },
   { label:"Giải pháp ngành sản xuất Ô tô", filterId:"automotive", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/5-automotive-industry/applications/mirka-vehicle-manufacturing-automotive-industry.jpg?tr=w-720" },
-  { label:"Hàng không", filterId:null, photo:"img/aerospace.jpg", pos:"45% 48%" },
-  { label:"Gia công kim loại", filterId:null, photo:"img/metalworking.jpg", pos:"72% 45%" },
+  { label:"Hàng không", filterId:"aerospace", photo:"img/aerospace.jpg", pos:"45% 48%" },
+  { label:"Gia công kim loại", filterId:"metalworking", photo:"img/metalworking.jpg", pos:"72% 45%" },
   { label:"Xây dựng, cải tạo & hoàn thiện nội thất", filterId:"construction", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/cd/mirka-construction-renovation-decoration.jpg?tr=w-720" },
   { label:"Hoàn thiện bề mặt tàu thuyền", filterId:"marine", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/marine/mirka-marine-yacht-sanding-banner-2200-1238-.jpg?tr=w-720" },
   { label:"Sửa chữa va chạm ô tô", filterId:"collision", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/collision-repair/sander-tool-mirka-collision-repair-2200-1238/?tr=w-720" },
   { label:"Chà nhám & đánh bóng vật liệu composite", filterId:"composite", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/9a-solutions/composite/sanding_composite_mirka_pros_2200x1238.jpg?tr=w-720" },
-  { label:"Sản xuất dụng cụ", filterId:null, photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/8-tool-manufacturing/industry/Mirka-Cafro-tool-manufacturing-main-image-2200-1238.jpg?tr=w-720" },
-  { label:"Hoàn thiện bề mặt điện gió", filterId:null, photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/9a-solutions/composite/windpower_sanding_closeup_2200x1238.jpg?tr=w-720" },
-  { label:"Sơn tĩnh điện", filterId:null, photo:"img/powder-coating.jpg", pos:"50% 40%" },
-  { label:"Ngành dược và thực phẩm", filterId:null, photo:"img/pharma-lab.jpg", pos:"78% 55%" },
+  { label:"Sản xuất dụng cụ", filterId:"tool-manufacturing", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/8-tool-manufacturing/industry/Mirka-Cafro-tool-manufacturing-main-image-2200-1238.jpg?tr=w-720" },
+  { label:"Hoàn thiện bề mặt điện gió", filterId:"wind-energy", photo:"https://img.mirka.com/contenthubprod/globalassets/mirkacom/9a-solutions/composite/windpower_sanding_closeup_2200x1238.jpg?tr=w-720" },
+  { label:"Sơn tĩnh điện", filterId:"powder-coating", photo:"img/powder-coating.jpg", pos:"50% 40%" },
+  { label:"Ngành dược và thực phẩm", filterId:"pharma-food", photo:"img/pharma-lab.jpg", pos:"78% 55%" },
 ];
 
 function renderIndustriesGrid(){

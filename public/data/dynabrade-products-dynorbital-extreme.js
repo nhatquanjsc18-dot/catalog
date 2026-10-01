@@ -5,7 +5,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/da4a534e-9797-4bef-aa4b-f536f4988ed5/4072319967-x51.jpg",
     specs: {
@@ -41,7 +41,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56815",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/e1972921-e21e-4dce-bd7f-b8bfb95e891e/4072325536-56815.jpg",
     specs: {
@@ -81,7 +81,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "15003",
     subCategory: "Mini-Dynafile",
-    industries: [],
+    industries: ["metalworking", "tool-manufacturing"],
     shortDesc: "Máy mài dây đai mini (Mini-Dynafile II) tốc độ cao, tốc độ tối đa 25000 vòng/phút, chuyên dùng mài các góc cạnh, khe hẹp, mối hàn khó tiếp cận trong gia công kim loại và khuôn mẫu.",
     img: "https://apac.dynabrade.com/assets/cache/70fa92bd-6279-48fa-adee-9f7bbe3a13de/4072327952-15003.jpg",
     specs: {
@@ -113,7 +113,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51H",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/e24bcec1-8d99-4c32-85d7-b6f529fc7144/4072319960-x51h.jpg",
     specs: {
@@ -145,7 +145,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56826",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/f7354f2b-7086-4d3c-bad8-eeec40f11d70/4072325529-56826.jpg",
     specs: {
@@ -185,7 +185,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X32",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 2 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/16a8bfd4-61c3-4349-a397-22b30097cb3c/4072319984-x32.jpg",
     specs: {
@@ -209,7 +209,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X31",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/1f64ee5b-c44a-453c-9719-c2ed63856c99/4072319986-x31.jpg",
     specs: {
@@ -236,7 +236,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56800",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/175671e0-d6a0-421f-97d3-2cc76cd5426a/4072325542-56800.jpg",
     specs: {
@@ -267,7 +267,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56819",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/83fa75d1-b990-4e82-84b7-267ac373919c/4072325537-56819.jpg",
     specs: {
@@ -301,7 +301,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52H",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/e549a178-497c-4d11-b8c5-9fbd0e8d5aae/4072319941-x52h.jpg",
     specs: {
@@ -333,7 +333,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/40c5f364-4ef6-436a-8d7f-fd6b1df60d5a/4072319945-x52.jpg",
     specs: {
@@ -365,7 +365,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56850",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/3c6179eb-b17e-48ed-91fb-015b4d036da7/4072325509-56850.jpg",
     specs: {
@@ -399,7 +399,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56880",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/f163d1c2-6452-43ae-98d5-6e0b32573191/4072325495-56880.jpg",
     specs: {
@@ -433,7 +433,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56818",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/03625e38-b30e-4314-a42e-23365078d20b/4072325532-56818.jpg",
     specs: {
@@ -467,7 +467,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/f310b32a-674a-4b3b-b8b2-f67b8d959496/4072319951-x51v.jpg",
     specs: {
@@ -499,7 +499,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56830",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0fc6e910-3f49-49c1-a14e-ef3a01bcdca9/4072325526-56830.jpg",
     specs: {
@@ -533,7 +533,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/3fabf800-d28f-443f-95a8-4bbcdc2d86bf/4072319915-x61.jpg",
     specs: {
@@ -565,7 +565,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56859",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/db874ceb-7c47-42f9-a343-cd5961c24a31/4072325502-56859.jpg",
     specs: {
@@ -599,7 +599,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/8e536336-b364-4403-94e5-ce01188c6d24/4072319912-x61v.jpg",
     specs: {
@@ -623,7 +623,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61H",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/079126b0-49b7-4686-9df4-594d8b57c6f4/4072319919-x61h.jpg",
     specs: {
@@ -655,7 +655,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "15013",
     subCategory: "Mini-Dynafile",
-    industries: [],
+    industries: ["metalworking", "tool-manufacturing"],
     shortDesc: "Máy mài dây đai mini (Mini-Dynafile II) tốc độ cao, tốc độ tối đa 25000 vòng/phút, chuyên dùng mài các góc cạnh, khe hẹp, mối hàn khó tiếp cận trong gia công kim loại và khuôn mẫu.",
     img: "https://apac.dynabrade.com/assets/cache/c8157a79-9cef-4dca-9081-81398aef9793/4072327929-15013.jpg",
     specs: {
@@ -686,7 +686,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "15006",
     subCategory: "Mini-Dynafile",
-    industries: [],
+    industries: ["metalworking", "tool-manufacturing"],
     shortDesc: "Máy mài dây đai mini (Mini-Dynafile II) tốc độ cao, tốc độ tối đa 25000 vòng/phút, chuyên dùng mài các góc cạnh, khe hẹp, mối hàn khó tiếp cận trong gia công kim loại và khuôn mẫu.",
     img: "https://apac.dynabrade.com/assets/cache/6a59ad58-f6a5-49ff-af04-ef80584cf9f3/4072327950-15006.jpg",
     specs: {
@@ -717,7 +717,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57502",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0d88541c-487a-4558-a47e-2902a96ab6d4/790x800/4072325330-57502.jpg",
     specs: {
@@ -752,7 +752,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X31V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/47c53ba2-5e84-4248-85a4-e3757dc7f81b/4072319982-x31v.jpg",
     specs: {
@@ -776,7 +776,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62H",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/fed8e442-b90f-418a-915c-c8c6d541fa28/4072319904-x62h.jpg",
     specs: {
@@ -800,7 +800,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56890",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/f82a3f09-6cbd-4fac-b434-7fd510b69d2f/4072325484-56890.jpg",
     specs: {
@@ -834,7 +834,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61VHS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/ebd5f649-0923-4154-b1fd-96caad60cee0/4072319916-x61vhs.jpg",
     specs: {
@@ -854,7 +854,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61HS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/012af316-720f-49a9-a926-9c946a281614/4072319922-x61hs.jpg",
     specs: {
@@ -874,7 +874,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/f25bb793-08c1-471b-8959-92c764b8c80c/4072319900-x62v.jpg",
     specs: {
@@ -898,7 +898,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "51412",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/628336a3-e009-464e-8095-a3a4acf18463/4072324322-51412.jpg",
     specs: {
@@ -931,7 +931,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X125TR",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/2e525c17-bd20-44c0-8a88-beab1fc77ad6/4072319975-x125tr.jpg",
     specs: {
@@ -948,7 +948,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X32V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 2 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/c7fb5c3a-236d-4cff-ad3e-9dc80fbf0e4b/4072319968-x32v.jpg",
     specs: {
@@ -972,7 +972,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56884",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/a79f36df-018f-409d-8b17-e43853b73334/4072325477-56884.jpg",
     specs: {
@@ -1006,7 +1006,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56853",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b5fdc6cb-4132-45a6-8e2f-035f22d8a573/4072325508-56853.jpg",
     specs: {
@@ -1040,7 +1040,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56883",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/93e4b742-3807-4a1a-95cb-7ef28a84b896/4072325478-56883.jpg",
     specs: {
@@ -1074,7 +1074,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51VHS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0e2592b7-d766-4c61-8cce-4aefecf2beb5/4072319947-x51vhs.jpg",
     specs: {
@@ -1097,7 +1097,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52V",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/33445d0c-c5bb-4408-891a-3548248e05a7/4072319927-x52v.jpg",
     specs: {
@@ -1129,7 +1129,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56894",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/23eb1acf-19f1-44fe-b6cc-b1b591f5d568/4072325488-56894.jpg",
     specs: {
@@ -1164,7 +1164,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56863",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/ad0288b4-e86f-4225-8c70-daa8648cca92/4072325497-56863.jpg",
     specs: {
@@ -1198,7 +1198,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/ceb7bce4-3838-4e36-9574-47531ad9faa0/4072319909-x62.jpg",
     specs: {
@@ -1222,7 +1222,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62HS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/c79ae967-2d27-41d3-b37f-54a8379d74c8/4072319905-x62hs.jpg",
     specs: {
@@ -1241,7 +1241,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56829",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/22b22468-a464-44bb-81f9-97994cf6ffa7/4072325520-56829.jpg",
     specs: {
@@ -1275,7 +1275,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62VHS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/ce3d5e7f-d1d7-4a88-89ca-e81207595b2d/4072319898-x62vhs.jpg",
     specs: {
@@ -1294,7 +1294,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "15010",
     subCategory: "Mini-Dynafile",
-    industries: [],
+    industries: ["metalworking", "tool-manufacturing"],
     shortDesc: "Máy mài dây đai mini (Mini-Dynafile II) tốc độ cao, tốc độ tối đa 25000 vòng/phút, chuyên dùng mài các góc cạnh, khe hẹp, mối hàn khó tiếp cận trong gia công kim loại và khuôn mẫu.",
     img: "https://apac.dynabrade.com/assets/cache/47d8938c-1767-4891-b9dd-d21b1c5395f2/4072327949-15010.jpg",
     specs: {
@@ -1317,7 +1317,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57500",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/071388f1-aedd-44e9-b0bb-45679ceee985/769x800/4072325337-57500.jpg",
     specs: {
@@ -1348,7 +1348,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56854",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/74db4047-eacc-4cf8-8165-16fa3a63c961/4072325506-56854.jpg",
     specs: {
@@ -1382,7 +1382,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51HS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/06517cad-7722-495e-8c61-44fd1e7f7e04/4072319955-x51hs.jpg",
     specs: {
@@ -1405,7 +1405,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57573",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/800fc644-82d9-406b-ad2d-9ac3ae340d59/4072325300-57573.jpg",
     specs: {
@@ -1437,7 +1437,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "49400",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/83a9b4b1-a049-4559-bd0a-ee7d9c1235f2/4072323526-49400.jpg",
     specs: {
@@ -1469,7 +1469,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "51411",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/cec3faef-6f82-4245-bc3a-39072fef3d86/4072324324-51411.jpg",
     specs: {
@@ -1501,7 +1501,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "51410",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/574fa9f1-c092-49ed-a654-862ada9dfeba/4072324328-51410.jpg",
     specs: {
@@ -1532,7 +1532,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56844",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/7cedf0b6-aa8c-44fc-a8d3-399c90a5204f/4072325516-56844.jpg",
     specs: {
@@ -1563,7 +1563,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56874",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/5c3b7033-b54d-447f-a2f6-2ca13f8e5eb5/4072325493-56874.jpg",
     specs: {
@@ -1594,7 +1594,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56804",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/8b75cdc3-fefb-40dc-abd0-fdb7bbaba060/4072325550-56804.jpg",
     specs: {
@@ -1625,7 +1625,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56840",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0777e088-5852-4ee0-892c-164a378513da/4072325514-56840.jpg",
     specs: {
@@ -1656,7 +1656,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56870",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0e7e728c-a5fa-4a7a-943c-b06acc8706a4/4072325503-56870.jpg",
     specs: {
@@ -1687,7 +1687,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56803",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/87a1b6f1-0c93-490a-8a02-873edc7c355c/4072325547-56803.jpg",
     specs: {
@@ -1718,7 +1718,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56873",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/37fa7238-68c3-4da3-932e-0b629c1cdaa7/4072325491-56873.jpg",
     specs: {
@@ -1749,7 +1749,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56843",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/afc0f69b-e5e9-4120-b45d-672640069f75/4072325512-56843.jpg",
     specs: {
@@ -1780,7 +1780,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57571",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/e02c1689-809e-4aef-af86-f4754da1ea4d/4072325302-57571.jpg",
     specs: {
@@ -1812,7 +1812,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52ESD",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 2 mm, có hút bụi trung tâm, có tiếp địa chống tĩnh điện (ESD), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/40311c41-8675-44b0-a6ea-c673e0504975/4072319944-x52esd.jpg",
     specs: {
@@ -1833,7 +1833,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51ESD",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, có tiếp địa chống tĩnh điện (ESD), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/eb5f2ffa-bb03-4103-a158-cc5f12f6344d/4072319970-x51esd.jpg",
     specs: {
@@ -1854,7 +1854,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52HS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/906a6825-d7c5-46fa-aa1b-8303a13085cc/4072319925-x52hs.jpg",
     specs: {
@@ -1873,7 +1873,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52VHS",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 3 mm, có hút bụi trung tâm, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b1ea149c-fecb-4518-8383-ae65f7656da0/4072319937-x52vhs.jpg",
     specs: {
@@ -1892,7 +1892,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57582",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 3 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0d33d4dc-c46a-4dcd-9dee-2778a679a1bd/4072325307-57582.jpg",
     specs: {
@@ -1924,7 +1924,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57572",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b7ac39ef-f9e0-45da-b129-076261676d3f/4072325298-57572.jpg",
     specs: {
@@ -1956,7 +1956,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X51ESD1",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên dòng Dynorbital Extreme, hút bụi trung tâm, biên độ quỹ đạo 5 mm, kèm bộ dây hơi chống tĩnh điện (ESD), phù hợp môi trường sản xuất yêu cầu kiểm soát tĩnh điện.",
     img: "https://apac.dynabrade.com/assets/cache/2b5c2295-e003-45b9-bc2c-64a4dfaa9635/4072319962-x51esd1.jpg",
     specs: {
@@ -1977,7 +1977,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X52ESD1",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên dòng Dynorbital Extreme, hút bụi trung tâm, biên độ quỹ đạo 2 mm, kèm bộ dây hơi chống tĩnh điện (ESD), phù hợp môi trường sản xuất yêu cầu kiểm soát tĩnh điện.",
     img: "https://apac.dynabrade.com/assets/cache/77682ef9-6a55-4205-9e05-4b2e091ae7d3/4072319943-x52esd1.jpg",
     specs: {
@@ -1998,7 +1998,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62ESD",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 2 mm, có hút bụi trung tâm, có tiếp địa chống tĩnh điện (ESD), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/e752d711-045c-464e-bb8a-055b4514617b/4072319910-x62esd.jpg",
     specs: {
@@ -2019,7 +2019,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61ESD",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Extreme, biên độ quỹ đạo 5 mm, có hút bụi trung tâm, có tiếp địa chống tĩnh điện (ESD), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b55159f6-00af-47a9-8bbe-961e622af190/4072319918-x61esd.jpg",
     specs: {
@@ -2040,7 +2040,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56862",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 2 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/3fd56c0a-2e76-4d5f-89d7-89c55de530ba/4072325492-56862.jpg",
     specs: {
@@ -2074,7 +2074,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "56893",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 10 mm, hút bụi tự sinh (self-generated vacuum), thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b0f8e334-05f2-49aa-aaa7-ee40e8ede357/4072325481-56893.jpg",
     specs: {
@@ -2108,7 +2108,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57584",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 3 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/4773bb27-1422-4623-b506-de39870afec2/4072325303-57584.jpg",
     specs: {
@@ -2140,7 +2140,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57574",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/b0cb5738-abff-4ae1-8983-a8f3f117cff5/4072325295-57574.jpg",
     specs: {
@@ -2172,7 +2172,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57575",
     subCategory: "Dynorbital Supreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital Supreme, biên độ quỹ đạo 5 mm, không hút bụi, dùng chà nhám ướt, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/3fa3cf55-af37-424a-97b1-0bc91e7b0054/4072325296-57575.jpg",
     specs: {
@@ -2204,7 +2204,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X61ESD1",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên dòng Dynorbital Extreme, hút bụi trung tâm, biên độ quỹ đạo 5 mm, kèm bộ dây hơi chống tĩnh điện (ESD), phù hợp môi trường sản xuất yêu cầu kiểm soát tĩnh điện.",
     img: "https://apac.dynabrade.com/assets/cache/d2d8becf-2651-44c8-9dd2-fc3436c57cf9/4072319920-x61esd1.jpg",
     specs: {
@@ -2225,7 +2225,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "X62ESD1",
     subCategory: "Dynorbital Extreme",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên dòng Dynorbital Extreme, hút bụi trung tâm, biên độ quỹ đạo 2 mm, kèm bộ dây hơi chống tĩnh điện (ESD), phù hợp môi trường sản xuất yêu cầu kiểm soát tĩnh điện.",
     img: "https://apac.dynabrade.com/assets/cache/1277fec2-9b83-4c1d-8748-b406e593218f/4072319907-x62esd1.jpg",
     specs: {
@@ -2246,7 +2246,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "51415",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/92ce6fb3-ba43-4ad6-b7af-18a84e655aec/4072324326-51415.jpg",
     specs: {
@@ -2278,7 +2278,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "49401",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/78f98c70-999d-4b4c-a2f1-16ce6d1c0a3f/4072323532-49401.jpg",
     specs: {
@@ -2310,7 +2310,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "49402",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/09db3f93-e25a-4513-827a-ed0a8570d27d/4072323521-49402.jpg",
     specs: {
@@ -2340,7 +2340,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "49403",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/07bf2269-e783-43c6-892a-c743cd8425b2/4072323536-49403.jpg",
     specs: {
@@ -2370,7 +2370,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57503",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/ee917799-6002-4145-8718-f7ad15c65015/790x800/4072325321-57503.jpg",
     specs: {
@@ -2404,7 +2404,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "57504",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/d71017a8-14d5-42fc-8cd8-9a3a04d7c67e/769x800/4072325329-57504.jpg",
     specs: {
@@ -2438,7 +2438,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "53415",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/2982f6c5-435f-4a1e-ae6a-229202bc54cd/4072326340-53415.jpg",
     specs: {
@@ -2469,7 +2469,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "53417",
     subCategory: "Mini-Dynorbital",
-    industries: [],
+    industries: ["automotive", "wood", "composite"],
     shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên (random orbital sander) dòng Dynorbital, biên độ quỹ đạo 5 mm, không hút bụi, thiết kế nhẹ, ít rung, phù hợp chà nhám tinh và đánh bóng bề mặt sơn, composite trong ngành ô tô và chế biến gỗ.",
     img: "https://apac.dynabrade.com/assets/cache/0912ec86-56c3-4792-bdf3-02432536a143/4072326346-53417.jpg",
     specs: {
@@ -2501,7 +2501,7 @@ var DYNABRADE_DYNORBITAL_PRODUCTS = [
     brand: "Dynabrade",
     model: "15002",
     subCategory: "Mini-Dynafile",
-    industries: [],
+    industries: ["metalworking", "tool-manufacturing"],
     shortDesc: "Máy mài dây đai mini (Mini-Dynafile II) tốc độ cao, tốc độ tối đa 25000 vòng/phút, có hút bụi, chuyên dùng mài các góc cạnh, khe hẹp, mối hàn khó tiếp cận trong gia công kim loại và khuôn mẫu.",
     img: "https://apac.dynabrade.com/assets/cache/063aa7e2-a22d-4ffa-8552-5de54b39684d/4072327953-15002.jpg",
     specs: {

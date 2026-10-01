@@ -7,7 +7,7 @@
   name: "Máy chà nhám thẳng khí nén 8150D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám thẳng (Straight sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám thẳng (Straight sander) chạy khí nén, chuyển động tịnh tiến, dùng cho các bề mặt dài, phẳng như thân xe, tấm kim loại.",
   img: "https://www.compacttool.com/data/item/big/cf1f12b015a217f5a1e4989ce7aefda4.jpg",
   specs: {
@@ -27,7 +27,7 @@
   name: "Máy chà nhám thẳng khí nén 8150C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám thẳng (Straight sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám thẳng (Straight sander) chạy khí nén, chuyển động tịnh tiến, dùng cho các bề mặt dài, phẳng như thân xe, tấm kim loại.",
   img: "https://www.compacttool.com/data/item/big/17b9422b759c804452f772dfcfd51b15.jpg",
   specs: {
@@ -47,7 +47,7 @@
   name: "Máy chà nhám Single Action khí nén 715A2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Single Action",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám chuyển động đơn (Single Action) chạy khí nén, tốc độ chà nhanh, phù hợp mài phá sơn, matit, gỉ sét.",
   img: "https://www.compacttool.com/data/item/big/591c5270bb854e7f7d0c9d34efa486b0.jpg",
   specs: {
@@ -67,7 +67,7 @@
   name: "Máy chà nhám Single Action khí nén 723",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Single Action",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám chuyển động đơn (Single Action) chạy khí nén, tốc độ chà nhanh, phù hợp mài phá sơn, matit, gỉ sét.",
   img: "https://www.compacttool.com/data/item/big/2088d6020b8d637197998cd282439ddd.png",
   specs: {
@@ -86,7 +86,7 @@
   name: "Máy chà nhám Single Action khí nén 450P-L",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Single Action",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám chuyển động đơn (Single Action) chạy khí nén, tốc độ chà nhanh, phù hợp mài phá sơn, matit, gỉ sét.",
   img: "https://www.compacttool.com/data/item/big/4196a28a4d47d09839563db285b1b407.png",
   specs: {
@@ -105,7 +105,7 @@
   name: "Máy chà nhám Single Action khí nén 725",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Single Action",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám chuyển động đơn (Single Action) chạy khí nén, tốc độ chà nhanh, phù hợp mài phá sơn, matit, gỉ sét.",
   img: "https://www.compacttool.com/data/item/big/89a34710caf966c11a072535f799ead6.jpg",
   specs: {
@@ -125,7 +125,7 @@
   name: "Máy chà nhám Turbine/dao động khí nén 813TS",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Turbine/dao động",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám turbine/dao động tốc độ cao chạy khí nén, dùng hoàn thiện các chi tiết nhỏ, góc cạnh, khe hẹp.",
   img: "https://www.compacttool.com/data/item/big/b42a3b203b0d6aa97fbccff144427930.jpg",
   specs: {
@@ -145,7 +145,7 @@
   name: "Máy chà nhám Turbine/dao động khí nén 505N",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Turbine/dao động",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám turbine/dao động tốc độ cao chạy khí nén, dùng hoàn thiện các chi tiết nhỏ, góc cạnh, khe hẹp.",
   img: "https://www.compacttool.com/data/item/big/f613b9246703fdd45f39eb4de7717662.jpg",
   specs: {
@@ -166,7 +166,7 @@
   name: "Máy chà nhám Turbine/dao động khí nén 537",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Turbine/dao động",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám turbine/dao động tốc độ cao chạy khí nén, dùng hoàn thiện các chi tiết nhỏ, góc cạnh, khe hẹp.",
   img: "https://www.compacttool.com/data/item/big/16afb91b06f15fc879b5d4831ebdd403.jpg",
   specs: {
@@ -185,7 +185,7 @@
   name: "Máy chà nhám giả lập Single Action khí nén 937FN",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám giả lập Single Action",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám giả lập chuyển động đơn (Pseudo Single Action) chạy khí nén, kết hợp lực mài mạnh với độ rung thấp hơn single action thật.",
   img: "https://www.compacttool.com/data/item/big/d55005464cf04a1323d31b7995563a39.jpg",
   specs: {

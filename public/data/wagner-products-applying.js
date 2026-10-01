@@ -95,7 +95,7 @@ var WAGNER_APPLYING_PRODUCTS = [
   {
     slug: "topfinish-gm-1030p", name: "TOPFINISH GM 1030P", brand: "Wagner",
     subCategory: "Sơn ướt",
-    industries: ["construction", "wood", "marine", "composite"],
+    industries: ["construction", "wood", "marine", "composite", "aerospace", "wind-energy"],
     shortDesc: "Súng phun tự động dòng TOPFINISH cho airspray thường/HVLP/HVLP-Plus, xử lý vật liệu 2K trộn sẵn và chất tách khuôn, kích thước đầu phun linh hoạt 0.3-3.5 mm.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_GM1030P_67632.jpg",
     specs: {
@@ -149,7 +149,7 @@ var WAGNER_APPLYING_PRODUCTS = [
   {
     slug: "ga-5000eaw", name: "GA 5000EAW", brand: "Wagner",
     subCategory: "Sơn tĩnh điện ướt",
-    industries: ["construction", "wood", "composite"],
+    industries: ["construction", "wood", "composite", "aerospace", "wind-energy"],
     shortDesc: "Súng phun tự động tĩnh điện gốc nước dòng GA 5000, xử lý sơn lót và sơn phủ gốc nước 1K cùng chất tách khuôn gốc nước, độ dẫn điện vật liệu 1-1 KΩ.cm.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_GA5000_EA_IC_Roundjet-left_34691.jpg",
     specs: {
@@ -169,7 +169,7 @@ var WAGNER_APPLYING_PRODUCTS = [
   {
     slug: "ga-5000ea", name: "GA 5000EA", brand: "Wagner",
     subCategory: "Sơn tĩnh điện ướt",
-    industries: ["construction", "wood", "composite"],
+    industries: ["construction", "wood", "composite", "aerospace", "wind-energy"],
     shortDesc: "Súng phun tự động tĩnh điện gốc dung môi dòng GA 5000, xử lý sơn lót/sơn phủ 1K và 2K/3K/4K gốc dung môi cùng chất tách khuôn.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_GA5000_EA_IC_left_34688.jpg",
     specs: {
@@ -210,7 +210,7 @@ var WAGNER_APPLYING_PRODUCTS = [
   {
     slug: "ga-5000eacw", name: "GA 5000EACW", brand: "Wagner",
     subCategory: "Sơn tĩnh điện ướt",
-    industries: ["construction", "wood", "composite"],
+    industries: ["construction", "wood", "composite", "aerospace", "wind-energy"],
     shortDesc: "Súng phun tự động tĩnh điện AirCoat gốc nước dòng GA 5000, áp suất vật liệu tối đa 250 bar, xử lý sơn lót/sơn phủ và chất tách khuôn gốc nước.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_GA5000_EAC_IC-left_34710.jpg",
     specs: {

@@ -584,7 +584,7 @@ var WAGNER_FEEDING_PRODUCTS = [
   {
     slug: "cobra-40-10", name: "Cobra 40-10", brand: "Wagner",
     subCategory: "Hệ thống cấp liệu",
-    industries: ["construction", "wood", "marine", "composite"],
+    industries: ["construction", "wood", "marine", "composite", "aerospace", "wind-energy"],
     shortDesc: "Bơm màng kép piston áp lực cao (Consistal) cho ứng dụng AirCoat/airless tới 2.5 l/phút và 250 bar; phù hợp từ trạm sơn đơn tới hệ đa màu phức tạp.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/WAGNER_Cobra_40-10_dynL-hor_ProductGroup_2253x2505_32223.jpg",
     specs: {
@@ -609,7 +609,7 @@ var WAGNER_FEEDING_PRODUCTS = [
   {
     slug: "cobra-40-25", name: "Cobra 40-25", brand: "Wagner",
     subCategory: "Hệ thống cấp liệu",
-    industries: ["construction", "wood", "marine", "composite"],
+    industries: ["construction", "wood", "marine", "composite", "aerospace", "wind-energy"],
     shortDesc: "Bơm piston màng cao áp, xử lý được vật liệu ăn mòn, mài mòn và dễ đứt gãy cấu trúc, tiêu thụ dung dịch tráng rửa rất thấp; áp suất tới 250 bar, lưu lượng 5 l/phút, phù hợp cấp cho tối đa 8 súng AirCoat.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_Cobra-40-25_horizontal_left_71732.jpg",
     specs: {
@@ -634,7 +634,7 @@ var WAGNER_FEEDING_PRODUCTS = [
   {
     slug: "leopard-35-70", name: "Leopard 35-70", brand: "Wagner",
     subCategory: "Hệ thống cấp liệu",
-    industries: ["construction", "wood", "composite"],
+    industries: ["construction", "wood", "composite", "aerospace", "wind-energy"],
     shortDesc: "Bơm piston thép không gỉ cho airless/AirCoat tới 250 bar và 4.2 l/phút, thiết kế bộ động cơ khí chống đóng băng, dễ bảo trì với hệ Activeflush tiết kiệm dung dịch tráng rửa.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_Leopard-35-70_32177.jpg",
     specs: {
@@ -659,7 +659,7 @@ var WAGNER_FEEDING_PRODUCTS = [
   {
     slug: "puma-28-40", name: "Puma 28-40", brand: "Wagner",
     subCategory: "Hệ thống cấp liệu",
-    industries: ["construction", "wood", "composite"],
+    industries: ["construction", "wood", "composite", "aerospace", "wind-energy"],
     shortDesc: "Bơm piston thép không gỉ cho airless/AirCoat tới 220 bar và 2.4 l/phút, lý tưởng cho trạm sơn đơn hoặc dùng làm bơm chất đóng rắn.",
     img: "https://cdn.wagner-group.com/fileadmin/pim/1200x1200/PIC_EQU_Puma-28-40_32195.jpg",
     specs: {

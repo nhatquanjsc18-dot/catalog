@@ -5,7 +5,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58902",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy mài góc khí nén dùng đá mài tâm trũng, dòng Compact Rebel Ø125mm, công suất 2.2 hp, tốc độ tối đa 12000 RPM, phù hợp mài phá và làm sạch bề mặt kim loại.",
     img: "https://apac.dynabrade.com/assets/cache/7aa5876d-6f56-4c6a-9f1f-5a572f59c274/4072324910-58902.jpg",
     specs: {
@@ -40,7 +40,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "96644",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Bộ phụ tùng bảo dưỡng định kỳ dành cho các máy khí nén dòng Compact Rebel, gồm các chi tiết thay thế hao mòn theo khuyến nghị của nhà sản xuất.",
     img: "https://apac.dynabrade.com/assets/cache/4b351bda-5f89-4199-8825-066bd6307770/4072320940-96644.jpg",
     specs: {
@@ -54,7 +54,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "53291",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy cắt đá kim cương dòng Rebel Series, công suất 2.8 hp, dùng cắt kim loại và vật liệu cứng trong môi trường công nghiệp nặng.",
     img: "https://apac.dynabrade.com/assets/cache/9527e7e2-a08d-472b-a10e-48ad1c2ad952/4072326386-53291.jpg",
     specs: {
@@ -77,7 +77,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58912",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø125mm, công suất 2.2 hp, tốc độ tối đa 12000 RPM, thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/2ba7e45a-8d1a-4e95-b087-d5a19b2138c0/4072324917-58912.jpg",
     specs: {
@@ -112,7 +112,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58914V",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø180mm, công suất 2 hp, tốc độ tối đa 8500 RPM, tích hợp hút bụi trung tâm, thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/9ac9bbfe-2616-4ec3-9217-2071d9b67b7d/4072324918-58914v.jpg",
     specs: {
@@ -146,7 +146,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "53290",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy cắt đá Type 41 dòng Compact Rebel, công suất 2.8 hp, thiết kế nhỏ gọn, phù hợp cắt kim loại tại xưởng cơ khí và bảo trì công nghiệp.",
     img: "https://apac.dynabrade.com/assets/cache/964249c9-c0de-4ff8-ab1f-2d8dc0a01509/4072326385-53290.jpg",
     specs: {
@@ -165,7 +165,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58901",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy mài góc khí nén dùng đá mài tâm trũng, dòng Compact Rebel Ø115mm, công suất 2.3 hp, tốc độ tối đa 13000 RPM, tích hợp bộ tự cân bằng (Auto Balancer) giảm rung khi mài, phù hợp mài phá và làm sạch bề mặt kim loại.",
     img: "https://apac.dynabrade.com/assets/cache/9a6a1c24-bf16-41dd-8586-51820f27c423/4074434855-58901.jpg",
     specs: {
@@ -197,7 +197,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58912V",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø125mm, công suất 2.2 hp, thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/8aaf5c17-639c-4459-9b5a-7b4562724ab2/4074562128-58912v.jpg",
     specs: {
@@ -228,7 +228,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "59702",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Ống hơi nối mềm (whip hose) chuyên dùng cho các máy khí nén dòng Compact Rebel, giúp thao tác linh hoạt và giảm lực kéo dây hơi.",
     img: "https://apac.dynabrade.com/assets/cache/e3756f4f-74d6-460a-88dd-af861436926c/4074434867-59702.jpg",
     specs: {
@@ -242,7 +242,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58910",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø115mm, công suất 2.3 hp, tốc độ tối đa 13 000 RPM, thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/fd7d380f-de11-47f1-8760-fdc52162f3be/4074434856-58910.jpg",
     specs: {
@@ -274,7 +274,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58914",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø180mm, công suất 2 hp, tốc độ tối đa 8500 RPM, thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/e1312423-6382-4781-b1fb-42842ced7269/4075119275-58914-app.jpg",
     specs: {
@@ -306,7 +306,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58911",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø115mm, công suất 2.3 hp, tốc độ tối đa 13 000 RPM, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/4047511c-beab-49e4-930e-a0f31987263a/4074554796-58911.jpg",
     specs: {
@@ -338,7 +338,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58915M",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø180mm, công suất 2 hp, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/50c4758f-1fef-4f11-b5f8-83bbd29063e2/4074434858-58915.jpg",
     specs: {
@@ -369,7 +369,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58911M",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø115mm, công suất 2.3 hp, tốc độ tối đa 13 000 RPM, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/5bf40721-3da6-40f9-829f-0c53071fdbda/4074554795-58911m.jpg",
     specs: {
@@ -401,7 +401,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58940",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy cắt đá Type 41 dòng Compact Rebel Ø115mm, công suất 2.3 hp, thiết kế nhỏ gọn, phù hợp cắt kim loại tại xưởng cơ khí và bảo trì công nghiệp.",
     img: "https://apac.dynabrade.com/assets/cache/ca7b9455-ab60-419c-aaa8-1170aefc785c/4074434860-58940.jpg",
     specs: {
@@ -432,7 +432,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58903",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy mài góc khí nén dùng đá mài tâm trũng, dòng Compact Rebel Ø125mm, công suất 2.2 hp, tốc độ tối đa 12 000 RPM, tích hợp bộ tự cân bằng (Auto Balancer) giảm rung khi mài, phù hợp mài phá và làm sạch bề mặt kim loại.",
     img: "https://apac.dynabrade.com/assets/cache/93f01eae-bb6f-4979-89bd-c958c106cc60/4074434857-58903.jpg",
     specs: {
@@ -464,7 +464,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58913",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø125mm, công suất 2.2 hp, tốc độ tối đa 12 000 RPM, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/b064bc35-cab9-4e8c-84d7-fa6cc0c8a492/4074554798-58913.jpg",
     specs: {
@@ -496,7 +496,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58941",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy cắt đá Type 41 dòng Compact Rebel Ø125mm, công suất 2.3 hp, thiết kế nhỏ gọn, phù hợp cắt kim loại tại xưởng cơ khí và bảo trì công nghiệp.",
     img: "https://apac.dynabrade.com/assets/cache/e2f98b4d-6bf2-421d-91ac-7dd87e600ff0/4074434859-58941.jpg",
     specs: {
@@ -527,7 +527,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58915",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø180mm, công suất 2 hp, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/fd0adb64-243c-4731-9926-1584f9645104/4074434858-58915.jpg",
     specs: {
@@ -558,7 +558,7 @@ var DYNABRADE_REBEL_PRODUCTS = [
     brand: "Dynabrade",
     model: "58913M",
     subCategory: "Rebel Series",
-    industries: [],
+    industries: ["metalworking"],
     shortDesc: "Máy chà nhám đĩa khí nén dòng Compact Rebel Ø125mm, công suất 2.2 hp, tốc độ tối đa 12 000 RPM, có bộ tự cân bằng (Auto Balancer), thiết kế nhỏ gọn cho công việc chà nhám bề mặt kim loại và composite.",
     img: "https://apac.dynabrade.com/assets/cache/013dcaa5-7e83-4986-9726-a57334086827/4074554797-58913m.jpg",
     specs: {

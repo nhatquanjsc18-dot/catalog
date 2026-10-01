@@ -8,7 +8,7 @@
       model: "ROS 650CV",
       mirkaCode: "8993000111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, kết nối hút bụi trung tâm cho chà nhám không bụi, dùng cho công việc đa dụng.",
       img: "https://img.mirka.com/medias/8993000111-001.jpg?context=bWFzdGVyfGltYWdlc3wxNzIxODd8aW1hZ2UvanBlZ3xhRFV3TDJnMU1DODRPREUyTXpJME9EY3dNVGMwTHpnNU9UTXdNREF4TVRGZk1EQXhMbXB3Wnd8NzhhMTRjNDJkM2I1NTkwYTQzNDQ2YzlhYTY0MWVmZjJkYmI5YWI0NzRlZTdlNjA5MzViMDMyOWYxZmEwMDI5Zg&tr=w-950%2ch-950%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -30,7 +30,7 @@
       model: "OS 383CV",
       mirkaCode: "8991500111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén dạng dao động, dùng cho bột trét thân xe, lót và sơn, khu vực trung bình/nhỏ.",
       img: "https://img.mirka.com/medias/8991500111-1.jpg?context=bWFzdGVyfGltYWdlc3wxNDQ2OTE3fGltYWdlL2pwZWd8YURGaUwyZzVNQzh4TVRBNE5UYzBNRFkzTVRBd05pODRPVGt4TlRBd01URXhMVEV1YW5CbnxmOGRlNjEzYmZjOTRiOTk3ZDc2NGI3NzMyM2U4ZWEzODUyOTUyYTM5Y2VjN2UxY2E4Nzk4YmY1NTQyMzQ1ODc3&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -52,7 +52,7 @@
       model: "AOS 130NV",
       mirkaCode: "8992330111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám sửa lỗi cục bộ dạng dao động khí nén cho xử lý bề mặt li ti.",
       img: "https://img.mirka.com/medias/8992330111.jpg?context=bWFzdGVyfGltYWdlc3wxNDU1MjAxfGltYWdlL2pwZWd8YUdSaEwyZ3lOaTg1Tmpnd09ESXdNRFF6T0RBMkx6ZzVPVEl6TXpBeE1URXVhbkJufGQ3NTc2ZDgxOTRhODVhMTVjM2Y4MGY1YzYxOGIzYjhiMzQ0MTE1ZmJkNGFhMjA3N2M4NDI3MTY2NjMzZWRjNTg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -74,7 +74,7 @@
       model: "ROS2 650CV",
       mirkaCode: "8994650111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén 2 tay cầm 150 mm, mạnh mẽ, bền bỉ, thiết kế nhẹ và công thái học cho chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/8994650111-002.jpg?context=bWFzdGVyfGltYWdlc3w4Mzk3MXxpbWFnZS9qcGVnfGFEa3hMMmhsT1M4NE9ERTJNekU1TmpJM01qazBMemc1T1RRMk5UQXhNVEZmTURBeUxtcHdad3xhMjgxODA5ODNkMWIyNGExNGNiMTMyNDU4OGU2NGU4YjNhYzQ5NTk4YTkzZmJmZjJhNTc3NTFlMTFhZDMzMmQ0&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -96,7 +96,7 @@
       model: "RPS 300CV",
       mirkaCode: "8992340111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám/đánh bóng xoay tròn khí nén nhẹ, công thái học, cho khu vực nhỏ, làm việc không bụi hiệu quả.",
       img: "https://img.mirka.com/medias/8992340111-001.jpg?context=bWFzdGVyfGltYWdlc3wyMTQ2MTd8aW1hZ2UvanBlZ3xhR1JtTDJoak55ODRPREUyTXpJek5EWXhNVFV3THpnNU9USXpOREF4TVRGZk1EQXhMbXB3Wnd8NzViMTA2MjA1YTI1NzEyYzQ4ZWI4YjFmMjJjODY1MTBjZjJmMzUzZTBjOTVjNjBkODE4YTgxMjYxYTdhNzhmOQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -117,7 +117,7 @@
       model: "OS 343CV",
       mirkaCode: "8991600111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dao động khí nén nhẹ, công thái học, phù hợp gia công cửa sổ và đồ nội thất cỡ nhỏ.",
       img: "https://img.mirka.com/medias/8991600111-1.jpg?context=bWFzdGVyfGltYWdlc3wxMzgxODU5fGltYWdlL2pwZWd8YURkaUwyaGhNUzh4TVRBNE5UYzBNREUwTmpjeE9DODRPVGt4TmpBd01URXhMVEV1YW5Cbnw0MDM0MjA2YmFmOWIzOTQ4ZDIyMzgyY2M3YmU2M2VjNWM4NTllNTk5MGFmYjkxZDVlOWYxZjk4YTlkYjEzYTdm&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -139,7 +139,7 @@
       model: "PROS 550CV",
       mirkaCode: "8995550111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, hút bụi tối ưu ngay cả với lực hút thấp nhờ họng hút rộng.",
       img: "https://img.mirka.com/medias/8995550111.jpg?context=bWFzdGVyfGltYWdlc3wxNjk0MzU5fGltYWdlL2pwZWd8YURKaUwyZzFZaTg1TmpNeU5EYzFNRFUwTVRFd0x6ZzVPVFUxTlRBeE1URXVhbkJufDZjZTQ3YzdmNTM2NGUyNzI3NzcyMzYzYmEwNDU5YTg3Y2Q3YzVjMzU4NjIwNTBlYTU2ZGM2OWFkOTg2NGMyMDE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -161,7 +161,7 @@
       model: "OS 343DB",
       mirkaCode: "8991610111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dao động khí nén, có túi bụi tích hợp, không cần hệ thống hút bụi trung tâm.",
       img: "https://img.mirka.com/medias/8991610111-1.jpg?context=bWFzdGVyfGltYWdlc3w1NTMzOTJ8aW1hZ2UvanBlZ3xhR0kzTDJnMU1TOHhNVEE0TlRjek9UUTVNVE0xT0M4NE9Ua3hOakV3TVRFeExURXVhbkJufDVlNGIxYTdiZTZhOGM1YTEzM2IwMjgyYWNlODYzNzg5ODMzY2Y1ZWFiNTYzZmE0MTA2OThiZmQ1ZTNhOGJmM2E&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -183,7 +183,7 @@
       model: "OS 383DB",
       mirkaCode: "8991510111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dao động khí nén tự hút bụi, kèm túi bụi, phù hợp sửa chữa thân xe, đóng du thuyền, đồ gỗ.",
       img: "https://img.mirka.com/medias/8991510111-new.jpg?context=bWFzdGVyfGltYWdlc3w1NjkwMzJ8aW1hZ2UvanBlZ3xhRGcxTDJnMVlpOHhNVEE0TlRjek9UYzFNelV3TWk4NE9Ua3hOVEV3TVRFeExXNWxkeTVxY0djfGZlZTc2ODM3NzU3OTAyYjRlNTI4NzAzNDcyNjhkNWQxYjVjMWUwMDc4Yzk0YjYzNmUwMWE2YjFlYjczMjkwYTQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -205,7 +205,7 @@
       model: "OS 353CV",
       mirkaCode: "8991800111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dao động khí nén nhẹ, công thái học, phù hợp sản xuất cửa và đồ nội thất.",
       img: "https://img.mirka.com/medias/8991800111-001.jpg?context=bWFzdGVyfGltYWdlc3w0MTM0MjV8aW1hZ2UvanBlZ3xhREV5TDJneU1TOHhNRFF6TURnM05UYzVOVFE0Tmk4NE9Ua3hPREF3TVRFeFh6QXdNUzVxY0djfGFjNTVmNDY2MzE4OWU4ZDQyNGJmMjA5ODE3ZjE5N2Y5ZGY3ZmFiZjRlMmI2NTY2ZDBiYTlmYTljMzc4MzEwYzA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -227,7 +227,7 @@
       model: "PROS 550DB",
       mirkaCode: "8995550211",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, kèm túi bụi vải không dệt dung tích lớn, không cần túi nylon bảo vệ.",
       img: "https://img.mirka.com/medias/8995650211-001.jpg?context=bWFzdGVyfGltYWdlc3w0MzM2OTR8aW1hZ2UvanBlZ3xhRFF4TDJneVlTOHhNRFF6TlRVNE9ERXlPRGM1T0M4NE9UazFOalV3TWpFeFh6QXdNUzVxY0djfDY4MjI1MmIxYjViZjA2ZjRlNWQ2NDU1ODc5MjRjOTAyYTRiOTE1NzdlYjI1YjQ4OGYzMmJhMTEwMjVjODAyNTM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -249,7 +249,7 @@
       model: "PBS 13NV",
       mirkaCode: "8995134571",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dây đai khí nén, lý tưởng cho gò thân xe: vết hàn, gỉ sét, tẩy sơn và mài thông thường.",
       img: "https://img.mirka.com/medias/PBS-13NV-no-belt.jpg?context=bWFzdGVyfGltYWdlc3wyODM4Njc4fGltYWdlL2pwZWd8YURWa0wyaG1aUzg0T0RrNU9UWTVPVGMwTXpBeUwxQkNVMTh4TTA1V1gyNXZYMkpsYkhRdWFuQm58MmIzYTY3NWM5MDlhYzQwYWE5Mzk0MGIxYjlmOWZhM2E3NWMxMzk3MzAwZTlhMjI3OTM4YTViNDVkY2QyMmIyMg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -270,7 +270,7 @@
       model: "PBS 10NV",
       mirkaCode: "8995103301",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dây đai khí nén, lý tưởng cho gò thân xe: vết hàn, gỉ sét, tẩy sơn và mài thông thường.",
       img: "https://img.mirka.com/medias/PBS-10-NV-no-belt-view.jpg?context=bWFzdGVyfGltYWdlc3wxOTA0MjE3fGltYWdlL2pwZWd8YURWaUwyZ3dNUzg0T0RrNU9UY3dNelkzTlRFNEwxQkNVMTh4TUY5T1ZsOXViMTlpWld4MFgzWnBaWGN1YW5Cbnw1MTY4NmEwZGQyMzFiZWQwZTEyNDI1MGNiNzJiODExNjY3NTVkN2RhNmUxMzA5ZjJmZWJlM2M5Yzg5NWQ2MmM0&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -291,7 +291,7 @@
       model: "OS 353DB",
       mirkaCode: "8991810111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám dao động khí nén nhẹ, công thái học, kèm túi bụi.",
       img: "https://img.mirka.com/medias/8991810111-1.jpg?context=bWFzdGVyfGltYWdlc3w0NTQ2OTl8aW1hZ2UvanBlZ3xhR0ZrTDJnNU55OHhNVEE0TlRjME1EUXdPRGcyTWk4NE9Ua3hPREV3TVRFeFh6RXVhbkJufDYzMmE4MGY0NjhiNmMxYjc2ZGI2ZGY2ZDAwNTQxNzM2ZDY5N2FiNDY1MDdlYTcyYmEyYTAyMWJkYzUxZTg0ZmQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -312,7 +312,7 @@
       model: "PROS 525NV",
       mirkaCode: "8995525311",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén (không hút bụi trung tâm) với biên độ 2,5 mm.",
       img: "https://img.mirka.com/medias/Mirka-Pros-525NV-b.jpg?context=bWFzdGVyfGltYWdlc3w2MDk3MjN8aW1hZ2UvanBlZ3xhR1V5TDJoaVppODVNalV4T0RNd09Ea3dOVEkyTDAxcGNtdGhYMUJ5YjNOZk5USTFUbFpmWWk1cWNHY3xkYjhkNDBmOTYwZmIxZGE0NGEwZGI2MDIxN2FkOGM2NTc1ZjE3ZWMzZGRiN2Y0YzFjNmM2OGNhM2UwYmMyNWUz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -329,7 +329,7 @@
       model: "PROS 550NV",
       mirkaCode: "8995550311",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén (không hút bụi trung tâm) với biên độ 5 mm.",
       img: "https://img.mirka.com/medias/Mirka-Pros-550NV-b.jpg?context=bWFzdGVyfGltYWdlc3w2MTE3MzV8aW1hZ2UvanBlZ3xhR000TDJoallTODVNalV4T0RNd05UTXdNRGM0TDAxcGNtdGhYMUJ5YjNOZk5UVXdUbFpmWWk1cWNHY3w5OWViMjg3MGJiN2FlZjZmZTRiMGE3Y2Y4ZjUyZDc5ODc2ZmUzNjEwNzI2OTliOGZlMTY0NThhNjkyYWUyYjY2&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -350,7 +350,7 @@
       model: "PROS 580NV",
       mirkaCode: "8995580311",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén (không hút bụi trung tâm) với biên độ 8 mm.",
       img: "https://img.mirka.com/medias/Mirka-Pros-580NV-b.jpg?context=bWFzdGVyfGltYWdlc3w2NDQ1Mjl8aW1hZ2UvanBlZ3xhR1ZoTDJoa01DODVNalV4T0RNd016azVNREEyTDAxcGNtdGhYMUJ5YjNOZk5UZ3dUbFpmWWk1cWNHY3w2NTRkNDljOTg2YjkzZWFlOTJmOThhZDhiZTBiYTJiZGU5YTE1MmQ5MmNiNzFhYTY3Y2M3NmFlMTg2ZjdlODJi&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -371,7 +371,7 @@
       model: "PROS 580CV",
       mirkaCode: "8995580111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, hút bụi tối ưu ngay cả với lực hút thấp nhờ họng hút rộng.",
       img: "https://img.mirka.com/medias/PROS-MRP550-580CV.jpg?context=bWFzdGVyfGltYWdlc3wxNTgzODZ8aW1hZ2UvanBlZ3xhRFJtTDJobU5DODVNelV4TlRJd016SXhOVFkyTDFCU1QxTXRUVkpRTlRVd0xUVTRNRU5XTG1wd1p3fDFhZjI2YTNiYWRlY2NkY2NhZGNmNzhmY2NiNDc3NDIwYjZkNjJhMzRiOWM1NmJiNTMyOTk2YWQzZjc0YmRjYTE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -392,7 +392,7 @@
       model: "PROS 680CV",
       mirkaCode: "8995680111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, hút bụi tối ưu ngay cả với lực hút thấp nhờ họng hút rộng.",
       img: "https://img.mirka.com/medias/8995680111.jpg?context=bWFzdGVyfGltYWdlc3wxNzA1Njk0fGltYWdlL2pwZWd8YURsaUwyZzNPQzg1TmpNeU5EY3lOVFl6TnpReUx6ZzVPVFUyT0RBeE1URXVhbkJufDUxMjhhYTY1M2M4NzA0MTRjMWYyMDdjMGM4Y2NjOTAwZmEyNGEzOWQ3MDY2ODk1MTVlNjI1Mzc4ZGRiZjFjMTY&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -414,7 +414,7 @@
       model: "ROS 525CV",
       mirkaCode: "8992725111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, biên độ 2,5 mm, lựa chọn tốt cho công việc chà nhám tinh.",
       img: "https://img.mirka.com/medias/Exzenter-Druckluft-ROS-125-mm.jpg?context=bWFzdGVyfGltYWdlc3wxMTU3NjZ8aW1hZ2UvanBlZ3xhRFpqTDJoa1ppODRPREUyTXpJeU9UWTVOak13TDBWNGVtVnVkR1Z5TFVSeWRXTnJiSFZtZEY5U1QxTmZNVEkxWDIxdExtcHdad3w2ZThkMWRjZDAyNTA4NjBlNjk2OTNhODc2MzE3NDIzN2I3MjRlYzUyMTUyNTIxYjdhMzg3YTk1NWI5MDg2NzQ1&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -436,7 +436,7 @@
       model: "PROS 650CV",
       mirkaCode: "8995650111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, hút bụi tối ưu ngay cả với lực hút thấp nhờ họng hút rộng.",
       img: "https://img.mirka.com/medias/8995650111-a.jpg?context=bWFzdGVyfGltYWdlc3w4MDU4MTB8aW1hZ2UvanBlZ3xhRFV5TDJneVpDODVOek0yTVRBME5EYzJOekF5THpnNU9UVTJOVEF4TVRFdFlTNXFjR2N8YTJiMjY5ZTVlMjc4OWI4MGM5ZDk2MzY0ZDAxNTFlZWZhYmUyMTI4ODdlYzMzMWIwOGIxMjg3MDlhYTczZTE5Ng&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -458,7 +458,7 @@
       model: "ROS 550CV",
       mirkaCode: "8992700111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, đĩa 125 mm, phù hợp chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/Exzenter-Druckluft-ROS-125-mm.jpg?context=bWFzdGVyfGltYWdlc3wxMTU3NjZ8aW1hZ2UvanBlZ3xhRGswTDJnM09TODRPREUyTXpFNE5EZ3dOREUwTDBWNGVtVnVkR1Z5TFVSeWRXTnJiSFZtZEY5U1QxTmZNVEkxWDIxdExtcHdad3xlODQ0Y2QxNzk5ODhlM2FhMjg4ZWMzZTVhMjlkZWFjODdlNDE5NGRlYmNhOWJkYjQ1MDEzMDRmYjRlN2U4OGNm&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -480,7 +480,7 @@
       model: "ROS2 610CV",
       mirkaCode: "8994610111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén 2 tay cầm 150 mm, biên độ 10 mm cho bóc tách vật liệu nhanh trong công việc nặng.",
       img: "https://img.mirka.com/medias/8994650111-002.jpg?context=bWFzdGVyfGltYWdlc3w4Mzk3MXxpbWFnZS9qcGVnfGFHRTVMMmhpWVM4NE9ERTJNekl6T0RJeE5UazRMemc1T1RRMk5UQXhNVEZmTURBeUxtcHdad3xmNjlkMjBlOGM4MzhkMzFiZTM2YjI0ZmFmZTVmOGViN2ZkNmJkN2IyZDA3ODI3NjA4ZDI2N2UyNmNlM2ZlMzA4&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -502,7 +502,7 @@
       model: "ROS 625DB",
       mirkaCode: "8993225111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, kèm túi bụi, không cần hệ thống hút trung tâm, biên độ 2,5 mm cho chà nhám tinh.",
       img: "https://img.mirka.com/medias/8993200111-1.jpg?context=bWFzdGVyfGltYWdlc3w1Mjc0NDN8aW1hZ2UvanBlZ3xhRGd4TDJoa09TOHhNVEE0TlRNek16QXpOekE0Tmk4NE9Ua3pNakF3TVRFeFh6RXVhbkJufGIyZWFlNzI0NjA0OGU3YzY1Njk3NmZlNzcxMzEwNDBmYWIxZTI0MWVhMWE5MmE3MTdmMDc1ODA5MWNlNzMzMjc&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -524,7 +524,7 @@
       model: "ROS 625CV",
       mirkaCode: "8993025111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, biên độ 2,5 mm cho công việc chà nhám tinh.",
       img: "https://img.mirka.com/medias/Exzenter-Druckluft-ROS-150-mm.jpg?context=bWFzdGVyfGltYWdlc3wxMTQxMzV8aW1hZ2UvanBlZ3xhREl5TDJoak1TODRPREUyTXpJek5qVTNOelU0TDBWNGVtVnVkR1Z5TFVSeWRXTnJiSFZtZEY5U1QxTmZNVFV3WDIxdExtcHdad3w4NzU2NWNkYjU3NTYyZjI2ZGY2MjAzNmNlYjZlN2RlZThhZjYwMjc5ODMxNjc4ZTUwYWQ1MDgzMTNmNDViYThh&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -546,7 +546,7 @@
       model: "ROS 650DB",
       mirkaCode: "8993200111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, kèm túi bụi, không cần hệ thống hút trung tâm, dùng cho chà nhám đa dụng.",
       img: "https://img.mirka.com/medias/8993200111-1.jpg?context=bWFzdGVyfGltYWdlc3w1Mjc0NDN8aW1hZ2UvanBlZ3xhRGd4TDJoa09TOHhNVEE0TlRNek16QXpOekE0Tmk4NE9Ua3pNakF3TVRFeFh6RXVhbkJufGIyZWFlNzI0NjA0OGU3YzY1Njk3NmZlNzcxMzEwNDBmYWIxZTI0MWVhMWE5MmE3MTdmMDc1ODA5MWNlNzMzMjc&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -568,7 +568,7 @@
       model: "PROS 650DB",
       mirkaCode: "8995650211",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, kèm túi bụi vải không dệt dung tích lớn, không cần túi nylon bảo vệ.",
       img: "https://img.mirka.com/medias/8995650211-001.jpg?context=bWFzdGVyfGltYWdlc3w0MzM2OTR8aW1hZ2UvanBlZ3xhRFF6TDJnNVlpOHhNRFF6TlRVM09EUXlPVFEzTUM4NE9UazFOalV3TWpFeFh6QXdNUzVxY0djfGM4ODZjZjMyMTY5Mjg1Mjg1NWYwZDRmZTVmZmIxZjU3MGJjZTY1YzgyMGQ5YTBmZDNjOTdkODc0NTA1ZDljNjM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -590,7 +590,7 @@
       model: "ROS 550DB",
       mirkaCode: "8992800111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén quỹ đạo ngẫu nhiên, kèm túi bụi, không cần hệ thống hút trung tâm, đĩa 125 mm.",
       img: "https://img.mirka.com/medias/8992800111.jpg?context=bWFzdGVyfGltYWdlc3w0NjE4MzJ8aW1hZ2UvanBlZ3xhR1EwTDJoa1lpOHhNVEE0TlRNek1qazNNVFUxTUM4NE9Ua3lPREF3TVRFeExtcHdad3xjMDkzNzZhMGEyNjZmMTE5N2M0NWQxYjQ5NmM5MmFjY2UwYzIzOTc5M2JlZWRlMWEyNDk0ZWYxMTg2NjlkNzkz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -612,7 +612,7 @@
       model: "ROS 325CV",
       mirkaCode: "8993325111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén đĩa 77 mm, chuyên dùng cho sửa lỗi cục bộ, biên độ 2,5 mm.",
       img: "https://img.mirka.com/medias/Exzenter-Druckluft-ROS-77-mm.jpg?context=bWFzdGVyfGltYWdlc3w3OTUzMzd8aW1hZ2UvanBlZ3xhRFppTDJnMlpTODRPREk0TnpJM01ETXpPRGcyTDBWNGVtVnVkR1Z5TFVSeWRXTnJiSFZtZEY5U1QxTmZOemRmYlcwdWFuQm58Y2QzZDdhYTc3MDIyMDFiMzg5YTE5MWIzMTg0YTZlZTZjODAyMjE0NzZlZjNiODYzMGZiMDFjNWZjMmI2ZjBkYg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -634,7 +634,7 @@
       model: "ROS 325NV",
       mirkaCode: "8993320111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén đĩa 77 mm, chuyên dùng cho sửa lỗi cục bộ, không hút bụi trung tâm.",
       img: "https://img.mirka.com/medias/8993320111.jpg?context=bWFzdGVyfGltYWdlc3wxOTE0OXxpbWFnZS9qcGVnfGFEWmpMMmhrT0M4eE1UQTROVE16TWpnM016STBOaTg0T1Rrek16SXdNVEV4TG1wd1p3fDk1YWQwNmRmNzBlZTY2NzIyYzY4ZmE4OThiYTVjYWE2NmRiMzVhM2RiODE0Y2QyNmViYjM1MDk2ZTc3MTZiYjU&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -656,7 +656,7 @@
       model: "ROS2 510CV",
       mirkaCode: "8994510111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén 2 tay cầm 125 mm, biên độ 10 mm cho bóc tách vật liệu nhanh trong công việc nặng.",
       img: "https://img.mirka.com/medias/8994550111-002.jpg?context=bWFzdGVyfGltYWdlc3w4Njk3MXxpbWFnZS9qcGVnfGFETXdMMmhrTVM4NE9ERTJNekl5TlRFd09EYzRMemc1T1RRMU5UQXhNVEZmTURBeUxtcHdad3xmZDUyMWI4MGNmZGNkZDMzMTBlMzliYjk2MzA2N2QxMjVkMzBmYzA0ODE1YWE5YWFmNWUwOTMzNDQ0ODE2NDMz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -678,7 +678,7 @@
       model: "ROS 150NV",
       mirkaCode: "8992450111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám sửa lỗi cục bộ siêu nhẹ (dưới 0,5 kg), tốc độ tối đa 8.000 vòng/phút, đĩa gắn nhanh.",
       img: "https://img.mirka.com/medias/8992450111-1.jpg?context=bWFzdGVyfGltYWdlc3w2MTU2MjR8aW1hZ2UvanBlZ3xhRGhoTDJneE1pOHhNVEE0TlRNek5UYzRPVFU1T0M4NE9Ua3lORFV3TVRFeExURXVhbkJufGFlOTc3YWZkNjgzOWM4NzJkMjQzNWU5NDY4MTZkYzQxZmVlYmRiZjRlNjUzZjU1OGZmYjA2NmFhMzlhNjM4NzM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -700,7 +700,7 @@
       model: "ROS2 850CV",
       mirkaCode: "8994850111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén 2 tay cầm 200 mm, bền bỉ, lý tưởng cho ứng dụng công nghiệp chà nhám bề mặt lớn.",
       img: "https://img.mirka.com/medias/8994850111-003.jpg?context=bWFzdGVyfGltYWdlc3wxMzQxMTB8aW1hZ2UvanBlZ3xhR0k0TDJneE9TODRPREUyTXpFM056VTVOVEU0THpnNU9UUTROVEF4TVRGZk1EQXpMbXB3Wnd8ODA2YzRhZmRkYjJmMmI2NTc1MDQ0NjZlNGExZGI0Njc0MWMwZGI1ZmE2YmVjYmVjYjhjZTEyOWZhZThkYmI5ZA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -722,7 +722,7 @@
       model: "PROS 625CV",
       mirkaCode: "8995625111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén, hút bụi tối ưu ngay cả với lực hút thấp nhờ họng hút rộng.",
       img: "https://img.mirka.com/medias/8995625111.jpg?context=bWFzdGVyfGltYWdlc3wxNjAzMDA5fGltYWdlL2pwZWd8YURZMEwyaGlNQzg1TmpNeU5EYzBOall3T0RrMEx6ZzVPVFUyTWpVeE1URXVhbkJufDA2Njc5NGNiYmM4Nzg2ZmFmNGU2NzQwYmEwYzYzNDRjODA1MjZjYjZkNTQzYzAxY2I1NTg1MjJjMzkwMzkzYjE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -744,7 +744,7 @@
       model: "ROS 325DB",
       mirkaCode: "8993425111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám khí nén đĩa 77 mm, kèm túi bụi, chuyên dùng cho sửa lỗi cục bộ.",
       img: "https://img.mirka.com/medias/8993425111.jpg?context=bWFzdGVyfGltYWdlc3w0MDgzMDV8aW1hZ2UvanBlZ3xhREU1TDJoa05pOHhNVEE0TlRNek16RXpOVE01TUM4NE9Ua3pOREkxTVRFeExtcHdad3wzMGYxOTYwZTFjMWNkZTcxOTZkM2JkZjc3YzYyNjBhZmFiODI5OWQxYWJlN2FiYWRiMGJiN2NjMzZmMjIwZTYw&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -766,7 +766,7 @@
       model: "PROS 650NV",
       mirkaCode: "8995650311",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén (không hút bụi trung tâm) với biên độ 5 mm.",
       img: "https://img.mirka.com/medias/Mirka-Pros-650NV-b.jpg?context=bWFzdGVyfGltYWdlc3w1OTU5NTV8aW1hZ2UvanBlZ3xhR1V6TDJoaVl5ODVNalV4T0RNd09UVTJNRFl5TDAxcGNtdGhYMUJ5YjNOZk5qVXdUbFpmWWk1cWNHY3wwZjExMTkzNGJiMDEwZDIyOWZmZDRkMjFhMWI2NjM1YzAxMjBkOWVjYWEwYTQwZDVkNTJhMmI0MDUyYmRhMWMx&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -787,7 +787,7 @@
       model: "PROS 680NV",
       mirkaCode: "8995680311",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám quỹ đạo ngẫu nhiên khí nén (không hút bụi trung tâm) với biên độ 8 mm.",
       img: "https://img.mirka.com/medias/Mirka-Pros-650NV-b.jpg?context=bWFzdGVyfGltYWdlc3w1OTU5NTV8aW1hZ2UvanBlZ3xhR1kyTDJoak1pODVNalV4TXpNNE9ERXpORGN3TDAxcGNtdGhYMUJ5YjNOZk5qVXdUbFpmWWk1cWNHY3w1Njg2ZGJmMGFjZTljZGE3N2I4MWRhN2QzYWFjZmQzYWUxNjFhNGZhM2U2ZDFjM2RkNWVjNTYwYmJhODlkYjA5&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -808,7 +808,7 @@
       model: "ROS 550NV",
       mirkaCode: "8992720111",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám hoàn thiện 5 inch, quỹ đạo 5 mm, thân máy composite đúc chính xác, bền và giảm tiếng ồn, tốc độ thực 12.000 vòng/phút.",
       img: "https://img.mirka.com/medias/MR-5.jpg?context=bWFzdGVyfGltYWdlc3wyODMwODh8aW1hZ2UvanBlZ3xhRFF3TDJobFpTODVNelV4TlRJd01Ua3dORGswTDAxU0xUVXVhbkJufDUwMDQ1MDY3OTIyODhlNjM5OWQ2ZGM1NzMyMmRlNjVmZTdhM2Q2MDU5NDYwYTBmMjZiNDJhMjlkYWNhNTI1MjM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -829,7 +829,7 @@
       model: "ROS2 610DB",
       mirkaCode: "8994610211",
       subCategory: "Máy chà nhám khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám 2 tay cầm 6 inch tự sinh chân không, quỹ đạo 10 mm, thân máy composite đúc chính xác, tốc độ thực 12.000 vòng/phút.",
       img: "https://img.mirka.com/medias/MR-610THSGV.jpg?context=bWFzdGVyfGltYWdlc3w1NzIyNzF8aW1hZ2UvanBlZ3xhR05qTDJobVpTODVNelV4TlRJd05qUTVNalEyTDAxU0xUWXhNRlJJVTBkV0xtcHdad3xhNzg1Y2ZmYjg3ODJiMzZhODZlY2RjMWI5NGQ2NDg2Y2MwYjk0NzliZmI1NTczZjY3MmQ3ZWRhOTNmMGRlNTRk&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {

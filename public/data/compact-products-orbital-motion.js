@@ -7,7 +7,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 903CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/c5f1b36d095aceb61d23b06e4d1e6c1c.jpg",
   specs: {
@@ -27,7 +27,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 913CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/e04c1ee33970d6ad732b6fb4ed14bccc.jpg",
   specs: {
@@ -47,7 +47,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 914B2D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/112f3a743e9fc3c9408280cae9c28fa3.jpg",
   specs: {
@@ -67,7 +67,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 923CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/a734628d7864091075842be327c90824.jpg",
   specs: {
@@ -87,7 +87,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 917CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/c768965364e3b3e93934c8d555a83227.jpg",
   specs: {
@@ -107,7 +107,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 937CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/900b70beb76409a68c33948a30cd5302.jpg",
   specs: {
@@ -127,7 +127,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 910CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/7a518c1ec32c6c2b3782da7501cf4eac.jpg",
   specs: {
@@ -147,7 +147,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 930CD",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/cc978c7606cec9d0e915b220dd505955.jpg",
   specs: {
@@ -167,7 +167,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 905B4D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/09a5a4b9b506495d34adf9b87d14cdfb.jpg",
   specs: {
@@ -187,7 +187,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 905B4D-6",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/145ccf9fdd0a96d3634c4e98f711d0b4.jpg",
   specs: {
@@ -207,7 +207,7 @@
   name: "Máy chà nhám DA khí nén (có hút bụi) 905A4D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, tích hợp hút bụi qua lỗ đế, giảm bụi phát tán khi làm phẳng và hoàn thiện bề mặt.",
   img: "https://www.compacttool.com/data/item/big/a8ac6dc079fddc298a93b193120d8722.jpg",
   specs: {
@@ -227,7 +227,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 942",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/5147b9148dae74388c7a70a708d8a0b7.jpg",
   specs: {
@@ -247,7 +247,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 903C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/cf496d0816184491ee40674ff4d2f1a2.jpg",
   specs: {
@@ -267,7 +267,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 913C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/60cc8dc7c7425661cbcdd4aa834368b8.jpg",
   specs: {
@@ -286,7 +286,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 914L",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/d4138b7dda3a540739d18a57e0ae9ff2.jpg",
   specs: {
@@ -306,7 +306,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 914B2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/bbe1f42d8dfa7f219a3820ccba93c4b1.jpg",
   specs: {
@@ -326,7 +326,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 935C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/a30aef39cb4c2071df2ca36cfb0c4a7c.jpg",
   specs: {
@@ -346,7 +346,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 945A4",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/1a280938464b98574d5f893c038bacea.jpg",
   specs: {
@@ -366,7 +366,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 923C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/fd44f58ebd15da5eb2faeaf79c0f8791.jpg",
   specs: {
@@ -386,7 +386,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 917C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/748e9238ffded21729fc3834280f44a8.jpg",
   specs: {
@@ -406,7 +406,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 937C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/9790bcb79e88f916927932373909d4c2.jpg",
   specs: {
@@ -426,7 +426,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 915A4",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/cfc2f1dc881cc44a1ccb84830f22d14e.jpg",
   specs: {
@@ -446,7 +446,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 910C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/72f27de325c0b2169db4a00588d37a27.jpg",
   specs: {
@@ -466,7 +466,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 930C",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/4042277ad216db6e4bee49fda535a3c5.jpg",
   specs: {
@@ -486,7 +486,7 @@
   name: "Máy chà nhám DA khí nén (không hút bụi) 905A4",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám DA - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám hai tác động (Double Action) chạy khí nén, không tích hợp hút bụi, phù hợp gia công nhanh, chà phẳng bề mặt sơn, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/f403bf2b238a40020db2684488d7d542.jpg",
   specs: {
@@ -506,7 +506,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 813C2D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/628f77854bf56dec1ad3cd3290571600.png",
   specs: {
@@ -526,7 +526,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 875C2D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/0eef416a60f7985d6751585f870fa9e2.jpg",
   specs: {
@@ -547,7 +547,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 803C2D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/b8ca774e232813551471b44342593c0f.jpg",
   specs: {
@@ -568,7 +568,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 815C2D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/32ec2e242a35417bc638040a84048612.jpg",
   specs: {
@@ -589,7 +589,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 812B4D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/58910f133ea840b471a3857b3a47d4da.jpg",
   specs: {
@@ -610,7 +610,7 @@
   name: "Máy chà nhám Orbital khí nén (có hút bụi) 820A4D",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, có hút bụi, cho bề mặt hoàn thiện mịn, ít bụi phát tán.",
   img: "https://www.compacttool.com/data/item/big/611e89f6e41798686524dfff5396199c.jpg",
   specs: {
@@ -631,7 +631,7 @@
   name: "Máy chà nhám Orbital khí nén (không hút bụi) 813C2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, không hút bụi, dùng chà nhám hoàn thiện bề mặt phẳng, góc cạnh.",
   img: "https://www.compacttool.com/data/item/big/b00eeeabe66f977044797c6bef10aace.png",
   specs: {
@@ -651,7 +651,7 @@
   name: "Máy chà nhám Orbital khí nén (không hút bụi) 813",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, không hút bụi, dùng chà nhám hoàn thiện bề mặt phẳng, góc cạnh.",
   img: "https://www.compacttool.com/data/item/big/16062d4f43f27ddc3f88831ea32b02a9.jpg",
   specs: {
@@ -672,7 +672,7 @@
   name: "Máy chà nhám Orbital khí nén (không hút bụi) 875C2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, không hút bụi, dùng chà nhám hoàn thiện bề mặt phẳng, góc cạnh.",
   img: "https://www.compacttool.com/data/item/big/99dca8bb92588ccb0bafcbafbb90ea9a.jpg",
   specs: {
@@ -693,7 +693,7 @@
   name: "Máy chà nhám Orbital khí nén (không hút bụi) 803C2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, không hút bụi, dùng chà nhám hoàn thiện bề mặt phẳng, góc cạnh.",
   img: "https://www.compacttool.com/data/item/big/ae0a733bf9c984a8aa876cdda7203edb.jpg",
   specs: {
@@ -714,7 +714,7 @@
   name: "Máy chà nhám Orbital khí nén (không hút bụi) 815C2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Orbital - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám quỹ đạo tròn (Orbital) chạy khí nén, không hút bụi, dùng chà nhám hoàn thiện bề mặt phẳng, góc cạnh.",
   img: "https://www.compacttool.com/data/item/big/c99c51a42bd9003b6ebb0c7ad8c9299c.jpg",
   specs: {
@@ -734,7 +734,7 @@
   name: "Máy chà nhám Gear Action khí nén (không hút bụi) 942GS",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Gear Action - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám Gear Action chạy khí nén, không hút bụi, lực chà mạnh cho công đoạn mài phá.",
   img: "https://www.compacttool.com/data/item/big/b572d36d0bebdd100880601052c2bd94.jpg",
   specs: {
@@ -754,7 +754,7 @@
   name: "Máy chà nhám Gear Action khí nén (không hút bụi) S914GES",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Gear Action - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám Gear Action chạy khí nén, không hút bụi, lực chà mạnh cho công đoạn mài phá.",
   img: "https://www.compacttool.com/data/item/big/15e9f95852d929c1cd0dd1eefcb9eaaf.jpg",
   specs: {
@@ -774,7 +774,7 @@
   name: "Máy chà nhám Gear Action khí nén (không hút bụi) 935G",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Gear Action - không hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám Gear Action chạy khí nén, không hút bụi, lực chà mạnh cho công đoạn mài phá.",
   img: "https://www.compacttool.com/data/item/big/72cfc2926685eae16b25730f3b4a044b.jpg",
   specs: {
@@ -794,7 +794,7 @@
   name: "Máy chà nhám Gear Action khí nén (có hút bụi) S914GE",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Gear Action - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám Gear Action (bánh răng dẫn động) chạy khí nén, có hút bụi, lực chà mạnh, phù hợp mài phá lớp sơn/matit dày.",
   img: "https://www.compacttool.com/data/item/big/e57ec7daf8f141fa307f5b1209f3b830.jpg",
   specs: {
@@ -814,7 +814,7 @@
   name: "Máy chà nhám Gear Action khí nén (có hút bụi) 935GS",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám Gear Action - có hút bụi",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám Gear Action (bánh răng dẫn động) chạy khí nén, có hút bụi, lực chà mạnh, phù hợp mài phá lớp sơn/matit dày.",
   img: "https://www.compacttool.com/data/item/big/3af8d55af7641829a8a57498bc5ee339.jpg",
   specs: {

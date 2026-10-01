@@ -7,7 +7,7 @@
   name: "Máy chà nhám băng khí nén 212A2",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám băng (Belt sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám băng (Belt sander) chạy khí nén, dùng băng nhám vòng, mài phá nhanh bề mặt kim loại, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/4e7e7bd01294c943eb64d2c91de6e308.jpg",
   specs: {
@@ -26,7 +26,7 @@
   name: "Máy chà nhám băng khí nén 212A",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám băng (Belt sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám băng (Belt sander) chạy khí nén, dùng băng nhám vòng, mài phá nhanh bề mặt kim loại, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/301/3bd265a747e0d29fd9d384f57f85f786.jpg",
   specs: {
@@ -45,7 +45,7 @@
   name: "Máy chà nhám băng khí nén 220",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám băng (Belt sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám băng (Belt sander) chạy khí nén, dùng băng nhám vòng, mài phá nhanh bề mặt kim loại, gỗ, composite.",
   img: "https://www.compacttool.com/data/item/big/302/fd3dd3fe9b50c68b9131e114fb9dcc37.jpg",
   specs: {
@@ -64,7 +64,7 @@
   name: "Máy chà nhám ướt khí nén 913W-5",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám ướt (Water sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám ướt (Water sander) chạy khí nén, chà nhám kết hợp nước làm mát, giảm bụi, dùng cho sơn ô tô, matit.",
   img: "https://www.compacttool.com/data/item/big/0072bba4b63d756c760a33fb33496142.jpg",
   specs: {
@@ -84,7 +84,7 @@
   name: "Máy chà nhám ướt khí nén 905A4W",
   brand: "Compact Tools",
   subCategory: "Máy chà nhám ướt (Water sander)",
-  industries: [],
+  industries: ["metalworking"],
   shortDesc: "Máy chà nhám ướt (Water sander) chạy khí nén, chà nhám kết hợp nước làm mát, giảm bụi, dùng cho sơn ô tô, matit.",
   img: "https://www.compacttool.com/data/item/big/dfcf3f684172ec0c62cb6522fd17e537.jpg",
   specs: {

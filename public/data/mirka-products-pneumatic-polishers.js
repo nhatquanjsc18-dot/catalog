@@ -8,7 +8,7 @@
       model: "RPS 300CV",
       mirkaCode: "8992340111",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy chà nhám/đánh bóng xoay tròn khí nén nhẹ, công thái học, cho khu vực nhỏ, làm việc không bụi hiệu quả.",
       img: "https://img.mirka.com/medias/8992340111-001.jpg?context=bWFzdGVyfGltYWdlc3wyMTQ2MTd8aW1hZ2UvanBlZ3xhR1JtTDJoak55ODRPREUyTXpJek5EWXhNVFV3THpnNU9USXpOREF4TVRGZk1EQXhMbXB3Wnd8NzViMTA2MjA1YTI1NzEyYzQ4ZWI4YjFmMjJjODY1MTBjZjJmMzUzZTBjOTVjNjBkODE4YTgxMjYxYTdhNzhmOQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -29,7 +29,7 @@
       model: "AP 300NV",
       mirkaCode: "8992340311",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy đánh bóng góc nhẹ, công thái học, đĩa 77 mm, mức rung thấp, dễ thao tác nhiều hướng.",
       img: "https://img.mirka.com/medias/8992340311-001.jpg?context=bWFzdGVyfGltYWdlc3w4OTIwMHxpbWFnZS9qcGVnfGFHSXhMMmhrWXk4NE9ERTJNekU1TWprNU5qRTBMemc1T1RJek5EQXpNVEZmTURBeExtcHdad3w3Zjk3OGYyZjBmY2UxNjNjMjM5ZWJiN2Y1Y2EzYjkxNzEzMDBjNTI5MjZmNzQwNTY3YjU0NTYwNzA0MGVlNGZj&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -49,7 +49,7 @@
       model: "ROP2 312NV",
       mirkaCode: "8994210311",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy đánh bóng khí nén 2 tay cầm, hiệu suất mạnh, ổn định, thiết kế gọn cho khu vực khó tiếp cận.",
       img: "https://img.mirka.com/medias/8994210311-002.jpg?context=bWFzdGVyfGltYWdlc3wxMDk2MzR8aW1hZ2UvanBlZ3xhR0k1TDJoaVpDODRPREUyTXpJek56VTJNRFl5THpnNU9UUXlNVEF6TVRGZk1EQXlMbXB3Wnd8MzVhOGRjN2ZmMzdjZDcxOTUxOGUyZDAzMzBkZDQ3YzU4YjU4NDFkZGM0MTRiNTE3Yzc3MWU5OGYxNjgxMTU0ZA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -71,7 +71,7 @@
       model: "ROP2 512NV",
       mirkaCode: "8994220311",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy đánh bóng khí nén 2 tay cầm, hiệu suất mạnh, ổn định, thiết kế gọn cho khu vực khó tiếp cận.",
       img: "https://img.mirka.com/medias/8994220311-003.jpg?context=bWFzdGVyfGltYWdlc3wxMjQ0NDJ8aW1hZ2UvanBlZ3xhRE5pTDJnM1l5ODRPREUyTXpFNE5URXpNVGd5THpnNU9UUXlNakF6TVRGZk1EQXpMbXB3Wnd8YzRlMzAwNjM4Mjg4NmFmMzdlOTA5NmI3MTNiMzYxZWFlNjhjY2U3YTdjMTM3NDQ2ZmMzODI2YmNkYTE0ZGE1NQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -93,7 +93,7 @@
       model: "RP 300NV",
       mirkaCode: "8993540311",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy đánh bóng xoay tròn mạnh mẽ, hình dáng nhỏ gọn để tiếp cận khu vực nhỏ, phù hợp sửa lỗi sơn và phục hồi đèn xe.",
       img: "https://img.mirka.com/medias/8993540311a.jpg?context=bWFzdGVyfGltYWdlc3w1MTE1MjB8aW1hZ2UvanBlZ3xhR1UzTDJobU1DODVNelV4TlRJd01qSXpNall5THpnNU9UTTFOREF6TVRGaExtcHdad3w4NDI0NjI3Mzk1MTZkNjU0MzJiZmEyZGUyMDVkNzhjMzJlMjRjMWQxMzM3NjUxYTY3OGMwOTIxMTI4MTE4NGFj&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -113,7 +113,7 @@
       model: "RP2 300NV",
       mirkaCode: "8994240311",
       subCategory: "Máy đánh bóng khí nén",
-      industries: ["collision", "composite", "construction", "marine", "automotive", "wood"],
+      industries: ["collision", "composite", "construction", "marine", "automotive", "wood", "aerospace", "wind-energy"],
       shortDesc: "Máy đánh bóng xoay tròn 2 tay cầm, tiếp cận khu vực nhỏ, độ ổn định cao khi thao tác.",
       img: "https://img.mirka.com/medias/8994240311-001.jpg?context=bWFzdGVyfGltYWdlc3wzMjE2MTB8aW1hZ2UvanBlZ3xhRFJsTDJnMFpDODVPREF4TmpNM016TXdPVGMwTHpnNU9UUXlOREF6TVRGZk1EQXhMbXB3Wnd8YTViMGZmYmIyMTRlMTZlNDAwM2VkZjFhYTM5YzRmMWUyZTNjMzA2M2U4MjIwZDAwMzIzMjc5ZTEwNWViOGY2Ng&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
