@@ -570,6 +570,20 @@
   .home-cta-ghost{border:1.5px solid var(--border-strong); color:var(--text); font-weight:700; font-size:14px; padding:13px 28px; border-radius:999px; display:inline-block; background:var(--surface); transition:transform .32s var(--ease), border-color .32s var(--ease), box-shadow .32s var(--ease);}
   .home-cta-ghost:hover{transform:translateY(-3px); border-color:var(--chrome-line); box-shadow:var(--shadow);}
 
+  .home-banner-photo{margin-top:52px; position:relative; z-index:1;}
+  .home-banner-photo figure{
+    margin:0; border-radius:20px; overflow:hidden;
+    box-shadow:0 30px 60px -24px rgba(11,46,78,.4); background:var(--surface);
+  }
+  .home-banner-photo img{
+    width:100%; aspect-ratio:16/8; object-fit:cover; display:block;
+    transition:transform .6s var(--ease);
+  }
+  .home-banner-photo figure:hover img{transform:scale(1.03);}
+  @media (max-width:640px){
+    .home-banner-photo{margin-top:36px;}
+    .home-banner-photo img{aspect-ratio:4/3;}
+  }
 
   .home-about{padding:80px 0;}
   .home-about .home-grid{display:grid; grid-template-columns:0.85fr 1.15fr; gap:60px; align-items:start;}
@@ -809,6 +823,9 @@
         <button class="home-cta-solid" data-page-link="products">Xem sản phẩm</button>
         <a class="home-cta-ghost" href="mailto:info@nhatquan.vn" data-open-quote>Yêu cầu báo giá</a>
       </div>
+    </div>
+    <div class="home-wrap home-banner-photo fade-up">
+      <figure><img src="img/nha-xuong-moi.jpg" alt="Nhà xưởng sản xuất Nhất Quán" loading="lazy"></figure>
     </div>
   </section>
 
