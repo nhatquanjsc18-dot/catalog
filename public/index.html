@@ -691,7 +691,9 @@
   }
   .home-fab:hover{transform:translateY(-3px) scale(1.03); box-shadow:0 16px 32px -8px rgba(11,46,78,0.55);}
   .home-fab svg{width:22px; height:22px;}
-  .home-fab.is-hidden{opacity:0; visibility:hidden; pointer-events:none;}
+  .home-fab .icon-top{display:none;}
+  .home-fab.scroll-top-mode .icon-house{display:none;}
+  .home-fab.scroll-top-mode .icon-top{display:block;}
   @media (max-width:560px){
     .home-fab{left:14px; bottom:14px; width:46px; height:46px;}
     .home-fab svg{width:19px; height:19px;}
@@ -1170,7 +1172,8 @@
 </button>
 
 <button class="home-fab" id="homeFabBtn" type="button" aria-label="Về trang chủ" title="Về trang chủ">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+  <svg class="icon-house" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+  <svg class="icon-top" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"/><path d="M5 13l7-7 7 7"/></svg>
 </button>
 
 <div class="modal-overlay" id="quoteModal" aria-hidden="true">
@@ -1761,7 +1764,11 @@ function setPage(page){
   document.getElementById("page-products").classList.toggle("active", page === "products");
   document.getElementById("page-workphotos").classList.toggle("active", page === "workphotos");
   document.getElementById("pageTitle").textContent = PAGE_TITLES[page];
-  document.getElementById("homeFabBtn").classList.toggle("is-hidden", page === "home");
+  const homeFabBtnEl = document.getElementById("homeFabBtn");
+  homeFabBtnEl.classList.toggle("scroll-top-mode", page === "home");
+  const homeFabLabel = page === "home" ? "Về đầu trang" : "Về trang chủ";
+  homeFabBtnEl.setAttribute("aria-label", homeFabLabel);
+  homeFabBtnEl.setAttribute("title", homeFabLabel);
   window.scrollTo(0, 0);
   observeFadeUps();
 }
@@ -2025,8 +2032,13 @@ quoteProductsField.addEventListener("input", ()=>{ quoteProductsField.dataset.us
 
 document.getElementById("quoteFabBtn").addEventListener("click", openQuoteModal);
 document.getElementById("homeFabBtn").addEventListener("click", ()=>{
-  setPage("home");
-  history.replaceState(null, "", "#home");
+  const homeFabBtn = document.getElementById("homeFabBtn");
+  if(homeFabBtn.classList.contains("scroll-top-mode")){
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } else {
+    setPage("home");
+    history.replaceState(null, "", "#home");
+  }
 });
 document.getElementById("quoteModalClose").addEventListener("click", closeQuoteModal);
 quoteModal.addEventListener("click", (e)=>{ if(e.target === quoteModal) closeQuoteModal(); });
