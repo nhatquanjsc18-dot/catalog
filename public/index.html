@@ -1109,8 +1109,6 @@
   </div>
 
   <main>
-    <div class="disclaimer"><b>Ghi chú:</b> 370 sản phẩm bên dưới là dữ liệu thật lấy từ mirka.com, binks.com (DeVilbiss + Binks), anest-iwata.vn, wagner-group.com và apac.dynabrade.com. Một số thông số đánh dấu "chưa đầy đủ" do chính trang nguồn không công bố bảng thông số đầy đủ cho model đó.</div>
-
     <div class="view active" id="view-grid"></div>
     <div class="view" id="view-table"></div>
     <div class="view" id="view-sheet"></div>
@@ -1849,6 +1847,9 @@ function renderIndustriesGrid(){
       } else {
         state.activeIndustries = new Set();
       }
+      // Chọn ngành từ trang Ngành nghề phải tìm trên toàn bộ catalog, không bị
+      // giới hạn bởi lựa chọn hãng còn sót lại từ trước — 2 bộ lọc độc lập nhau.
+      state.activeBrands = new Set(BRAND_META.map(b=>b.id));
       renderFilters(); renderAll();
       setPage("products");
     });
@@ -1871,6 +1872,9 @@ function renderMirkaIndustriesGrid(){
       // Ngành có filterId thì lọc đúng ngành đó; ngành chưa có filterId thì mở toàn bộ danh mục
       // sản phẩm (không lọc) — để mọi thẻ đều bấm được, đồng bộ hành vi.
       state.activeIndustries = ind.filterId ? new Set([ind.filterId]) : new Set();
+      // Chọn ngành từ trang Ngành nghề phải tìm trên toàn bộ catalog, không bị
+      // giới hạn bởi lựa chọn hãng còn sót lại từ trước — 2 bộ lọc độc lập nhau.
+      state.activeBrands = new Set(BRAND_META.map(b=>b.id));
       renderFilters(); renderAll();
       setPage("products");
     });
