@@ -110,6 +110,14 @@
     display:none; align-items:center; justify-content:center;
   }
   .header-search.open .header-search-close{display:flex;}
+  /* Search button lives inside the (light) filter-bar on mobile — needs light-bg colors */
+  .filter-bar .header-search-btn{
+    border-color:var(--border-strong); background:var(--chip-bg); color:var(--text-muted);
+  }
+  .filter-bar .header-search-btn:hover, .filter-bar .header-search-btn:focus-visible{
+    background:var(--surface); border-color:var(--chrome-line); color:var(--text);
+  }
+  .filter-bar .header-search-close{color:var(--text-muted);}
   @media (max-width:640px){
     .header-search.open .header-search-input{width:min(52vw,200px);}
   }
@@ -158,14 +166,8 @@
   .layout-tab.active{color:var(--chrome-text); border-bottom-color:var(--chrome-line);}
   .layout-tab:focus-visible{outline:2px solid var(--chrome-line); outline-offset:-2px;}
 
-  .filter-bar{max-width:1320px; margin:0 auto; padding:14px 28px 4px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
+  .filter-bar{max-width:1320px; margin:0 auto; padding:16px 28px 4px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
   .filter-label{font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-right:4px;}
-  .topbar .filter-bar{max-width:none; margin:0; padding:12px 0 16px; border-top:1px solid rgba(255,255,255,0.14);}
-  .topbar .filter-label{color:var(--chrome-text-dim);}
-  .topbar .chip{background:rgba(255,255,255,0.08); color:var(--chrome-text-dim); border-color:rgba(255,255,255,0.28);}
-  .topbar .chip:hover{color:var(--chrome-text);}
-  .topbar .chip.on{background:rgba(255,255,255,0.18); color:var(--chrome-text); border-color:var(--chrome-line);}
-  .topbar .chip .count{opacity:0.85;}
   .chip{
     appearance:none; cursor:pointer; font-family:"Segoe UI",sans-serif; font-size:12.5px; font-weight:600;
     padding:6px 13px; border-radius:999px; border:1.5px solid var(--border-strong);
@@ -178,7 +180,6 @@
   .chip:focus-visible{outline:2px solid var(--accent); outline-offset:1px;}
   .chip-select-all{border-style:dashed; font-weight:700;}
   .chip-select-all.on{border-style:solid;}
-  .topbar .chip-select-all{border-color:rgba(255,255,255,0.45);}
 
   .industry-row{max-width:1320px; margin:0 auto; padding:6px 28px 16px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
   .industry-chip{
@@ -684,12 +685,12 @@
   .home-fab{
     position:fixed; left:22px; bottom:22px; z-index:300;
     width:52px; height:52px; border-radius:50%;
-    background:var(--surface); color:var(--chrome); border:1.5px solid var(--border-strong);
+    background:var(--chrome); color:#fff; border:none;
     display:flex; align-items:center; justify-content:center; cursor:pointer;
-    box-shadow:0 10px 24px -8px rgba(11,46,78,0.3);
+    box-shadow:0 10px 24px -8px rgba(11,46,78,0.45);
     transition:transform .32s var(--ease), box-shadow .32s var(--ease), opacity .2s var(--ease), visibility .2s;
   }
-  .home-fab:hover{transform:translateY(-3px) scale(1.03); box-shadow:0 16px 32px -8px rgba(11,46,78,0.35);}
+  .home-fab:hover{transform:translateY(-3px) scale(1.03); box-shadow:0 16px 32px -8px rgba(11,46,78,0.55);}
   .home-fab svg{width:22px; height:22px;}
   .home-fab.is-hidden{opacity:0; visibility:hidden; pointer-events:none;}
   @media (max-width:560px){
@@ -811,8 +812,6 @@
       <button class="layout-tab active" data-view="grid">Lưới sản phẩm</button>
       <button class="layout-tab" data-view="table">Bảng thông số</button>
       <button class="layout-tab" data-view="sheet">Datasheet</button>
-    </div>
-    <div class="filter-bar" id="filterBar">
     </div>
   </div>
 </div>
@@ -1151,6 +1150,8 @@
 </section>
 
 <div id="page-products">
+  <div class="filter-bar" id="filterBar">
+  </div>
   <div class="industry-row" id="industryRow">
   </div>
 
@@ -1776,7 +1777,6 @@ function setPage(page){
   document.getElementById("page-products").classList.toggle("active", page === "products");
   document.getElementById("page-workphotos").classList.toggle("active", page === "workphotos");
   document.getElementById("layoutTabs").style.display = page === "products" ? "" : "none";
-  document.getElementById("filterBar").style.display = page === "products" ? "" : "none";
   document.getElementById("pageTitle").textContent = PAGE_TITLES[page];
   document.getElementById("homeFabBtn").classList.toggle("is-hidden", page === "home");
   window.scrollTo(0, 0);
