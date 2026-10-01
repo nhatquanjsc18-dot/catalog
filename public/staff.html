@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Khách hàng quan tâm — Nhất Quán</title>
+<link rel="icon" type="image/jpeg" href="img/favicon-books.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --chrome:#0B2E4E; --chrome-line:#FFC72C; --accent:#2E9AE8;
+    --bg:#F4F7FA; --surface:#FFFFFF; --border:#E2E8F0; --text:#1A2733; --text-muted:#5B6B79;
+    --font-display:'Poppins',sans-serif; --font-body:'Nunito Sans',sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); font-family:var(--font-body); color:var(--text);}
+  header{
+    background:var(--chrome); color:#fff; padding:18px 24px; display:flex; align-items:center;
+    justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+  header h1{font-family:var(--font-display); font-size:18px; margin:0;}
+  header .who{font-size:13px; opacity:.85;}
+  header a.logout{color:#fff; text-decoration:none; font-size:13px; font-weight:700; background:rgba(255,255,255,.12); padding:8px 14px; border-radius:8px;}
+  header a.logout:hover{background:rgba(255,255,255,.2);}
+  main{max-width:1000px; margin:0 auto; padding:28px 20px 60px;}
+  .toolbar{display:flex; gap:10px; margin-bottom:18px; align-items:center;}
+  .toolbar input{
+    flex:1; max-width:320px; padding:10px 13px; border:1px solid var(--border); border-radius:9px;
+    font-size:13.5px; font-family:var(--font-body); background:#fff;
+  }
+  .toolbar input:focus{outline:2px solid var(--accent); outline-offset:1px;}
+  .count{font-size:13px; color:var(--text-muted);}
+  .customer-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-bottom:14px;
+  }
+  .customer-head{display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:10px;}
+  .customer-name{font-family:var(--font-display); font-size:15.5px; color:var(--chrome); margin:0;}
+  .customer-meta{font-size:12.5px; color:var(--text-muted); margin-top:2px;}
+  .interest-count{
+    background:var(--chrome-line); color:#141414; font-weight:800; font-size:12px;
+    padding:4px 11px; border-radius:999px; height:fit-content;
+  }
+  .interest-list{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px;}
+  .interest-list li{
+    background:#F2F6FA; border:1px solid var(--border); border-radius:8px; padding:7px 11px; font-size:12.5px;
+  }
+  .interest-list .brand{color:var(--accent); font-weight:700; margin-right:5px;}
+  .interest-list .date{color:var(--text-muted); font-size:11px; display:block; margin-top:2px;}
+  .empty-interests{color:var(--text-muted); font-size:13px; font-style:italic;}
+  .empty{color:var(--text-muted); font-size:13.5px; padding:30px 0; text-align:center;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Khách hàng quan tâm sản phẩm — Nhất Quán</h1>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <span class="who" id="whoAmI"></span>
+    <a class="logout" href="#" id="logoutLink">Đăng xuất</a>
+  </div>
+</header>
+<main>
+  <div class="toolbar">
+    <input type="text" id="searchBox" placeholder="Tìm theo tên khách, công ty hoặc sản phẩm…">
+    <span class="count" id="countLabel"></span>
+  </div>
+  <div id="customersWrap"></div>
+</main>
+
+<script>
+  const whoAmI = document.getElementById("whoAmI");
+  const customersWrap = document.getElementById("customersWrap");
+  const searchBox = document.getElementById("searchBox");
+  const countLabel = document.getElementById("countLabel");
+  let allCustomers = [];
+
+  async function requireStaff(){
+    const r = await fetch("/api/me");
+    const data = await r.json();
+    if(!data.user || (data.user.role !== "staff" && data.user.role !== "admin")){
+      location.href = "/login.html?next=" + encodeURIComponent("/staff.html");
+      return null;
+    }
+    whoAmI.textContent = "Xin chào, " + data.user.name;
+    return data.user;
+  }
+
+  document.getElementById("logoutLink").addEventListener("click", async (e)=>{
+    e.preventDefault();
+    await fetch("/api/logout", { method:"POST" });
+    location.href = "/login.html";
+  });
+
+  function esc(s){ return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function fmtDate(iso){
+    try{ return new Date(iso).toLocaleDateString("vi-VN"); } catch(e){ return ""; }
+  }
+
+  function render(list){
+    if(!list.length){
+      customersWrap.innerHTML = '<div class="empty">Không có khách hàng nào khớp.</div>';
+      return;
+    }
+    customersWrap.innerHTML = list.map(c => `
+      <div class="customer-card">
+        <div class="customer-head">
+          <div>
+            <p class="customer-name">${esc(c.name)}</p>
+            <div class="customer-meta">${esc(c.company) || "—"} ${c.phone ? "· " + esc(c.phone) : ""} · ${esc(c.username)}</div>
+          </div>
+          <span class="interest-count">${c.interests.length} sản phẩm quan tâm</span>
+        </div>
+        ${c.interests.length
+          ? `<ul class="interest-list">${c.interests.map(i => `
+              <li><span class="brand">${esc(i.brand || i.brandId)}</span>${esc(i.name || i.slug)}<span class="date">${fmtDate(i.createdAt)}</span></li>
+            `).join("")}</ul>`
+          : `<div class="empty-interests">Khách chưa đánh dấu sản phẩm nào.</div>`}
+      </div>
+    `).join("");
+  }
+
+  function applyFilter(){
+    const q = searchBox.value.trim().toLowerCase();
+    const filtered = !q ? allCustomers : allCustomers.filter(c => {
+      const hay = [c.name, c.company, c.username, ...c.interests.map(i => i.name)].join(" ").toLowerCase();
+      return hay.includes(q);
+    });
+    countLabel.textContent = `${filtered.length} khách hàng`;
+    render(filtered);
+  }
+
+  searchBox.addEventListener("input", applyFilter);
+
+  async function loadCustomers(){
+    const r = await fetch("/api/staff/customers");
+    if(!r.ok){ customersWrap.innerHTML = '<div class="empty">Không tải được danh sách.</div>'; return; }
+    const data = await r.json();
+    allCustomers = data.customers;
+    applyFilter();
+  }
+
+  (async () => {
+    const user = await requireStaff();
+    if(user) loadCustomers();
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Quản trị tài khoản — Nhất Quán</title>
+<link rel="icon" type="image/jpeg" href="img/favicon-books.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --chrome:#0B2E4E; --chrome-line:#FFC72C; --accent:#2E9AE8;
+    --bg:#F4F7FA; --surface:#FFFFFF; --border:#E2E8F0; --text:#1A2733; --text-muted:#5B6B79;
+    --font-display:'Poppins',sans-serif; --font-body:'Nunito Sans',sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); font-family:var(--font-body); color:var(--text);}
+  header{
+    background:var(--chrome); color:#fff; padding:18px 24px; display:flex; align-items:center;
+    justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+  header h1{font-family:var(--font-display); font-size:18px; margin:0;}
+  header .who{font-size:13px; opacity:.85;}
+  header a.logout{color:#fff; text-decoration:none; font-size:13px; font-weight:700; background:rgba(255,255,255,.12); padding:8px 14px; border-radius:8px;}
+  header a.logout:hover{background:rgba(255,255,255,.2);}
+  main{max-width:1000px; margin:0 auto; padding:28px 20px 60px;}
+  .card{background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:22px; margin-bottom:24px;}
+  .card h2{font-family:var(--font-display); font-size:16px; margin:0 0 16px; color:var(--chrome);}
+  .form-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px;}
+  label{display:block; font-size:12.5px; font-weight:700; margin:0 0 5px; color:var(--text);}
+  input, select{
+    width:100%; padding:9px 11px; border:1px solid var(--border); border-radius:8px; font-size:13.5px;
+    font-family:var(--font-body); background:#fff;
+  }
+  input:focus, select:focus{outline:2px solid var(--accent); outline-offset:1px;}
+  .form-actions{margin-top:16px; display:flex; gap:10px; align-items:center;}
+  button{
+    padding:10px 20px; border:none; border-radius:8px; background:var(--chrome-line); color:#141414;
+    font-weight:800; font-size:13.5px; cursor:pointer; font-family:var(--font-body);
+  }
+  button.secondary{background:#EEF2F6; color:var(--text);}
+  button.danger{background:#FDECEC; color:#B3261E;}
+  button:hover{filter:brightness(0.97);}
+  .msg{font-size:13px; margin-left:4px;}
+  .msg.err{color:#B3261E;}
+  .msg.ok{color:#1F8A4C;}
+  table{width:100%; border-collapse:collapse; font-size:13.5px;}
+  th, td{text-align:left; padding:10px 8px; border-bottom:1px solid var(--border); vertical-align:top;}
+  th{color:var(--text-muted); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.03em;}
+  .role-badge{display:inline-block; padding:2px 9px; border-radius:999px; font-size:11.5px; font-weight:800;}
+  .role-badge.staff{background:#E6F2FF; color:#0B5FA8;}
+  .role-badge.customer{background:#E9F8EF; color:#1F8A4C;}
+  .row-actions{display:flex; gap:6px; flex-wrap:wrap;}
+  .row-actions button{padding:6px 12px; font-size:12px;}
+  .empty{color:var(--text-muted); font-size:13.5px; padding:16px 0;}
+  .pw-inline{display:flex; gap:6px; align-items:center;}
+  .pw-inline input{width:130px;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Quản trị tài khoản — Nhất Quán</h1>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <span class="who" id="whoAmI"></span>
+    <a class="logout" href="#" id="logoutLink">Đăng xuất</a>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <h2>Tạo tài khoản mới</h2>
+    <form id="createForm">
+      <div class="form-grid">
+        <div>
+          <label>Vai trò</label>
+          <select name="role" id="role" required>
+            <option value="customer">Khách hàng</option>
+            <option value="staff">Nhân viên</option>
+          </select>
+        </div>
+        <div>
+          <label>Họ tên</label>
+          <input name="name" required>
+        </div>
+        <div>
+          <label>Công ty</label>
+          <input name="company">
+        </div>
+        <div>
+          <label>Số điện thoại</label>
+          <input name="phone">
+        </div>
+        <div>
+          <label>Tên đăng nhập</label>
+          <input name="username" required>
+        </div>
+        <div>
+          <label>Mật khẩu</label>
+          <input name="password" type="text" required>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit">Tạo tài khoản</button>
+        <span class="msg" id="createMsg"></span>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Danh sách tài khoản</h2>
+    <div id="usersTableWrap"></div>
+  </div>
+</main>
+
+<script>
+  const whoAmI = document.getElementById("whoAmI");
+  const usersTableWrap = document.getElementById("usersTableWrap");
+  const createForm = document.getElementById("createForm");
+  const createMsg = document.getElementById("createMsg");
+
+  async function requireAdmin(){
+    const r = await fetch("/api/me");
+    const data = await r.json();
+    if(!data.user || data.user.role !== "admin"){
+      location.href = "/login.html?next=" + encodeURIComponent("/admin.html");
+      return null;
+    }
+    whoAmI.textContent = "Xin chào, " + data.user.name;
+    return data.user;
+  }
+
+  document.getElementById("logoutLink").addEventListener("click", async (e)=>{
+    e.preventDefault();
+    await fetch("/api/logout", { method:"POST" });
+    location.href = "/login.html";
+  });
+
+  function esc(s){ return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+  async function loadUsers(){
+    const r = await fetch("/api/admin/users");
+    if(!r.ok){ usersTableWrap.innerHTML = '<div class="empty">Không tải được danh sách.</div>'; return; }
+    const { users } = await r.json();
+    if(!users.length){ usersTableWrap.innerHTML = '<div class="empty">Chưa có tài khoản nhân viên/khách hàng nào.</div>'; return; }
+    usersTableWrap.innerHTML = `
+      <table>
+        <thead><tr><th>Vai trò</th><th>Họ tên</th><th>Công ty</th><th>SĐT</th><th>Tên đăng nhập</th><th>Đổi mật khẩu</th><th></th></tr></thead>
+        <tbody>
+          ${users.map(u => `
+            <tr data-id="${u.id}">
+              <td><span class="role-badge ${u.role}">${u.role === "staff" ? "Nhân viên" : "Khách hàng"}</span></td>
+              <td>${esc(u.name)}</td>
+              <td>${esc(u.company)}</td>
+              <td>${esc(u.phone)}</td>
+              <td>${esc(u.username)}</td>
+              <td>
+                <div class="pw-inline">
+                  <input type="text" placeholder="Mật khẩu mới" class="pw-input">
+                  <button class="secondary btn-pw">Đặt lại</button>
+                </div>
+              </td>
+              <td class="row-actions"><button class="danger btn-del">Xoá</button></td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+    usersTableWrap.querySelectorAll("tr[data-id]").forEach(row => {
+      const id = row.dataset.id;
+      row.querySelector(".btn-del").addEventListener("click", async () => {
+        if(!confirm("Xoá tài khoản này? Toàn bộ sản phẩm quan tâm liên quan (nếu là khách hàng) cũng sẽ bị xoá.")) return;
+        const r = await fetch("/api/admin/users/" + id, { method:"DELETE" });
+        if(r.ok) loadUsers();
+      });
+      row.querySelector(".btn-pw").addEventListener("click", async () => {
+        const input = row.querySelector(".pw-input");
+        if(!input.value){ alert("Nhập mật khẩu mới trước."); return; }
+        const r = await fetch("/api/admin/users/" + id, {
+          method:"PUT", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({ password: input.value }),
+        });
+        if(r.ok){ input.value = ""; alert("Đã đặt lại mật khẩu."); }
+        else alert("Có lỗi xảy ra.");
+      });
+    });
+  }
+
+  createForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    createMsg.textContent = ""; createMsg.className = "msg";
+    const fd = new FormData(createForm);
+    const body = Object.fromEntries(fd.entries());
+    const r = await fetch("/api/admin/users", {
+      method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(body),
+    });
+    const data = await r.json();
+    if(!r.ok){
+      createMsg.textContent = data.error || "Có lỗi xảy ra";
+      createMsg.className = "msg err";
+      return;
+    }
+    createMsg.textContent = "Đã tạo tài khoản \"" + data.user.username + "\".";
+    createMsg.className = "msg ok";
+    createForm.reset();
+    loadUsers();
+  });
+
+  (async () => {
+    const user = await requireAdmin();
+    if(user) loadUsers();
+  })();
+</script>
+</body>
+</html>

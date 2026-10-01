@@ -84,6 +84,16 @@
   .brand-row-right{display:flex; align-items:center; gap:14px; flex-wrap:wrap; justify-content:flex-end; min-width:0;}
   .brand-row-right:has(.header-search.open) .subtitle{display:none;}
 
+  .account-widget{display:flex; align-items:center; gap:8px; flex:none;}
+  .account-widget a, .account-widget button{
+    display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:700; font-family:var(--font-body);
+    text-decoration:none; cursor:pointer; border:1.5px solid rgba(255,255,255,0.35); background:rgba(255,255,255,0.08);
+    color:var(--chrome-text); padding:7px 13px; border-radius:999px; transition:background .24s var(--ease), border-color .24s var(--ease);
+  }
+  .account-widget a:hover, .account-widget button:hover{background:rgba(255,255,255,0.18); border-color:var(--chrome-line);}
+  .account-widget .acc-name{color:var(--chrome-line); font-weight:800;}
+  @media (max-width:640px){ .account-widget .acc-label{display:none;} }
+
   .header-search{position:relative; display:flex; align-items:center; gap:8px; min-width:0;}
   .header-search-btn{
     width:38px; height:38px; border-radius:50%; border:1.5px solid rgba(255,255,255,0.35);
@@ -773,6 +783,7 @@
       </div>
       <div class="brand-row-right">
         <div class="subtitle" id="subtitleCount">Dữ liệu thật, lấy trực tiếp từ website chính hãng.</div>
+        <div class="account-widget" id="accountWidget"></div>
         <div class="header-search" id="headerSearch">
           <button class="header-search-btn" id="headerSearchBtn" type="button" aria-label="Tìm kiếm sản phẩm" aria-expanded="false">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -1272,19 +1283,71 @@ const brandsWithProductsCount = BRAND_META.filter(b => ALL_PRODUCTS.some(p => p.
 document.getElementById("productsTabCount").textContent =
   `${ALL_PRODUCTS.length} sản phẩm, ${brandsWithProductsCount} thương hiệu`;
 
+let currentUser = null;
+
 function loadInterested(){
-  try { return new Set(JSON.parse(localStorage.getItem("nq_interested") || "[]")); }
-  catch(e){ return new Set(); }
-}
-function saveInterested(){
-  try { localStorage.setItem("nq_interested", JSON.stringify([...state.interested])); }
-  catch(e){}
+  return new Set();
 }
 function productKey(p){ return p.brandId + ":" + p.slug; }
-function toggleInterest(key, checked){
-  if(checked) state.interested.add(key);
-  else state.interested.delete(key);
-  saveInterested();
+
+async function toggleInterest(key, checked){
+  if(!currentUser || currentUser.role !== "customer"){
+    alert('Vui lòng đăng nhập tài khoản khách hàng để đánh dấu "Quan tâm".');
+    location.href = "/login.html?next=" + encodeURIComponent(location.pathname + location.hash);
+    renderAll();
+    return;
+  }
+  if(checked){
+    state.interested.add(key);
+    const p = ALL_PRODUCTS.find(pr=>productKey(pr)===key);
+    try{
+      await fetch("/api/customer/interests", {
+        method:"POST", headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({ key, brandId: p && p.brandId, slug: p && p.slug, name: p && p.name, brand: p && p.brandId }),
+      });
+    }catch(e){}
+  } else {
+    state.interested.delete(key);
+    try{ await fetch("/api/customer/interests/" + encodeURIComponent(key), { method:"DELETE" }); }catch(e){}
+  }
+}
+
+function renderAccountWidget(){
+  const el = document.getElementById("accountWidget");
+  if(!el) return;
+  if(currentUser){
+    const dashHref = currentUser.role === "admin" ? "/admin.html" : currentUser.role === "staff" ? "/staff.html" : null;
+    el.innerHTML = `
+      ${dashHref ? `<a href="${dashHref}"><span class="acc-label">Trang quản lý</span></a>` : ""}
+      <button id="accLogoutBtn"><span class="acc-name">${currentUser.name}</span><span class="acc-label">· Đăng xuất</span></button>
+    `;
+    document.getElementById("accLogoutBtn").addEventListener("click", async ()=>{
+      await fetch("/api/logout", { method:"POST" });
+      currentUser = null;
+      state.interested = new Set();
+      renderAccountWidget();
+      renderAll();
+    });
+  } else {
+    el.innerHTML = `<a href="/login.html?next=${encodeURIComponent(location.pathname + location.hash)}"><span class="acc-label">Đăng nhập</span></a>`;
+  }
+}
+
+async function initAccount(){
+  try{
+    const r = await fetch("/api/me");
+    const data = await r.json();
+    currentUser = data.user;
+  }catch(e){ currentUser = null; }
+  renderAccountWidget();
+  if(currentUser && currentUser.role === "customer"){
+    try{
+      const r = await fetch("/api/customer/interests");
+      const data = await r.json();
+      state.interested = new Set((data.interests||[]).map(i=>i.key));
+      renderAll();
+    }catch(e){}
+  }
 }
 function interestCheckboxHTML(p){
   const key = productKey(p);
@@ -1950,6 +2013,7 @@ window.addEventListener("resize", placeHeaderSearchForViewport);
 renderFilters();
 renderAll();
 observeFadeUps();
+initAccount();
 
 const quoteModal = document.getElementById("quoteModal");
 const quoteForm = document.getElementById("quoteForm");

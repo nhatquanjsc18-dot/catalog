@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Đăng nhập — Nhất Quán</title>
+<link rel="icon" type="image/jpeg" href="img/favicon-books.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --chrome:#0B2E4E; --chrome-line:#FFC72C; --accent:#2E9AE8;
+    --bg:#F4F7FA; --surface:#FFFFFF; --border:#E2E8F0; --text:#1A2733; --text-muted:#5B6B79;
+    --font-display:'Poppins',sans-serif; --font-body:'Nunito Sans',sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(160deg, var(--chrome) 0%, #0E3A60 100%); font-family:var(--font-body); color:var(--text);
+    padding:20px;
+  }
+  .card{
+    width:100%; max-width:380px; background:var(--surface); border-radius:16px; padding:32px 28px;
+    box-shadow:0 24px 60px -16px rgba(0,0,0,0.4);
+  }
+  .card h1{font-family:var(--font-display); font-size:21px; margin:0 0 6px; color:var(--chrome);}
+  .card p.sub{margin:0 0 24px; font-size:13.5px; color:var(--text-muted);}
+  label{display:block; font-size:13px; font-weight:700; margin:0 0 6px; color:var(--text);}
+  input{
+    width:100%; padding:11px 13px; border:1px solid var(--border); border-radius:9px; font-size:14px;
+    font-family:var(--font-body); margin-bottom:16px; background:#fff;
+  }
+  input:focus{outline:2px solid var(--accent); outline-offset:1px;}
+  button{
+    width:100%; padding:12px; border:none; border-radius:9px; background:var(--chrome-line); color:#141414;
+    font-weight:800; font-size:14px; cursor:pointer; font-family:var(--font-body);
+  }
+  button:hover{filter:brightness(0.96);}
+  button:disabled{opacity:0.6; cursor:default;}
+  .error{
+    background:#FEECEC; color:#B3261E; border:1px solid #F3C6C4; border-radius:8px; padding:10px 12px;
+    font-size:13px; margin-bottom:16px; display:none;
+  }
+  .error.show{display:block;}
+  .back{display:block; text-align:center; margin-top:18px; font-size:13px; color:var(--text-muted); text-decoration:none;}
+  .back:hover{color:var(--accent);}
+</style>
+</head>
+<body>
+  <form class="card" id="loginForm">
+    <h1>Đăng nhập</h1>
+    <p class="sub">Dành cho quản trị viên, nhân viên và khách hàng của Nhất Quán.</p>
+    <div class="error" id="loginError"></div>
+    <label for="username">Tên đăng nhập</label>
+    <input id="username" name="username" type="text" autocomplete="username" required>
+    <label for="password">Mật khẩu</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <button type="submit" id="loginBtn">Đăng nhập</button>
+    <a class="back" href="/">← Về trang chủ Nhất Quán</a>
+  </form>
+
+<script>
+  const form = document.getElementById("loginForm");
+  const errorBox = document.getElementById("loginError");
+  const btn = document.getElementById("loginBtn");
+
+  function nextUrlFromQuery(){
+    const params = new URLSearchParams(location.search);
+    return params.get("next") || "";
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    errorBox.classList.remove("show");
+    btn.disabled = true; btn.textContent = "Đang đăng nhập…";
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("username").value.trim(),
+          password: document.getElementById("password").value,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Đăng nhập thất bại");
+      const role = data.user.role;
+      const next = nextUrlFromQuery();
+      if (role === "admin") location.href = "/admin.html";
+      else if (role === "staff") location.href = "/staff.html";
+      else location.href = next || "/";
+    } catch (err) {
+      errorBox.textContent = err.message;
+      errorBox.classList.add("show");
+      btn.disabled = false; btn.textContent = "Đăng nhập";
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 node_modules/
 .env
+data-store/
 _backup_*/
 .claude/
 .DS_Store
