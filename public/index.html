@@ -113,6 +113,20 @@
   @media (max-width:640px){
     .header-search.open .header-search-input{width:min(52vw,200px);}
   }
+
+  /* ---------- Mobile: simplify Products tab to title + search + full list ---------- */
+  @media (max-width:640px){
+    body:has(#page-products.active) #layoutTabs,
+    body:has(#page-products.active) #filterBar{
+      display:none !important;
+    }
+    #page-products .industry-row,
+    #page-products .disclaimer,
+    #page-products .brand-head,
+    #page-products .subcat-tabs{
+      display:none !important;
+    }
+  }
   .layout-tabs{
     display:flex; gap:4px; border-bottom:1px solid rgba(255,255,255,0.18);
     overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
@@ -1422,6 +1436,7 @@ function renderFilters(){
 }
 
 function visibleBrands(){
+  if(window.matchMedia("(max-width: 640px)").matches) return BRAND_META;
   return BRAND_META.filter(b=>state.activeBrands.has(b.id));
 }
 
