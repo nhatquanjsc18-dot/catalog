@@ -114,18 +114,16 @@
     .header-search.open .header-search-input{width:min(52vw,200px);}
   }
 
-  /* ---------- Mobile: simplify Products tab to title + search + full list ---------- */
+  /* ---------- Mobile: simplify Products tab — brand filter stays, pick one at a time ---------- */
   @media (max-width:640px){
-    body:has(#page-products.active) #layoutTabs,
-    body:has(#page-products.active) #filterBar{
+    body:has(#page-products.active) #layoutTabs{
       display:none !important;
     }
     #page-products .industry-row,
-    #page-products .disclaimer,
-    #page-products .brand-head,
-    #page-products .subcat-tabs{
+    #page-products .disclaimer{
       display:none !important;
     }
+    #filterBar .chip-select-all{display:none !important;}
   }
   .layout-tabs{
     display:flex; gap:4px; border-bottom:1px solid rgba(255,255,255,0.18);
@@ -1412,8 +1410,15 @@ function renderFilters(){
     chip.style.setProperty("--dot", b.color);
     chip.innerHTML = `<span class="dot"></span>${b.name}<span class="count">${count}</span>`;
     chip.addEventListener("click", ()=>{
-      if(state.activeBrands.has(b.id)) state.activeBrands.delete(b.id);
-      else state.activeBrands.add(b.id);
+      const isMobile = window.matchMedia("(max-width: 640px)").matches;
+      if(isMobile){
+        state.activeBrands.clear();
+        state.activeBrands.add(b.id);
+      } else if(state.activeBrands.has(b.id)){
+        state.activeBrands.delete(b.id);
+      } else {
+        state.activeBrands.add(b.id);
+      }
       renderFilters(); renderAll();
     });
     bar.appendChild(chip);
@@ -1436,7 +1441,6 @@ function renderFilters(){
 }
 
 function visibleBrands(){
-  if(window.matchMedia("(max-width: 640px)").matches) return BRAND_META;
   return BRAND_META.filter(b=>state.activeBrands.has(b.id));
 }
 
