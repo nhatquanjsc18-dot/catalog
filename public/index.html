@@ -545,45 +545,25 @@
   #page-home.active{display:block;}
   .home-wrap{max-width:1320px; margin:0 auto; padding:0 28px;}
   .home-hero{
-    background:radial-gradient(120% 100% at 50% -10%, var(--surface-2) 0%, var(--bg) 55%, var(--surface) 100%);
-    padding:52px 0 64px; position:relative; overflow:hidden;
-  }
-  .home-hero::before{
-    content:""; position:absolute; inset:0;
-    background-image:radial-gradient(rgba(46,154,232,.18) 1.4px,transparent 1.4px);
-    background-size:20px 20px;
-    mask-image:linear-gradient(180deg,#000 0%,transparent 75%);
-    pointer-events:none;
+    background-image:linear-gradient(175deg, rgba(11,46,78,.93) 0%, rgba(11,46,78,.82) 45%, rgba(11,46,78,.68) 100%), url("img/nha-xuong-moi.jpg");
+    background-size:cover; background-position:center;
+    padding:72px 0 80px; position:relative; overflow:hidden;
   }
   .home-hero-inner{text-align:center; max-width:760px; margin:0 auto; position:relative; z-index:1;}
   .home-badge{
-    display:inline-flex; align-items:center; gap:8px; background:var(--surface); border:1px solid var(--border-strong);
-    border-radius:999px; padding:7px 16px; font-size:12.5px; font-weight:700; color:var(--text-muted); box-shadow:var(--shadow);
+    display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.3);
+    border-radius:999px; padding:7px 16px; font-size:12.5px; font-weight:700; color:#fff;
     margin-bottom:22px;
   }
   .home-badge .dot{width:7px; height:7px; border-radius:50%; background:#2FBE6E;}
-  .home-hero-inner h2{font-size:clamp(28px,4.4vw,44px); font-family:var(--font-display); font-weight:700; line-height:1.2;}
-  .home-hero-inner p.lead{color:var(--text-muted); font-size:15.5px; line-height:1.65; max-width:52ch; margin:20px auto 0;}
+  .home-hero-inner h2{font-size:clamp(28px,4.4vw,44px); font-family:var(--font-display); font-weight:700; line-height:1.2; color:#fff;}
+  .home-hero-inner h2 em{color:var(--chrome-line);}
+  .home-hero-inner p.lead{color:var(--chrome-text-dim); font-size:15.5px; line-height:1.65; max-width:52ch; margin:20px auto 0;}
   .home-ctas{display:flex; justify-content:center; gap:14px; margin-top:28px; flex-wrap:wrap;}
   .home-cta-solid{background:var(--chrome); color:#fff; font-weight:700; font-size:14px; padding:14px 30px; border-radius:999px; display:inline-block; transition:transform .32s var(--ease), box-shadow .32s var(--ease); cursor:pointer; border:none;}
   .home-cta-solid:hover{transform:translateY(-3px); box-shadow:0 14px 28px -10px rgba(11,46,78,.45);}
   .home-cta-ghost{border:1.5px solid var(--border-strong); color:var(--text); font-weight:700; font-size:14px; padding:13px 28px; border-radius:999px; display:inline-block; background:var(--surface); transition:transform .32s var(--ease), border-color .32s var(--ease), box-shadow .32s var(--ease);}
   .home-cta-ghost:hover{transform:translateY(-3px); border-color:var(--chrome-line); box-shadow:var(--shadow);}
-
-  .home-banner-photo{margin-top:52px; position:relative; z-index:1;}
-  .home-banner-photo figure{
-    margin:0; border-radius:20px; overflow:hidden;
-    box-shadow:0 30px 60px -24px rgba(11,46,78,.4); background:var(--surface);
-  }
-  .home-banner-photo img{
-    width:100%; aspect-ratio:16/8; object-fit:cover; display:block;
-    transition:transform .6s var(--ease);
-  }
-  .home-banner-photo figure:hover img{transform:scale(1.03);}
-  @media (max-width:640px){
-    .home-banner-photo{margin-top:36px;}
-    .home-banner-photo img{aspect-ratio:4/3;}
-  }
 
   .home-about{padding:80px 0;}
   .home-about .home-grid{display:grid; grid-template-columns:0.85fr 1.15fr; gap:60px; align-items:start;}
@@ -823,9 +803,6 @@
         <button class="home-cta-solid" data-page-link="products">Xem sản phẩm</button>
         <a class="home-cta-ghost" href="mailto:info@nhatquan.vn" data-open-quote>Yêu cầu báo giá</a>
       </div>
-    </div>
-    <div class="home-wrap home-banner-photo fade-up">
-      <figure><img src="img/nha-xuong-moi.jpg" alt="Nhà xưởng sản xuất Nhất Quán" loading="lazy"></figure>
     </div>
   </section>
 
