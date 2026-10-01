@@ -1984,6 +1984,18 @@ headerSearchInput.addEventListener("keydown", (e)=>{
   if(e.key === "Escape") closeHeaderSearch();
 });
 
+const brandRowRight = document.querySelector(".brand-row-right");
+const filterBarEl = document.getElementById("filterBar");
+function placeHeaderSearchForViewport(){
+  const isMobile = window.matchMedia("(max-width: 640px)").matches;
+  const target = isMobile ? filterBarEl : brandRowRight;
+  if(headerSearchWrap.parentElement !== target){
+    target.insertBefore(headerSearchWrap, target.firstChild);
+  }
+}
+placeHeaderSearchForViewport();
+window.addEventListener("resize", placeHeaderSearchForViewport);
+
 renderFilters();
 renderAll();
 observeFadeUps();
