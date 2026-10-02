@@ -1,0 +1,72 @@
+// Binks (Ransburg) — Powder Coating Equipment / Applicators (súng phun sơn tĩnh điện bột)
+// Nguồn: https://binks.com/solutions/powder-coating-equipment/powder-applicators/
+// Trang nguồn chỉ có 4 dòng sản phẩm (không phân trang), đã lấy đủ cả 4.
+var BINKS_POWDER_PRODUCTS = [
+  {
+    slug: "binks-elite-a5-automatic-powder-gun",
+    name: "Elite A5 Automatic Powder Gun",
+    brand: "Binks",
+    subCategory: "Súng phun sơn tĩnh điện bột",
+    industries: ["powder-coating"],
+    shortDesc: "Súng phun sơn tĩnh điện bột tự động (Ransburg A5), lắp trên máy/reciprocator/robot, trọng lượng nhẹ giúp giảm tiêu hao năng lượng; kết hợp bộ điều khiển Ransburg cho điện tích tĩnh điện cao, hiệu suất bám sơn tốt, đổi màu nhanh, tương thích cả bột metallic flake.",
+    img: "https://binks.com/nitropack_static/DKeuCjlrqwkGGlElLmgFlKuNiIjGRaMQ/assets/desktop/optimized/rev-b25607e/binks.canto.com/direct/image/9rvf5lgca11ctaoeg42o66hm6c/_7q_gaNQGgUrWUI5Zi5PMsrB9lw/m640/800",
+    specs: {
+      "Kiểu súng": "Tự động, lắp máy/reciprocator/robot",
+      "Bộ điều khiển": "Ransburg Elite Controller — màn hình cảm ứng, chương trình cài sẵn",
+      "Tương thích bột": "Cả bột thường và bột metallic flake",
+      "Chứng nhận": "FM Approved",
+      "Ưu điểm": "Ít chi tiết thay thế, dễ vệ sinh/bảo trì, đổi màu nhanh, ống kéo dài kiểu click",
+    },
+    specConfidence: "partial",
+  },
+  {
+    slug: "binks-elite-series-m5-manual-powder-cart",
+    name: "Elite Series M5+ Manual Powder Cart",
+    brand: "Binks",
+    subCategory: "Súng phun sơn tĩnh điện bột",
+    industries: ["powder-coating"],
+    shortDesc: "Bộ xe đẩy phun sơn tĩnh điện bột thủ công (Ransburg Elite M5+), cấu hình 1 hoặc 2 súng, màn hình cảm ứng màu 7 inch lưu tới 96 chương trình, đổi màu khoảng 30 giây nhờ hệ thống tự làm sạch.",
+    img: "https://binks.com/nitropack_static/DKeuCjlrqwkGGlElLmgFlKuNiIjGRaMQ/assets/desktop/optimized/rev-b25607e/binks.canto.com/direct/image/je3fnfsa595e7erlaa4fdc4v63/xIEEuNyJOeZ9kAo0MDs3IjBDfKI/m3000/800",
+    specs: {
+      "Kiểu thiết bị": "Xe đẩy phun bột thủ công, cấu hình 1 hoặc 2 súng",
+      "Màn hình điều khiển": "Cảm ứng màu 7 inch",
+      "Số chương trình lưu": "Tối đa 96 chương trình",
+      "Thời gian đổi màu": "~30 giây (hệ thống tự làm sạch)",
+      "Đầu phun kèm theo": "Béc phun dẹt (flat spray) và béc phun côn (conical)",
+      "Chứng nhận": "ATEX, FM Approved",
+    },
+    specConfidence: "partial",
+  },
+  {
+    slug: "binks-elite-series-m5-manual-powder-gun",
+    name: "Elite Series M5+ Manual Powder Gun",
+    brand: "Binks",
+    subCategory: "Súng phun sơn tĩnh điện bột",
+    industries: ["powder-coating"],
+    shortDesc: "Súng phun sơn tĩnh điện bột cầm tay (Ransburg Elite M5+), thiết kế siêu nhẹ giảm mỏi tay thao tác viên, có hệ thống phản hồi corona giúp giảm hiện tượng back-ionization, kết hợp bộ điều khiển Elite cho điện tích ổn định và hiệu suất bám sơn cao.",
+    img: "https://binks.com/nitropack_static/DKeuCjlrqwkGGlElLmgFlKuNiIjGRaMQ/assets/desktop/optimized/rev-b25607e/binks.canto.com/direct/image/cl5jk1jrth3a74lou4df8ufu7s/bRubUa6vTFSsabJc2TPe3C5S0cw/m500/800",
+    specs: {
+      "Kiểu súng": "Cầm tay thủ công, siêu nhẹ",
+      "Bộ điều khiển": "Ransburg Elite Controller — màn hình cảm ứng, hệ thống phản hồi corona",
+      "Ưu điểm": "Giảm mỏi tay thao tác viên, giảm back-ionization, ít chi tiết thay thế",
+      "Chứng nhận": "Tương thích chuẩn ATEX/FM (theo bộ điều khiển Elite)",
+    },
+    specConfidence: "partial",
+  },
+  {
+    slug: "binks-rpa-powder-applicator",
+    name: "RPA Powder Applicator",
+    brand: "Binks",
+    subCategory: "Súng phun sơn tĩnh điện bột",
+    industries: ["powder-coating"],
+    shortDesc: "Súng phun sơn tĩnh điện bột gắn robot (Ransburg RPA-2), dùng công nghệ tạo hình kiểu bell-type để phủ màng sơn đều, vệt phun rộng hơn các dòng súng bột thông thường — chuyên cho sơn ngoại thất và cut-in trong dây chuyền ô tô.",
+    img: "https://binks.com/nitropack_static/DKeuCjlrqwkGGlElLmgFlKuNiIjGRaMQ/assets/desktop/optimized/rev-b25607e/binks.canto.com/direct/image/i6kpecdf6l3b140d3p32ptev0l/y3dho4Hh0f4jgVI2vJvx_HmSzsY/963d133b3f60cf6e4dd067991bc17f8c.original",
+    specs: {
+      "Kiểu thiết bị": "Súng phun bột gắn robot (Robot Powder Applicator)",
+      "Công nghệ tạo hình": "Bell-type pattern — vệt phun rộng, màng sơn đồng đều",
+      "Ứng dụng chính": "Sơn ngoại thất và cut-in trong dây chuyền sản xuất ô tô",
+      "Ưu điểm": "Hiệu suất bám sơn cao, vệt phun lớn hơn súng bột thông thường",
+    },
+    specConfidence: "partial",
+  },
+];
