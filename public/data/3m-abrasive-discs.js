@@ -429,7 +429,7 @@
       name: "Scotch-Brite™ Precision Heavy Duty Surface Conditioning Disc",
       model: "Precision HD SC",
       subCategory: "Đĩa Scotch-Brite hoàn thiện bề mặt (Surface Conditioning)",
-      industries: ["aerospace", "pharma-food", "metalworking"],
+      industries: ["aerospace", "metalworking"],
       shortDesc: "Bản heavy-duty của dòng Precision SC, hạt gốm độ hạt 60-150, cắt khoẻ hơn cho mài mối hàn và vát mép trên kim loại dày — dùng cả trong ngành chế biến thực phẩm (yêu cầu bề mặt inox sạch).",
       img: "https://multimedia.3m.com/mws/media/2425844J/scotch-brite-roloc-precision-heavy-duty-surcon-disc-family-nh-all-grades-all-sizes.jpg",
       specs: {
