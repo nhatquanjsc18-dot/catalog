@@ -38,4 +38,14 @@ function seedAdmin() {
 }
 seedAdmin();
 
+function seedFeatured() {
+  const seedFile = path.join(__dirname, "featured-seed.json");
+  if (!fs.existsSync(seedFile)) return;
+  const keys = JSON.parse(fs.readFileSync(seedFile, "utf8"));
+  const current = db.get("featured").value();
+  const missing = keys.filter((k) => !current.includes(k));
+  if (missing.length) db.get("featured").push(...missing).write();
+}
+seedFeatured();
+
 module.exports = db;
