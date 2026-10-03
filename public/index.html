@@ -1218,7 +1218,7 @@
 
 <script>
 const BRAND_META = [
-  { id:"featured",   name:"Sản phẩm nổi bật", country:"—", category:"Sản phẩm admin đánh dấu nổi bật", color:"#D4A017", on:"#141414" },
+  { id:"featured",   name:"Sản phẩm nổi bật", country:"", category:"", color:"#D4A017", on:"#141414" },
   { id:"mirka",      name:"Mirka",       country:"Phần Lan", category:"Máy chà nhám",         color:"#FDC100", on:"#141414" },
   { id:"devilbiss",  name:"DeVilbiss",   country:"Mỹ",        category:"Súng phun sơn",         color:"#C4300E", on:"#FFFFFF" },
   { id:"anestiwata", name:"Anest Iwata", country:"Nhật Bản",  category:"Súng phun sơn",         color:"#007C9C", on:"#FFFFFF" },
@@ -1524,7 +1524,7 @@ function renderGrid(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${b.country} · ${b.category}</div>
+          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
       </div>
@@ -1535,7 +1535,7 @@ function renderGrid(){
           return `
           <div class="card">
             <div class="card-cat-row">
-              <div class="card-cat">${p.subCategory || b.category}</div>
+              <div class="card-cat">${p.subCategory || (BRAND_META.find(x=>x.id===p.brandId) || {}).category || ""}</div>
               ${interestCheckboxHTML(p)}
               ${featuredCheckboxHTML(p)}
             </div>
@@ -1574,7 +1574,7 @@ function renderTable(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${b.country} · ${b.category}</div>
+          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
       </div>
@@ -1614,7 +1614,7 @@ function renderSheet(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${b.country} · ${b.category}</div>
+          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
       </div>
