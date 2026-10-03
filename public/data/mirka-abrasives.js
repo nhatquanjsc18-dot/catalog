@@ -8,7 +8,7 @@
       model: "Abralon",
       mirkaCode: "8A24102018N",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "marine", "construction"],
+      industries: ["automotive", "collision", "marine", "construction", "wood"],
       shortDesc: "Đĩa nhám xốp phủ vải dệt, dùng cho chà tinh bề mặt cong/profile và hoàn thiện trước khi đánh bóng.",
       img: "https://img.mirka.com/medias/8A241F0251.jpg?context=bWFzdGVyfGltYWdlc3wxMTA2NjEwfGltYWdlL2pwZWd8YUdNNUwyZzFNUzg1T0RnNU5qRTRORFl3TnpBeUx6aEJNalF4UmpBeU5URXVhbkJufDcwYTE0N2I4ZjJjMzVlYmQwNmNmYzUyYmI3YWQxYzg1MjIxZGM4MzU2NGMyM2MzZTBjNTFhYTQ1OTA3NDc5YzE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -28,7 +28,7 @@
       model: "Abralon J3",
       mirkaCode: "8M029930",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "marine"],
+      industries: ["automotive", "collision", "marine", "wood"],
       shortDesc: "Phiên bản Abralon lớp xốp mỏng 3mm, cho độ hoàn thiện siêu mịn, phù hợp ứng dụng bóng cao.",
       img: "https://img.mirka.com/medias/8M030195-mirka-abralon-j3-discs-150mm-k3000-3-1-.jpg?context=bWFzdGVyfGltYWdlc3wxNjA1OTU3fGltYWdlL2pwZWd8YURrMUwyaGtaaTg0T0RJek1USTVPRFkyTWpjd0x6aE5NRE13TVRrMUxXMXBjbXRoTFdGaWNtRnNiMjR0YWpNdFpHbHpZM010TVRVd2JXMHRhek13TURBdE15QW9NU2t1YW5Cbnw2ZTkyYjRjZTBlZDFjZTFmM2M5MDk1MTgxMmMyZmM3YjVlNzFhYzM4ZDE0YTNjZDBlNDNkZGY3Mzk3ZTZiOGQ1&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -47,7 +47,7 @@
       model: "Abralon J5",
       mirkaCode: "8P031330",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "marine"],
+      industries: ["automotive", "collision", "marine", "wood"],
       shortDesc: "Phiên bản Abralon lớp xốp dày 5mm, mật độ foam cao hơn, êm tay khi chà bề mặt cong.",
       img: "https://img.mirka.com/medias/8P0230774-002.jpg?context=bWFzdGVyfGltYWdlc3wzMjgwMjJ8aW1hZ2UvanBlZ3xhRGxpTDJobU9DODRPREkxTXpVNE9EYzJOekF5THpoUU1ESXpNRGMzTkY4d01ESXVhbkJufDI0MjQyNTk1ZDRlYzczZmZiODI4NDMzNDVhNTRjMDI3ZjI3MzIwNDQyNTkyZTgxZTdmMTFmMjE4MDNjZjY0ZTQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -66,7 +66,7 @@
       model: "Abranet",
       mirkaCode: "AE241F0380SL",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "construction", "marine"],
+      industries: ["automotive", "collision", "construction", "marine", "wood"],
       shortDesc: "Giấy nhám lưới (net) không bụi kinh điển của Mirka, dùng cho bả matit, sơn lót, sơn bóng và composite.",
       img: "https://img.mirka.com/medias/5424105032.jpg?context=bWFzdGVyfGltYWdlc3wzNzI0MDQ1fGltYWdlL2pwZWd8YURGaEwyZzFZaTg1TnpFMk1EQTNPVFl3TmpBMkx6VTBNalF4TURVd016SXVhbkJufGIxMmEzZDUxNDM5YzlhZDhhN2E1YzM5M2UyMmU2NjM1ZDUxZGRkYTc2Njc2ZWNhMGY0YTYzODFiNzMxNWQ3NmE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -85,7 +85,7 @@
       model: "Abranet Ace",
       mirkaCode: "AC20305080",
       subCategory: "Giấy nhám",
-      industries: ["construction", "automotive"],
+      industries: ["construction", "automotive", "wood"],
       shortDesc: "Abranet phiên bản hạt ceramic, độ cắt vượt trội cho gỗ cứng và vật liệu solid surface.",
       img: "https://img.mirka.com/medias/AC203-004.jpg?context=bWFzdGVyfGltYWdlc3wyNjk0OTh8aW1hZ2UvanBlZ3xhREJtTDJoaE5pODRPREkxTXpNek9UUXdNalUwTDBGRE1qQXpYekF3TkM1cWNHY3xhOTA0MjgwNDQ4MGQzZDdmYjVhYzZhODcwZWFhNTc3NjMzZTU4N2IxOTU2ODIwOTc0Y2JiOTJmZTUzMTE5Njgz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -104,7 +104,7 @@
       model: "Abranet Ace HD",
       mirkaCode: "AH24100540",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "construction"],
+      industries: ["automotive", "collision", "construction", "wood"],
       shortDesc: "Abranet Ace bền hơn với nền lưới dày, chịu mài mòn cao, chuyên cho công việc chà nặng (heavy-duty).",
       img: "https://img.mirka.com/medias/AH24102540-mirka-abranet-ace-hd-discs-150mm-p40-2-1-.jpg?context=bWFzdGVyfGltYWdlc3wxOTYzNzU0fGltYWdlL2pwZWd8YURZNUwyaGpPUzg0T0RJME56Z3dNVEk0TWpnMkwwRklNalF4TURJMU5EQXRiV2x5YTJFdFlXSnlZVzVsZEMxaFkyVXRhR1F0WkdselkzTXRNVFV3YlcwdGNEUXdMVElnS0RFcExtcHdad3wxMDJjNTM2ODgyNzE1ODAyNzQ4ZjJhZTJlY2IyZDZkMTU4MjUwMzNhZjlmZGY5Zjk5YjE3MWI4OTMwNWM3ZDI5&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -123,7 +123,7 @@
       model: "Abranet Max",
       mirkaCode: "AB416T0212",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám lưới đa năng chuyên cho ngành gỗ, chống nghẹt hạt trên gỗ nhựa/mềm, giữ bề mặt mát khi chà.",
       img: "https://img.mirka.com/medias/Abranet-Max-100x610-mm.jpg?context=bWFzdGVyfGltYWdlc3wxNDcyNDJ8aW1hZ2UvanBlZ3xhREF6TDJnM1ppODRPREkwTnpjMk5EVTRNamN3TDBGaWNtRnVaWFFnVFdGNFh6RXdNSGcyTVRCZmJXMHVhbkJufGUwZGIxMDVjZGRhYzZlYTdlNjcwOGJiYzdkOWY4YjI0OTJiNDYyYTQ3NGNkNTIzMWNhM2ViMzVlMWVhMTY4NjM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -142,7 +142,7 @@
       model: "Abranet SIC NS",
       mirkaCode: "5023205080",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám lưới hạt carbide silic không chứa stearate, chuyên cho chà kính, cũng dùng được cho bề mặt cứng khác.",
       img: "https://img.mirka.com/medias/50232-001.jpg?context=bWFzdGVyfGltYWdlc3w0MDc1MTN8aW1hZ2UvanBlZ3xhR0prTDJnMlpTODRPREkxT0RRNU9UQTFNVGd5THpVd01qTXlYekF3TVM1cWNHY3w1ZjI3ZjhkMDI5NjIzYTMwNzBmNWNhYmU0Y2E1ZTk3N2RmYTE5OGRjODQ5NTg2ODMxOTQ0ZmI5ZGY5ODM5ZjUz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -161,7 +161,7 @@
       model: "Abranet Soft",
       mirkaCode: "5374102032",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision"],
+      industries: ["automotive", "collision", "wood"],
       shortDesc: "Kết hợp lưới nhám và lớp xốp mỏng, linh hoạt theo bề mặt, dùng chà sơ bộ trước khi đánh bóng.",
       img: "https://img.mirka.com/medias/5370302094-B.jpg?context=bWFzdGVyfGltYWdlc3wyMDMzOTAzfGltYWdlL2pwZWd8YUdNd0wyaGtZaTg0T0RVMU5EZzFOemMxT1RBeUx6VXpOekF6TURJd09UUmZRaTVxY0djfGMyNGI5ZDM4MWRhYTNhY2FmYTAwMWNkMjMwMmVmNjRmOTQ2OGE0ZGY2MmRmNTdjYTU2MGQ1YWNlMzgwMWMyMjM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -180,7 +180,7 @@
       model: "Abranet Yellow",
       mirkaCode: "AY22302025",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám lưới mềm chuyên cho chà tường và trần nhà hiệu quả, dùng với máy chà tường Mirka LEROS.",
       img: "https://img.mirka.com/medias/AY22302018-001.jpg?context=bWFzdGVyfGltYWdlc3wxNjU3OTg5fGltYWdlL2pwZWd8YURWakwyZzVaQzh4TWpRd01EQXlOakl5TWpZeU1pOUJXVEl5TXpBeU1ERTRYekF3TVM1cWNHY3xjYWQ2MWRmOTgyZWIwNjA4NTY4NTY4ZTI1ZjIzYWY5Zjg2N2JlNDE2MTM4NDVkNjU1OGYwZTI5YmMyMmRiMmVi&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -199,7 +199,7 @@
       model: "Abrasive Yellow Basic",
       mirkaCode: "1655400160",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Giấy nhám cuộn phổ thông, bền, dùng đa năng cho cả tay và máy, từ tróc sơn đến chà gỗ.",
       img: "https://img.mirka.com/medias/Abrasive-Yellow-Basic-roll.jpg?context=bWFzdGVyfGltYWdlc3wxMjAwNDY2fGltYWdlL2pwZWd8YUdZNEwyZ3lNUzg0T0RnMk1qTXhNREEzTWpZeUwwRmljbUZ6YVhabExWbGxiR3h2ZHkxQ1lYTnBZeTF5YjJ4c0xtcHdad3xkZTEzOTI5ZDgzZWExYjFiNWE5YWI0YmI1MGM2NjQyZDRkNTkzODVlYTM1ZmUwYjA0OWQ5NGFkMDQzMGQyM2I4&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -217,7 +217,7 @@
       model: "Alox",
       mirkaCode: "3350400160",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "construction"],
+      industries: ["automotive", "construction", "wood"],
       shortDesc: "Nhám vải cuộn kết hợp độ bền và linh hoạt, phù hợp chà tay trên kim loại.",
       img: "https://img.mirka.com/medias/3350400180.jpg?context=bWFzdGVyfGltYWdlc3wyNDg0MDc4fGltYWdlL2pwZWd8YURFekwyZzROQzg0T0RJek9ESTRORGd3TURNd0x6TXpOVEEwTURBeE9EQXVhbkJufGY4MThlMzYzMzUwNTI5NDJjN2Y4OTQ1ODEzNjhlYjE2ZjA0YTk4NTk5NzczYmY0MDhmNjg1MGNhZDdmMTBhOWU&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -235,7 +235,7 @@
       model: "Autonet",
       mirkaCode: "AE24105080",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám lưới không bụi chuyên phát triển cho ngành sơn sửa ô tô (automotive refinishing).",
       img: "https://img.mirka.com/medias/AE241-006.jpg?context=bWFzdGVyfGltYWdlc3wzNjUwODJ8aW1hZ2UvanBlZ3xhRGhoTDJobU5TODRPREkxTXpVNE9UUXlNak00TDBGRk1qUXhYekF3Tmk1cWNHY3wxZWY4Yjc1NGIxZTdkOTdiN2I5ZDNkODM5NGY5N2JiY2NjMjQxMTgwOTQ0NDgzNWI5NmQ5NzNlYjBhYTFjYmUz&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -254,7 +254,7 @@
       model: "Avomax Antistatic",
       mirkaCode: "4251100160",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám cuộn chống tĩnh điện, phù hợp đa dạng ứng dụng chà gỗ, hiệu quả trên vật liệu dễ nghẹt hạt.",
       img: "https://img.mirka.com/medias/Jepuflex-Antistatic-115x50-m.jpg?context=bWFzdGVyfGltYWdlc3w2ODkwMjJ8aW1hZ2UvanBlZ3xhRGc1TDJnMU9TODRPREkwTnpNM016WTJNRFEyTDBwbGNIVm1iR1Y0WDBGdWRHbHpkR0YwYVdOZk1URTFlRFV3WDIwdWFuQm58YzYxNTYyMzY3NTBiNTg0MmUyZTExY2Q4MzQwODdkYjRiMTYzOGZhNTAzOGEyZjRiOTYyYjkwOGQxN2QyYzhmZQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -272,7 +272,7 @@
       model: "Basecut",
       mirkaCode: "2261105040N",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Giấy nhám phổ thông, hiệu suất cao, giá kinh tế cho các công việc chà đa năng.",
       img: "https://img.mirka.com/medias/Basecut-150mm-Grip-15H-2020.jpg?context=bWFzdGVyfGltYWdlc3w3ODc0OTk3fGltYWdlL2pwZWd8YURjeUwyZzVaaTg0T0RRNE1URXhPREk1TURJeUwwSmhjMlZqZFhSZk1UVXdiVzFmUjNKcGNGOHhOVWhmTWpBeU1DNXFjR2N8ODBhNWQ2YzFiZGY1Nzk3ZTc2OWU1N2I4ZDkxZDI0MjQ3NjFhM2VjNzAwNDFmMzY4ZGQxMmYwYzRlM2MxMmY4Mg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -291,7 +291,7 @@
       model: "Coarse Cut",
       mirkaCode: "4068805040",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Nhám thô chuyên cho các công việc chà thô nặng trên nhiều vật liệu, nền giấy gia cường đặc biệt.",
       img: "https://img.mirka.com/medias/4068805060-b.jpg?context=bWFzdGVyfGltYWdlc3w0MDg3NzI2fGltYWdlL2pwZWd8YUdOa0wyZ3dNUzg0T0RJek9ESXlNakl4TXpReUx6UXdOamc0TURVd05qQmZZaTVxY0djfDZhYzFjMWY4NTg2ODNiNjlmNWU1MTdkMWMzZTA4MTc4YmJlNDNlN2RkZWUxMmIxM2U5NzllNWE4NGE2NjZjY2Y&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -310,7 +310,7 @@
       model: "EXACT II",
       mirkaCode: "2W61105040",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Nhám đa năng cân bằng giữa độ cắt ban đầu tốt và độ bền cao, phù hợp sơn/matit và gỗ.",
       img: "https://img.mirka.com/medias/2W61105040-001.jpg?context=bWFzdGVyfGltYWdlc3wzNjEzNjA5fGltYWdlL2pwZWd8YURReEwyZzJZUzh4TWpZeU16QTVNakl4T1Rrek5DOHlWell4TVRBMU1EUXdYekF3TVM1cWNHY3wwOTE2NDBkMTBkY2M0ZDAyZTMxZWY1Yjc5OTVlNGJhOGIyODk2MTYxOTY3MTQ0Y2Y5YThiNDAxMTg4YWM0N2Ey&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -329,7 +329,7 @@
       model: "Ecowet",
       mirkaCode: "2C10105060",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Giấy nhám chà ướt bằng tay, lý tưởng cho chà ướt giữa các lớp sơn và sửa lỗi bề mặt sơn.",
       img: "https://img.mirka.com/medias/20101E5032.jpg?context=bWFzdGVyfGltYWdlc3wyODQ2Mjk1fGltYWdlL2pwZWd8YUdVekwyaGhNeTg1T0RNME9UYzRNamM1TkRVMEx6SXdNVEF4UlRVd016SXVhbkJufDkxOGFjNDRmNTczNWUyOWVlOGQ4MGE4M2Y4YjNjOGQxYzA5MWE5NWFiMDRiN2ZkNDRjZWYwMTE5N2M1NWE3ZjA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -348,7 +348,7 @@
       model: "Fiber Disc",
       mirkaCode: "6332002524",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Đĩa nhám sợi cứng (fiber disc) cho máy góc mài, hiệu quả cao trên kim loại, có 3 loại hạt mài ALO/ZIR/CER.",
       img: "https://img.mirka.com/medias/Fiber-ALO-115x22mm.jpg?context=bWFzdGVyfGltYWdlc3wyNjg1OTc2fGltYWdlL2pwZWd8YURBd0wyZ3hOaTg1TXpFeE56Z3hOREl4TURnMkwwWnBZbVZ5TFVGTVR5MHhNVFY0TWpKdGJTNXFjR2N8MjRkZGJjNDk3NzIyZTE2NDkxOGIzNmJlNTIxMjZiMmE0OTU3NGFiOGVkYjdlZWQxZjdmNTQ2YjAxYzIxNmU2MQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -366,7 +366,7 @@
       model: "File Belt",
       mirkaCode: "5G403T0140",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Băng nhám hẹp (file belt) dùng với máy chà dũa Mirka PBS, có bản CER (ceramic/nhôm oxit) và ZIR (zirconia).",
       img: "https://img.mirka.com/medias/5G401T0160.jpg?context=bWFzdGVyfGltYWdlc3w3NjEzMTF8aW1hZ2UvanBlZ3xhRFUyTDJnMFpTODRPRFk0T0RVeE9EYzFPRGN3THpWSE5EQXhWREF4TmpBdWFuQm58ZDY3MjRjYmFiYjlkOTJjZDFjMzhhMTM5NGZmOTM4NGIwYWZlMzlhM2U4N2MxZjI0MTEwYWEzZWY3OTMwNjAyNg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -384,7 +384,7 @@
       model: "Galaxy",
       mirkaCode: "FY6M105040",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "marine", "construction"],
+      industries: ["automotive", "collision", "marine", "construction", "wood"],
       shortDesc: "Nhám hạt ceramic tự mài sắc (không bao giờ cùn), tuổi thọ dài, cấu hình lỗ Multifit tối ưu, đa năng cho mọi vật liệu.",
       img: "https://img.mirka.com/medias/FY6M105040-b.jpg?context=bWFzdGVyfGltYWdlc3wxNDMxNDkxfGltYWdlL2pwZWd8YUdWbEwyZzNOeTg1TkRjMk1qRTNOalkzTmpFMEwwWlpOazB4TURVd05EQmZZaTVxY0djfGJhNTFjNDI2ODZmMTE4MTlmNzM0Nzc5ZjIwODljZDFiNmU0MzM5ZDJkYjU2NTNkZjA0YjlmODY4YWVkYmIxYTc&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -403,7 +403,7 @@
       model: "Gold",
       mirkaCode: "23611F1040",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision", "automotive"],
+      industries: ["construction", "collision", "automotive", "wood"],
       shortDesc: "Dòng nhám bán chạy nhất của Mirka, bền, đa năng, phù hợp chà tốc độ cao cho nhiều ứng dụng.",
       img: "https://img.mirka.com/medias/2361105060.jpg?context=bWFzdGVyfGltYWdlc3wxNzEwOTAxfGltYWdlL2pwZWd8YUdZM0wyaGxaaTg1T0RRMU5UazBNemt3TlRVNEx6SXpOakV4TURVd05qQXVhbkJufGIwMDFkMTJhNmNjYzFlOGRmYzQ5MTU2YjQ2MWM2Y2QyNGY3YjhkNmVmMGI5NDVjZGE0YTQ0NDEzMTcwYmQyMzI&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -422,7 +422,7 @@
       model: "Gold Proflex",
       mirkaCode: "285BYUK1183R",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Cuộn nhám Gold linh hoạt cho chà tay khô trên gỗ, matit, sơn - phù hợp cả bề mặt phẳng và profile.",
       img: "https://img.mirka.com/medias/285BYUK1123R.jpg?context=bWFzdGVyfGltYWdlc3wxMDg4ODU2fGltYWdlL2pwZWd8YURFM0wyZzJPUzg0T0RJME9UVXlPRFE0TkRFMEx6STROVUpaVlVzeE1USXpVaTVxY0djfGZkZTRlNzFjMDBiMjM1NTYwNjdjYTFjMDNiMDhkYzE5MjczYzE3Njg2MWNlYmUwZGE5OWI5ZjA5NWZhODkyOGY&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -440,7 +440,7 @@
       model: "Golden Finish",
       mirkaCode: "FM62205001GF",
       subCategory: "Giấy nhám",
-      industries: ["collision"],
+      industries: ["collision", "wood"],
       shortDesc: "Hệ thống Golden Finish - giải pháp hậu sơn nhanh, đơn giản cho chà bề mặt lớn.",
       img: "https://img.mirka.com/medias/FM62205001GF-001.jpg?context=bWFzdGVyfGltYWdlc3w1NDkzOTV8aW1hZ2UvanBlZ3xhR1EwTDJnd01TODRPREkxTXpNd01EY3pOak13TDBaTk5qSXlNRFV3TURGSFJsOHdNREV1YW5Cbnw0MTY5NTUzNDZmZDA0ZWEzNWRlYWE2YzkzMmJkMWU5Y2MyYjRjZjc4NDdmZDdkMDI4ZTc4ZWNkZmVjMDU5YTQ2&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -458,7 +458,7 @@
       model: "Goldflex Soft",
       mirkaCode: "2971401080",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám tờ mềm cho lớp phủ và matit, đặc biệt phù hợp bề mặt profile và không đều.",
       img: "https://img.mirka.com/medias/Goldflex-Soft-115x140-mm.jpg?context=bWFzdGVyfGltYWdlc3wxMjYyMjN8aW1hZ2UvanBlZ3xhRFkzTDJnMVlTODRPREkwT1RRMk1qazBPREUwTDBkdmJHUm1iR1Y0WDFOdlpuUmZNVEUxZURFME1GOXRiUzVxY0djfDRlNTEwNWJhYTE5NGE5MTJjMmQ1YzZmNWVlNmYyMjA4N2ExMzRiZDdmN2Y2Njg2YjZkMzVmMzU1MGYzNmZjMWQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -477,7 +477,7 @@
       model: "Hiolit",
       mirkaCode: "5B51100180",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám cuộn linh hoạt cho chà profile, đường viền và cạnh, chịu mài mòn cạnh tốt.",
       img: "https://img.mirka.com/medias/5B51000115-b.jpg?context=bWFzdGVyfGltYWdlc3wyOTYxMTF8aW1hZ2UvanBlZ3xhR014TDJneU55ODRPVFUzTmpNek5qa3hOamM0THpWQ05URXdNREF4TVRWZllpNXFjR2N8OGJmZGQ2YWE5NjY0NjUyYzY3MDMxZjcyZmRiYWQyM2Y2ODkzZjgwZDRjNWZkZGVkMmU4MmMzYTVjNjIwNzdmZA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -495,7 +495,7 @@
       model: "Hiomant",
       mirkaCode: "4153400140",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám cuộn cho chà tay và chà máy nhẹ, khả năng chống nghẹt hạt tốt, chịu mài mòn cạnh cao.",
       img: "https://img.mirka.com/medias/415BY001123R.jpg?context=bWFzdGVyfGltYWdlc3wxODUzNTQwfGltYWdlL2pwZWd8YURkbUwyZ3dPUzg0T0RJME56TXpOall6TWpZeUx6UXhOVUpaTURBeE1USXpVaTVxY0djfGM4NzI3NTY2YTI3MTE1Y2MyMjZmYWVjNTNiMjQ1MDllNTgwN2IxYTU2MzVhMWE4MzI2N2RlMzg5ZDhjY2Y5NGE&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -513,7 +513,7 @@
       model: "Jepuflex Antistatic",
       mirkaCode: "4469502540",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám chống tĩnh điện đa năng, tối ưu cho chà gỗ cứng nhưng cũng hiệu quả trên kim loại, nhựa và sơn.",
       img: "https://img.mirka.com/medias/38695-001.jpg?context=bWFzdGVyfGltYWdlc3w1NzQ2OTN8aW1hZ2UvanBlZ3xhRGhtTDJnMU15ODRPREkxT0RRNU1URTROelV3THpNNE5qazFYekF3TVM1cWNHY3wwZWY5ZmQzZjg3NzA0NjQzN2NkMjhhNmE5NDc0N2MxNTRiMTE0YTIzNDM5NDc2ODhlMmM2YjVlMTM2NjQzYWVj&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -532,7 +532,7 @@
       model: "MI231A 5MIL",
       mirkaCode: "EAB58821",
       subCategory: "Giấy nhám",
-      industries: ["automotive"],
+      industries: ["automotive", "wood"],
       shortDesc: "Nhám film chuyên dụng đánh bóng tinh các bộ phận truyền động (powertrain).",
       img: "https://img.mirka.com/medias/MI231A-5MIL-100-mm-x-50-m.jpg?context=bWFzdGVyfGltYWdlc3wzNzA2Mjd8aW1hZ2UvanBlZ3xhR0UzTDJoaE9TODVOVEV4TXpNNU5USTBNVEkyTDAxSk1qTXhRU0ExVFVsTUlERXdNQ0J0YlNCNElEVXdJRzB1YW5CbnxiZTdkZjE2NDM4Y2UzZjNmYzg4MzRiN2UxZjljZDUxZTIxZTNlYzExOGY3YWU4ZmIwZTZjOGY2MTUwOTJjNDE4&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -550,7 +550,7 @@
       model: "Microstar",
       mirkaCode: "FM61105081",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám film mờ chuyên chỉnh sửa lỗi sơn top/clear coat, tạo vết xước mịn dễ đánh bóng, chỉ dùng khô.",
       img: "https://img.mirka.com/medias/FM611-002.jpg?context=bWFzdGVyfGltYWdlc3wxNTk5NzN8aW1hZ2UvanBlZ3xhR1V4TDJoaFlTODRPREkxTXpVNU1EQTNOemMwTDBaTk5qRXhYekF3TWk1cWNHY3wyOThiYjdhYTgwMjZlNDk4MTRiMWRjYzFmODI0ZGQ3NTgzOWQ1ODVmNzhiNTY3NzU4MGNjYzg0ODRkNjAwZjY4&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -569,7 +569,7 @@
       model: "Iridium",
       mirkaCode: "246CH05040",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision", "marine", "construction"],
+      industries: ["automotive", "collision", "marine", "construction", "wood"],
       shortDesc: "Dòng nhám giấy cao cấp của Mirka, cho tốc độ và hiệu suất chà vượt trội trên đa dạng vật liệu.",
       img: "https://img.mirka.com/medias/246CH05040.jpg?context=bWFzdGVyfGltYWdlc3wzMjI4NjQwfGltYWdlL2pwZWd8YURJMUwyZ3lOUzg1TmpreE9ESXlOemcwTlRReUx6STBOa05JTURVd05EQXVhbkJufDBmNjIzZDI3Y2FjMGU5ZmIwNzE5ZDliMGFmMWE5MTZkZmJjMTFhMzhjOWFkYzU2ZTNmMzE3NWRiM2M4NDJjNjc&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -588,7 +588,7 @@
       model: "Iridium HS",
       mirkaCode: "245BY00140",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám cuộn Iridium chuyên cho chà tay, chất lượng cao, bền lâu trên gỗ, sơn và solid surface.",
       img: "https://img.mirka.com/medias/IRIDIUM-HS-115-25-SOFT-0.jpg?context=bWFzdGVyfGltYWdlc3wyMjk2NzF8aW1hZ2UvanBlZ3xhRFl6TDJneVpTOHhNREF3TXpRd01Ua3pNamd6TUM5SlVrbEVTVlZOTFVoVExTMHhNVFV0TWpVdExTMVRUMFpVTFRBdWFuQm58MThhZDc2MDc3YjUzODY1NzE1OTQxMGEzMDg2NWNlOGUyMzM2ZWFiNTFiZjY2OWQxYjViYTNmNjk2Y2IwYTgyMw&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -607,7 +607,7 @@
       model: "Iridium SR",
       mirkaCode: "2468900196",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám hoàn thiện cao cấp (finessing) cho vết xước dễ đánh bóng, chất lượng đồng nhất, dùng cho spot repair.",
       img: "https://img.mirka.com/medias/Iridium-sr-roses-grip.jpg?context=bWFzdGVyfGltYWdlc3wxODkxNHxpbWFnZS9qcGVnfGFEWXhMMmd5WkM4NE9Ua3dOemswTVRnMk56Z3lMMGx5YVdScGRXMGdjM0lnY205elpYTWdaM0pwY0M1cWNHY3xmMWVjM2E5ZWFmYjM3M2JmZWU1NzRiYzllOTIwYzg2MjNjNzQ3MTFiZjljNmUyN2UyMjg1NTMyNzIxMDMwMzJk&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -626,7 +626,7 @@
       model: "Iridium Soft",
       mirkaCode: "249JV02041",
       subCategory: "Giấy nhám",
-      industries: ["automotive", "collision"],
+      industries: ["automotive", "collision", "wood"],
       shortDesc: "Đĩa nhám xốp mềm không bụi, cấu hình lỗ Multifit, dành cho chà khô ô tô OEM và sửa chữa va chạm.",
       img: "https://img.mirka.com/medias/249M102095-001.jpg?context=bWFzdGVyfGltYWdlc3w1Njk1ODR8aW1hZ2UvanBlZ3xhRGc1TDJnM05TOHhNak14TlRreE16WTFNREl3Tmk4eU5EbE5NVEF5TURrMVh6QXdNUzVxY0djfGNhNjQ1ZjQ3MDNjNjk5Yjc1YWJmZjBjZDIzMTQ3MzYxMTFmZTU3ZTQ3ZDdiM2ZiMjE5ZmRjNDQ2MzE2ZjUwODg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -645,7 +645,7 @@
       model: "Conditioning Belt",
       mirkaCode: "TR45201080",
       subCategory: "Giấy nhám",
-      industries: ["collision", "construction"],
+      industries: ["collision", "construction", "wood"],
       shortDesc: "Băng nhám không dệt (non-woven) bền, dùng làm sạch điểm hàn, tẩy gỉ hoặc tróc sơn.",
       img: "https://img.mirka.com/medias/TR45201080-001.jpg?context=bWFzdGVyfGltYWdlc3w0MDU2NDR8aW1hZ2UvanBlZ3xhRFJtTDJoalppOHhNRFEwT1Rjek1qWTJOVE0zTkM5VVVqUTFNakF4TURnd1h6QXdNUzVxY0djfDE1M2YyMTAwZjEzY2MyODYwNDlmZWEyYzY1ZTdkMjA4NzVjM2FmOTFjYTNjNWE4ZjFlYmM3Mzg4NDViY2Y0NWM&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -663,7 +663,7 @@
       model: "Oiling Pads",
       mirkaCode: "8524102001",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Miếng lót phủ dầu chuyên dụng cho hoàn thiện bề mặt gỗ, tối ưu dùng với máy DEROS của Mirka.",
       img: "https://img.mirka.com/medias/8524102001-001.jpg?context=bWFzdGVyfGltYWdlc3w2NTMxODZ8aW1hZ2UvanBlZ3xhR0ZoTDJnMFppOHhNakl5TVRreU1qVXdPRGd6TUM4NE5USTBNVEF5TURBeFh6QXdNUzVxY0djfDQzNjU2ZjZiNWM3M2NiMjZiMzk0MmRkNDQyYTg4YTM1MDViZWRkZTM5YzA3M2QyNmQyMzNjNDA3ODZhNGNjNzA&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -680,7 +680,7 @@
       model: "Mirlon Total",
       mirkaCode: "81112F0337",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Miếng nhám không dệt tính chất mài mạnh hơn Mirlon, tạo vết xước dày và nhanh, dùng được cả khô và ướt.",
       img: "https://img.mirka.com/medias/Mirlon-Total-all.jpg?context=bWFzdGVyfGltYWdlc3w0ODE3MTExfGltYWdlL2pwZWd8YUdVMkwyZ3dNQzg0T0RJME56Y3dNell6TkRJeUwwMXBjbXh2YmlCVWIzUmhiRjloYkd3dWFuQm58N2U4ZjU4MzE4ZDc2MjA2MTY0Mzk1Zjk2MDA0NmJlODM3MjUyYzlkMmMwOGQ2OTlkNzAxNDA3YzdiZWZlNjljNQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -699,7 +699,7 @@
       model: "Mirlon",
       mirkaCode: "8019002032",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Miếng nhám không dệt tạo độ nhám (matting) bề mặt, lý tưởng làm nền bám dính cho lớp sơn tiếp theo.",
       img: "https://img.mirka.com/medias/Mirlon-all.jpg?context=bWFzdGVyfGltYWdlc3w3ODAzODMyfGltYWdlL2pwZWd8YURVMkwyaG1OaTg0T0RJME56WTVOekE0TURZeUwwMXBjbXh2Ymw5aGJHd3VhbkJufGI0Njg2NjdhYjZhYjdiMzIxYzdhMjE4ZGUwNGVmMTMwMzY3ZDZhMTA2YzhlOWY2ZmFhMTBlMjFhNTdjNTY0YTQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -718,7 +718,7 @@
       model: "Novastar FLEX",
       mirkaCode: "FX6CC02541",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Tờ nhám chà tay siêu linh hoạt, không nứt gãy hay tạo cạnh sắc dù gấp lại, có đường xé đôi ở giữa.",
       img: "https://img.mirka.com/medias/Novastar-set-2.jpg?context=bWFzdGVyfGltYWdlc3w1Nzc1NzJ8aW1hZ2UvanBlZ3xhREprTDJnNVlTODRPREl6TnpneE9URTJOekF5TDA1dmRtRnpkR0Z5WDNObGRGOHlMbXB3Wnd8Yjg1NzBmZmE4MWVkYjQyNzVmN2VmM2MwYzkwNWFjZjg1ZjJiMjkxMTg5ZTQyMzExMTg3ZGQ4MjgzY2I2NTQ3Yg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -737,7 +737,7 @@
       model: "OSP",
       mirkaCode: "OS24105001A",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Hệ thống chuẩn bị bề mặt tối ưu (Optimized Surface Preparation), chà nhanh gọn cho quy trình sơn.",
       img: "https://img.mirka.com/medias/OS241-001.jpg?context=bWFzdGVyfGltYWdlc3w1MjU1MzF8aW1hZ2UvanBlZ3xhRFV4TDJnMU5DODRPREkxT0RRNU1UZzBNamcyTDA5VE1qUXhYekF3TVM1cWNHY3wzNDZmMjg5MjE2MTMwMjM1MjI4ZGQzYTdjZjU0ZWVjMmM1Y2U2MTA3YmY2YzE0ZmY2NTNiMDNhMTQ1MDFkZDI3&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -756,7 +756,7 @@
       model: "Polarstar SR",
       mirkaCode: "FS30009905",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám film công nghệ cao dùng chà ướt sửa lỗi sơn nhỏ, loại bụi bám trên top coat/clear coat.",
       img: "https://img.mirka.com/medias/FS30000103-c.jpg?context=bWFzdGVyfGltYWdlc3w5ODk1MDZ8aW1hZ2UvanBlZ3xhRGN4TDJnME1TODRPREl6T0RFNE56Z3dOekF5TDBaVE16QXdNREF4TUROZll5NXFjR2N8N2RjNGNlOTE0ZTg3NGRkOGUwYjg2ZGM3OWM0NDUwMjhjNGI3YzJkZjk4MTk4MjU0YzFmMmFiNTk3YmJlMzZkZg&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -774,7 +774,7 @@
       model: "Q.Silver",
       mirkaCode: "23611-series",
       subCategory: "Giấy nhám",
-      industries: ["construction", "collision"],
+      industries: ["construction", "collision", "wood"],
       shortDesc: "Nhám lý tưởng cho các công việc chà nặng như chà 'lộ kim loại' (down-to-metal).",
       img: "https://img.mirka.com/medias/36622-003.jpg?context=bWFzdGVyfGltYWdlc3wyMDE3MDJ8aW1hZ2UvanBlZ3xhRFU0TDJobVppODRPREkxTXpVNE5qZ3dNRGswTHpNMk5qSXlYekF3TXk1cWNHY3w1ZTQxN2E2YjA3ZWY2ZjQzNGI3ZDg3ZmM2ZmI0MDQ1ZDhlMzNhZGI2ZDFkZDM3NTkwNzg1OWU5OTUwNGQ2NWRl&tr=w-360%2ch-180%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -792,7 +792,7 @@
       model: "Remint Copper",
       mirkaCode: "CU30909950",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Đĩa đồng dùng kết hợp với hợp chất mài Remint để loại bỏ vĩnh viễn vết trầy trên kính cường hóa.",
       img: "https://img.mirka.com/medias/CU30909950-001.jpg?context=bWFzdGVyfGltYWdlc3wxNDc4NDl8aW1hZ2UvanBlZ3xhR05qTDJnd1pTODRPREkwTnpReE1EWTRPRE13TDBOVk16QTVNRGs1TlRCZk1EQXhMbXB3Wnd8NWYyMTFjNDYyOTkwYjExM2FkZGNhMTQyNTAzNDBhMWUyMDhmZTE4ODM5OTJlYWQ4ZWI1YjRhNDhlZGE2Njk5Nw&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -811,7 +811,7 @@
       model: "Ultimax",
       mirkaCode: "UC64305040",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám công nghệ Selective Coating®, chống nghẹt hạt nhờ các khoang nhỏ trên bề mặt, giữ mát khi chà.",
       img: "https://img.mirka.com/medias/UC643-001.jpg?context=bWFzdGVyfGltYWdlc3wxNTY4MTl8aW1hZ2UvanBlZ3xhRE5sTDJneFpDODRPREl6T0RFNU5EQXpNamswTDFWRE5qUXpYekF3TVM1cWNHY3xkODViMzY4MjkyMDMyNjY2ZjExOGM4NjZjOGY0M2UzZTVmZDE5ZmNjOTkxNzk3MzU1N2Q5YWZjMmMwOTA0YWM4&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -829,7 +829,7 @@
       model: "Ultimax Ligno",
       mirkaCode: "ULTIMAX-LIGNO-series",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Nhám chuyên biệt cho chà gỗ, cắt nhanh và đều, tối ưu hút bụi, thuộc dòng Ultimax công nghệ Selective Coating.",
       img: "https://img.mirka.com/medias/ULTIMAX-LIGNO-125-PSA-0.jpg?context=bWFzdGVyfGltYWdlc3wxMzMzNDU1fGltYWdlL2pwZWd8YUdReEwyZzNaQzh4TURZNE1UTTBNall5TXpjM05DOVZURlJKVFVGWUxVeEpSMDVQTFRFeU5TMHRMUzB0VUZOQkxUQXVhbkJufGU5ZjBhZDVkY2I0MDE4NjE0YjU4NzIyOWJkYzVlMDkzZDhkNzNjNDkzY2RmYjY5MzA5NjJhOTY3MWEzYjEzNjI&tr=w-360%2ch-180%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -847,7 +847,7 @@
       model: "WPF",
       mirkaCode: "2168909996",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám chà ướt tay khuyến nghị cho nhựa, sơn vecni và vật liệu composite, có cả dạng đĩa nhỏ sửa lỗi.",
       img: "https://img.mirka.com/medias/Wasserfest-Latex-33-36-mm-GRIP.jpg?context=bWFzdGVyfGltYWdlc3wzNjY5Njh8aW1hZ2UvanBlZ3xhRFpqTDJnNU1pODRPREkxTWpBMU9EVXdNVFF5TDFkaGMzTmxjbVpsYzNRdFRHRjBaWGhmTXpOZk16WmZiVzFmUjFKSlVDNXFjR2N8YzI0ZDQ3YjIxMjA1NGEzYWM3Mzc4OTA1OGQxZjAxZWE1NzQ4M2Y0NzI4M2M0MGI4ZjQ0MTU4NzIxMDdmYTEyNQ&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -865,7 +865,7 @@
       model: "WPF Pro",
       mirkaCode: "2P10105060",
       subCategory: "Giấy nhám",
-      industries: ["collision", "automotive"],
+      industries: ["collision", "automotive", "wood"],
       shortDesc: "Nhám chà ướt chất lượng cao dạng tờ lớn, chống thấm nước, chống cong vênh, độ cắt bền lâu.",
       img: "https://img.mirka.com/medias/WPF-Pro.jpg?context=bWFzdGVyfGltYWdlc3wxNTk5MjB8aW1hZ2UvanBlZ3xhR05pTDJnM09TODRPVE0wT1RJMU1UTTVPVGs0TDFkUVJpQlFjbTh1YW5CbnwxOWZmZjFhMTRjMjE2OGFiYjg2OWI0OTI3N2QwMDEyNTk4ZmJiNzYyMDAxMTM0NTAyZWI5YzU4MjRlNjAxZDVh&tr=w-720%2ch-720%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
@@ -884,7 +884,7 @@
       model: "Yellow Abrasive Soft",
       mirkaCode: "16748-series",
       subCategory: "Giấy nhám",
-      industries: ["construction"],
+      industries: ["construction", "wood"],
       shortDesc: "Đĩa nhám vàng nền mềm, đường kính lớn 225mm, dùng chà tường/trần với cấu hình nhiều lỗ hút bụi.",
       img: "https://img.mirka.com/medias/1674802540-001.jpg?context=bWFzdGVyfGltYWdlc3w2MzI1NnxpbWFnZS9qcGVnfGFERTFMMmd3TWk4NE9ESTFPRFE0T0RVMk5qQTJMekUyTnpRNE1ESTFOREJmTURBeExtcHdad3w2ZDY4M2JiNDc5YmI5YmY3ZDU4NDc4ZTc1MDBjZjczYWQxYTNmYmMyMmNkZjk4YWUxZjljMTczNWNlZjZkYWM3&tr=w-360%2ch-180%2ccm-pad_resize%2cbg-FFFFFF",
       specs: {
