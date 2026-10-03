@@ -5,7 +5,7 @@ const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
 const bcrypt = require("bcryptjs");
 
-const DB_DIR = path.join(__dirname, "data-store");
+const DB_DIR = process.env.DATA_DIR || path.join(__dirname, "data-store");
 if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
 
 const adapter = new FileSync(path.join(DB_DIR, "db.json"));
