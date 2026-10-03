@@ -1289,16 +1289,22 @@ document.getElementById("productsTabCount").textContent =
 
 let currentUser = null;
 
+const GUEST_INTEREST_KEY = "nq_guest_interested";
 function loadInterested(){
-  return new Set();
+  try { return new Set(JSON.parse(localStorage.getItem(GUEST_INTEREST_KEY) || "[]")); }
+  catch(e){ return new Set(); }
+}
+function saveGuestInterested(){
+  try { localStorage.setItem(GUEST_INTEREST_KEY, JSON.stringify([...state.interested])); }
+  catch(e){}
 }
 function productKey(p){ return p.brandId + ":" + p.slug; }
 
 async function toggleInterest(key, checked){
   if(!currentUser || currentUser.role !== "customer"){
-    alert('Vui lòng đăng nhập tài khoản khách hàng để đánh dấu "Quan tâm".');
-    location.href = "/login.html?next=" + encodeURIComponent(location.pathname + location.hash);
-    renderAll();
+    if(checked) state.interested.add(key);
+    else state.interested.delete(key);
+    saveGuestInterested();
     return;
   }
   if(checked){
@@ -1328,7 +1334,7 @@ function renderAccountWidget(){
     document.getElementById("accLogoutBtn").addEventListener("click", async ()=>{
       await fetch("/api/logout", { method:"POST" });
       currentUser = null;
-      state.interested = new Set();
+      state.interested = loadInterested();
       renderAccountWidget();
       applyWorkPhotosAccess();
       renderAll();
