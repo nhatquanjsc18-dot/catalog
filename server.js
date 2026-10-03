@@ -110,6 +110,23 @@ app.delete("/api/admin/users/:id", requireRole("admin"), (req, res) => {
   res.json({ ok: true });
 });
 
+// ---------- Sản phẩm nổi bật (công khai đọc, chỉ admin sửa) ----------
+app.get("/api/featured", (req, res) => {
+  res.json({ keys: db.get("featured").value() });
+});
+
+app.post("/api/admin/featured", requireRole("admin"), (req, res) => {
+  const { key } = req.body || {};
+  if (!key) return res.status(400).json({ error: "Thiếu sản phẩm" });
+  if (!db.get("featured").includes(key).value()) db.get("featured").push(key).write();
+  res.json({ ok: true });
+});
+
+app.delete("/api/admin/featured/:key", requireRole("admin"), (req, res) => {
+  db.set("featured", db.get("featured").value().filter((k) => k !== req.params.key)).write();
+  res.json({ ok: true });
+});
+
 // ---------- Nhân viên: xem khách hàng & sản phẩm quan tâm ----------
 app.get("/api/staff/customers", requireRole("admin", "staff"), (req, res) => {
   const customers = db.get("users").filter({ role: "customer" }).value();

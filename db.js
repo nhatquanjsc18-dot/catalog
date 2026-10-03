@@ -10,7 +10,7 @@ if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
 
 const adapter = new FileSync(path.join(DB_DIR, "db.json"));
 const db = low(adapter);
-db.defaults({ users: [], interests: [] }).write();
+db.defaults({ users: [], interests: [], featured: [] }).write();
 
 function seedAdmin() {
   const hasAdmin = db.get("users").find({ role: "admin" }).value();

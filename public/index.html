@@ -1284,6 +1284,19 @@ document.getElementById("productsTabCount").textContent =
 
 let currentUser = null;
 
+async function toggleFeatured(key, checked){
+  if(checked) state.featured.add(key); else state.featured.delete(key);
+  try{
+    if(checked) await fetch("/api/admin/featured", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({key})});
+    else await fetch("/api/admin/featured/" + encodeURIComponent(key), {method:"DELETE"});
+  }catch(e){}
+  renderFilters(); renderAll();
+}
+
+async function loadFeatured(){
+  try{ const r = await fetch("/api/featured"); const d = await r.json(); state.featured = new Set(d.keys || []); }catch(e){}
+}
+
 const GUEST_INTEREST_KEY = "nq_guest_interested";
 function loadInterested(){
   try { return new Set(JSON.parse(localStorage.getItem(GUEST_INTEREST_KEY) || "[]")); }
@@ -1347,6 +1360,8 @@ async function initAccount(){
   }catch(e){ currentUser = null; }
   renderAccountWidget();
   applyWorkPhotosAccess();
+  await loadFeatured();
+  renderFilters(); renderAll();
   if(currentUser && currentUser.role === "customer"){
     try{
       const r = await fetch("/api/customer/interests");
@@ -1355,6 +1370,16 @@ async function initAccount(){
       renderAll();
     }catch(e){}
   }
+}
+function featuredCheckboxHTML(p){
+  if(!currentUser || currentUser.role !== "admin") return "";
+  const key = productKey(p);
+  const checked = state.featured.has(key) ? "checked" : "";
+  const id = "feat-" + key.replace(/[^a-zA-Z0-9_-]/g, "_");
+  return `<label class="interest-check" for="${id}" onclick="event.stopPropagation()">
+    <input type="checkbox" id="${id}" data-key="${key}" ${checked} onchange="toggleFeatured(this.dataset.key, this.checked)">
+    <span>Nổi bật</span>
+  </label>`;
 }
 function interestCheckboxHTML(p){
   const key = productKey(p);
@@ -1372,6 +1397,7 @@ const state = {
   activeSubCat: {},
   query: "",
   interested: loadInterested(),
+  featured: new Set(),
 };
 
 function subCategoriesForBrand(brandId){
@@ -1401,8 +1427,11 @@ function subCatTabsHTML(brandId){
   return html;
 }
 
+function isFeatured(p){ return state.featured.has(productKey(p)); }
 function productsForBrand(brandId){
-  let list = ALL_PRODUCTS.filter(p=>p.brandId === brandId);
+  let list = brandId === "tonghop"
+    ? ALL_PRODUCTS.filter(p=>p.brandId === "tonghop" || isFeatured(p))
+    : ALL_PRODUCTS.filter(p=>p.brandId === brandId);
   if(state.activeSubCat[brandId]){
     list = list.filter(p=>p.subCategory === state.activeSubCat[brandId]);
   }
@@ -1433,7 +1462,7 @@ function renderFilters(){
   bar.appendChild(selectAllChip);
 
   BRAND_META.forEach(b=>{
-    const count = ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
+    const count = b.id === "tonghop" ? ALL_PRODUCTS.filter(p=>p.brandId==="tonghop" || isFeatured(p)).length : ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
     const chip = document.createElement("button");
     chip.className = "chip" + (state.activeBrands.has(b.id) ? " on" : "");
     chip.style.setProperty("--dot", b.color);
@@ -1507,6 +1536,7 @@ function renderGrid(){
             <div class="card-cat-row">
               <div class="card-cat">${p.subCategory || b.category}</div>
               ${interestCheckboxHTML(p)}
+              ${featuredCheckboxHTML(p)}
             </div>
             <div class="card-thumb">${imgOrPlaceholder(p)}</div>
             <div>
