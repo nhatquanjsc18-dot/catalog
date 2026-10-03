@@ -110,6 +110,25 @@ app.delete("/api/admin/users/:id", requireRole("admin"), (req, res) => {
   res.json({ ok: true });
 });
 
+// ---------- Thư mục Drive ảnh/video khách hàng (chỉ admin & nhân viên xem) ----------
+app.get("/api/media/drive-folders", requireRole("admin", "staff"), (req, res) => {
+  res.json({ folders: db.get("driveFolders").value() });
+});
+
+app.post("/api/admin/drive-folders", requireRole("admin"), (req, res) => {
+  const { title, url } = req.body || {};
+  if (!title || !url) return res.status(400).json({ error: "Thiếu tên hoặc link" });
+  if (!/^https:\/\/(drive|docs)\.google\.com\//.test(url)) return res.status(400).json({ error: "Link phải là link Google Drive" });
+  const folder = { id: crypto.randomUUID(), title, url, createdAt: new Date().toISOString() };
+  db.get("driveFolders").push(folder).write();
+  res.json({ folder });
+});
+
+app.delete("/api/admin/drive-folders/:id", requireRole("admin"), (req, res) => {
+  db.set("driveFolders", db.get("driveFolders").value().filter((f) => f.id !== req.params.id)).write();
+  res.json({ ok: true });
+});
+
 // ---------- Sản phẩm nổi bật (công khai đọc, chỉ admin sửa) ----------
 app.get("/api/featured", (req, res) => {
   res.json({ keys: db.get("featured").value() });

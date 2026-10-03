@@ -106,6 +106,28 @@
   </div>
 
   <div class="card">
+    <h2>Thư mục ảnh &amp; video Google Drive</h2>
+    <p style="font-size:13px;color:var(--text-muted);margin:0 0 14px;">Chỉ admin và nhân viên đăng nhập mới thấy các thư mục này trong mục Hình ảnh.</p>
+    <form id="driveForm">
+      <div class="form-grid">
+        <div>
+          <label>Tên khách / thư mục</label>
+          <input name="title" required>
+        </div>
+        <div>
+          <label>Link thư mục Google Drive</label>
+          <input name="url" placeholder="https://drive.google.com/..." required>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit">Thêm thư mục</button>
+        <span class="msg" id="driveMsg"></span>
+      </div>
+    </form>
+    <div id="driveListWrap" style="margin-top:16px;"></div>
+  </div>
+
+  <div class="card">
     <h2>Danh sách tài khoản</h2>
     <div id="usersTableWrap"></div>
   </div>
@@ -204,9 +226,39 @@
     loadUsers();
   });
 
+  const driveForm = document.getElementById("driveForm");
+  const driveMsg = document.getElementById("driveMsg");
+  const driveListWrap = document.getElementById("driveListWrap");
+
+  async function loadDrive(){
+    const r = await fetch("/api/media/drive-folders");
+    const { folders } = await r.json();
+    if(!folders.length){ driveListWrap.innerHTML = '<div class="empty">Chưa có thư mục nào.</div>'; return; }
+    driveListWrap.innerHTML = '<table><thead><tr><th>Tên</th><th>Link</th><th></th></tr></thead><tbody>' +
+      folders.map(f => '<tr><td>' + esc(f.title) + '</td><td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">Mở thư mục</a></td><td><button class="danger btn-drive-del" data-id="' + f.id + '">Xoá</button></td></tr>').join("") +
+      '</tbody></table>';
+    driveListWrap.querySelectorAll(".btn-drive-del").forEach(b => b.addEventListener("click", async () => {
+      if(!confirm("Xoá link thư mục này khỏi trang web? (Thư mục trên Drive không bị xoá.)")) return;
+      const r2 = await fetch("/api/admin/drive-folders/" + b.dataset.id, { method:"DELETE" });
+      if(r2.ok) loadDrive();
+    }));
+  }
+
+  driveForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    driveMsg.textContent = ""; driveMsg.className = "msg";
+    const body = Object.fromEntries(new FormData(driveForm).entries());
+    const r = await fetch("/api/admin/drive-folders", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(body) });
+    const data = await r.json();
+    if(!r.ok){ driveMsg.textContent = data.error || "Có lỗi xảy ra"; driveMsg.className = "msg err"; return; }
+    driveMsg.textContent = "Đã thêm."; driveMsg.className = "msg ok";
+    driveForm.reset();
+    loadDrive();
+  });
+
   (async () => {
     const user = await requireAdmin();
-    if(user) loadUsers();
+    if(user){ loadUsers(); loadDrive(); }
   })();
 </script>
 </body>

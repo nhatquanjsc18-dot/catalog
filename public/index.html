@@ -1103,6 +1103,7 @@
     </div>
   </div>
   <div class="industries-wrap">
+    <div id="driveFoldersBox" style="display:none;margin-bottom:24px;"></div>
     <div class="subcat-tabs" id="workPhotosTabs" style="--bc:var(--accent); --bc-on:#FFFFFF; margin-bottom:20px;"></div>
     <div class="industries-grid industries-grid--photo" id="workPhotosGrid"></div>
   </div>
@@ -1813,9 +1814,27 @@ function canSeeWorkPhotos(){
   return !!currentUser && (currentUser.role === "admin" || currentUser.role === "staff");
 }
 
+async function loadDriveFoldersBox(){
+  const box = document.getElementById("driveFoldersBox");
+  if(!box) return;
+  if(!canSeeWorkPhotos()){ box.style.display = "none"; box.innerHTML = ""; return; }
+  try{
+    const r = await fetch("/api/media/drive-folders");
+    if(!r.ok) return;
+    const { folders } = await r.json();
+    if(!folders.length){ box.style.display = "none"; return; }
+    box.style.display = "";
+    box.innerHTML = '<div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text-muted);">Thư mục ảnh &amp; video Google Drive (chỉ nhân viên và quản trị xem được)</div>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:10px;">' +
+      folders.map(f => '<a href="' + f.url.replace(/"/g,"&quot;") + '" target="_blank" rel="noopener" class="chip" style="text-decoration:none;">' + f.title.replace(/&/g,"&amp;").replace(/</g,"&lt;") + ' ↗</a>').join("") +
+      '</div>';
+  }catch(e){}
+}
+
 function applyWorkPhotosAccess(){
   const tab = document.querySelector('.site-tab[data-page="workphotos"]');
   if(tab) tab.style.display = canSeeWorkPhotos() ? "" : "none";
+  loadDriveFoldersBox();
   if(!canSeeWorkPhotos() && pageFromHash() === "workphotos") setPage("home");
   if(canSeeWorkPhotos() && pageFromHash() === "workphotos") setPage("workphotos");
 }
