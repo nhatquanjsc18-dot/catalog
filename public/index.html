@@ -1480,7 +1480,7 @@ function visibleBrands(){
 
 function imgOrPlaceholder(p){
   if(p.img){
-    return `<img src="${p.img}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb,.sheet-media').classList.add('img-error'); this.remove();">`;
+    return `<img src="${p.img}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'ph',textContent:'Chưa có ảnh'}));">`;
   }
   return `<span class="ph">Chưa có ảnh</span>`;
 }

@@ -7,7 +7,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3102A.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/0951f055-5689-47a1-983b-fe6de5582933.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -20,7 +20,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3226.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/7b1936ce-114c-4053-a30a-51b116f4f8e9.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -33,7 +33,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3107A1.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/2a812bf6-2dc4-4604-b8b9-4d33f7380808.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -46,7 +46,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3107B1.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/f6d3e311-cc9b-461b-b117-b36511c1117c.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -59,7 +59,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-73.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/ebf7bb5d-a1d8-4f85-9512-d2984eaf31f4.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -72,7 +72,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3002A.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/a116ca22-a1d7-486f-b1b7-4cf9a02b1087.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -85,7 +85,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3228.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/04f15f75-8394-4f8a-973a-d20c414e8c7b.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -98,7 +98,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3207A1.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/27b886df-e6b5-4288-b2be-0b7821330bf8.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -111,7 +111,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-3207B1.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/26d0d680-ba51-4edb-93e5-c8fa3f049d99.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
@@ -124,7 +124,7 @@
     subCategory: "Dụng cụ khí nén",
     industries: [],
     shortDesc: "Cờ lê tăng đơ khí nén (Ratchet Wrench) của Prona, mã RP-74.",
-    img: "https://omo-oss-image.thefastimg.com/portal-saas/new2023102717520985071/cms/image/94458446-0500-4749-ab16-45c282cda228.jpg",
+    img: "",
     specs: {
       "Nguồn": "prona.com.cn"
     },
