@@ -1328,6 +1328,8 @@ function renderAccountWidget(){
     document.getElementById("accLogoutBtn").addEventListener("click", async ()=>{
       await fetch("/api/logout", { method:"POST" });
       currentUser = null;
+      const workTab = document.querySelector('.site-tab[data-page="workphotos"]');
+      if(workTab) workTab.style.display = "";
       state.interested = new Set();
       renderAccountWidget();
       renderAll();
@@ -1345,6 +1347,8 @@ async function initAccount(){
   }catch(e){ currentUser = null; }
   renderAccountWidget();
   if(currentUser && currentUser.role === "customer"){
+    const workTab = document.querySelector('.site-tab[data-page="workphotos"]');
+    if(workTab) workTab.style.display = "none";
     try{
       const r = await fetch("/api/customer/interests");
       const data = await r.json();
