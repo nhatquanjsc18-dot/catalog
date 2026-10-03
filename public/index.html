@@ -1458,8 +1458,7 @@ function renderFilters(){
     chip.className = "industry-chip" + (state.activeIndustries.has(ind.id) ? " on" : "");
     chip.innerHTML = `<svg viewBox="0 0 24 24">${ind.icon}</svg><span>${ind.label}</span><span class="count">${count}</span>`;
     chip.addEventListener("click", ()=>{
-      if(state.activeIndustries.has(ind.id)) state.activeIndustries.delete(ind.id);
-      else state.activeIndustries.add(ind.id);
+      state.activeIndustries = state.activeIndustries.has(ind.id) ? new Set() : new Set([ind.id]);
       renderFilters(); renderAll();
     });
     industryRow.appendChild(chip);
