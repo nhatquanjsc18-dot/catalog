@@ -981,7 +981,6 @@
           <div class="intro-brand-chips">
             <span class="intro-chip" style="--c:#FFCB00;color:#141414">Wagner</span>
             <span class="intro-chip" style="--c:#2D55AA">Compact Tools</span>
-            <span class="intro-chip" style="--c:#0170C1">Prona</span>
             <span class="intro-chip" style="--c:#0071BD">Meiji</span>
             <span class="intro-chip" style="--c:#FF0000">3M</span>
             <span class="intro-chip" style="--c:#ED0007">Bosch</span>
@@ -1210,11 +1209,6 @@
 <script src="data/compact-products.js"></script>
 <script src="data/oem-accessories.js"></script>
 <script src="data/oem-parts.js"></script>
-<script src="data/prona-products-automatic-spray-gun.js"></script>
-<script src="data/prona-products-manual-spray-gun.js"></script>
-<script src="data/prona-products-spray-equipment.js"></script>
-<script src="data/prona-products-pneumatic-tools.js"></script>
-<script src="data/prona-products.js"></script>
 <script src="data/tonghop-may-cha-nham.js"></script>
 <script src="data/tonghop-thiet-bi-phun-son.js"></script>
 <script src="data/tonghop-linh-kien.js"></script>
@@ -1230,7 +1224,6 @@ const BRAND_META = [
   { id:"binks",      name:"Binks",       country:"Mỹ",        category:"Bơm & súng phun CN",    color:"#0E3EA0", on:"#FFFFFF" },
   { id:"compact",    name:"Compact Tools", country:"Nhật Bản", category:"Máy chà nhám khí nén",  color:"#2D55AA", on:"#FFFFFF" },
   { id:"oem",        name:"OEM",         country:"Sản xuất tại Châu Âu", category:"Phụ kiện & linh kiện thay thế", color:"#4A5568", on:"#FFFFFF" },
-  { id:"prona",      name:"Prona",       country:"Trung Quốc", category:"Súng phun sơn & dụng cụ khí nén", color:"#0170C1", on:"#FFFFFF" },
   { id:"wagner",     name:"Wagner",      country:"Đức",       category:"Thiết bị phun sơn CN",  color:"#FFCB00", on:"#141414" },
   { id:"tonghop",    name:"Sản phẩm nổi bật", country:"—",    category:"Đa dụng / nhiều hãng",  color:"#2F7A4D", on:"#FFFFFF" },
   { id:"3m",         name:"3M",          country:"Mỹ",        category:"Đĩa nhám mài mòn",      color:"#FF0000", on:"#FFFFFF" },
@@ -1276,7 +1269,6 @@ const ALL_PRODUCTS = []
   .concat(normalizeBrand(window.BINKS_PRODUCTS, "binks"))
   .concat(normalizeBrand(window.COMPACT_PRODUCTS, "compact"))
   .concat(normalizeBrand(window.OEM_PRODUCTS, "oem"))
-  .concat(normalizeBrand(window.PRONA_PRODUCTS, "prona"))
   .concat(normalizeBrand(window.TONGHOP_PRODUCTS, "tonghop"))
   .concat(normalizeBrand(window.M3_PRODUCTS, "3m"));
 

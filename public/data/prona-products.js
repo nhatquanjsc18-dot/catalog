@@ -1,1 +1,0 @@
-var PRONA_PRODUCTS = window.PRONA_PRODUCTS || [];
