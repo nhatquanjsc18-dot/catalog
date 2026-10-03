@@ -2114,37 +2114,3 @@ quoteForm.addEventListener("submit", async (e)=>{
 </script>
 </body>
 </html>
-
-<div id="nqAuthGate" style="position:fixed;inset:0;z-index:99999;background:#0B2E4E;display:flex;align-items:center;justify-content:center;font-family:'Segoe UI',Arial,sans-serif;padding:20px;">
-  <form id="nqAuthForm" style="background:#fff;padding:32px;border-radius:14px;width:340px;max-width:100%;box-shadow:0 24px 60px rgba(0,0,0,.35);box-sizing:border-box;">
-    <div style="width:44px;height:44px;border-radius:10px;background:#0B2E4E;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;margin-bottom:16px;">NQ</div>
-    <h2 style="margin:0 0 6px;font-size:19px;color:#0B2E4E;">Tài liệu nội bộ Nhất Quán</h2>
-    <p style="margin:0 0 20px;font-size:13px;color:#666;line-height:1.5;">Bản lưu trữ cá nhân — vui lòng đăng nhập để xem nội dung.</p>
-    <input id="nqAuthUser" type="text" autocomplete="username" placeholder="Tài khoản" style="width:100%;padding:11px 12px;margin-bottom:10px;border:1px solid #ccc;border-radius:8px;box-sizing:border-box;font-size:14px;">
-    <input id="nqAuthPass" type="password" autocomplete="current-password" placeholder="Mật khẩu" style="width:100%;padding:11px 12px;margin-bottom:16px;border:1px solid #ccc;border-radius:8px;box-sizing:border-box;font-size:14px;">
-    <button type="submit" style="width:100%;padding:12px;background:#0B2E4E;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;">Đăng nhập</button>
-    <p id="nqAuthError" style="color:#c23b3b;font-size:12.5px;margin:12px 0 0;display:none;">Sai tài khoản hoặc mật khẩu.</p>
-  </form>
-</div>
-<script>
-(function(){
-  var U = "nhatquan";
-  var P = "NQ@2026#";
-  var KEY = "nq_auth_ok_v1";
-  var gate = document.getElementById("nqAuthGate");
-  try {
-    if (sessionStorage.getItem(KEY) === "1") { gate.style.display = "none"; }
-  } catch(e){}
-  document.getElementById("nqAuthForm").addEventListener("submit", function(e){
-    e.preventDefault();
-    var u = document.getElementById("nqAuthUser").value.trim();
-    var p = document.getElementById("nqAuthPass").value;
-    if (u === U && p === P) {
-      try { sessionStorage.setItem(KEY, "1"); } catch(e){}
-      gate.style.display = "none";
-    } else {
-      document.getElementById("nqAuthError").style.display = "block";
-    }
-  });
-})();
-</script>
