@@ -1328,10 +1328,9 @@ function renderAccountWidget(){
     document.getElementById("accLogoutBtn").addEventListener("click", async ()=>{
       await fetch("/api/logout", { method:"POST" });
       currentUser = null;
-      const workTab = document.querySelector('.site-tab[data-page="workphotos"]');
-      if(workTab) workTab.style.display = "";
       state.interested = new Set();
       renderAccountWidget();
+      applyWorkPhotosAccess();
       renderAll();
     });
   } else {
@@ -1346,9 +1345,8 @@ async function initAccount(){
     currentUser = data.user;
   }catch(e){ currentUser = null; }
   renderAccountWidget();
+  applyWorkPhotosAccess();
   if(currentUser && currentUser.role === "customer"){
-    const workTab = document.querySelector('.site-tab[data-page="workphotos"]');
-    if(workTab) workTab.style.display = "none";
     try{
       const r = await fetch("/api/customer/interests");
       const data = await r.json();
@@ -1646,36 +1644,36 @@ const PAGE_TITLES = {
 };
 
 const WORK_PHOTOS = [
-  { group:"Triệu Phú Lộc", photo:"img/khach-hang-lam-viec/trieu-phu-loc-1.jpg", caption:"Triệu Phú Lộc — dây chuyền sơn phủ bề mặt gỗ" },
-  { group:"Triệu Phú Lộc", photo:"img/khach-hang-lam-viec/trieu-phu-loc-2.jpg", caption:"Triệu Phú Lộc — dàn bơm màng Wagner cấp sơn" },
-  { group:"Triệu Phú Lộc", photo:"img/khach-hang-lam-viec/trieu-phu-loc-4.jpg", caption:"Triệu Phú Lộc — kỹ thuật Nhất Quán kiểm tra hệ thống bơm sơn Wagner" },
-  { group:"Viglacera", photo:"img/khach-hang-lam-viec/viglacera-1.jpg", caption:"Viglacera — dây chuyền phun men sứ vệ sinh" },
-  { group:"Viglacera", photo:"img/khach-hang-lam-viec/viglacera-2.jpg", caption:"Viglacera — cabin robot phun men tự động" },
-  { group:"Viglacera", photo:"img/khach-hang-lam-viec/viglacera-3.jpg", caption:"Viglacera — thành phẩm sứ vệ sinh sau nung" },
-  { group:"Rochdale", photo:"img/khach-hang-lam-viec/rochdale-1.jpg", caption:"Rochdale — kỹ thuật Nhất Quán và Mirka hướng dẫn xử lý bề mặt bàn gỗ sơn bóng" },
-  { group:"Rochdale", photo:"img/khach-hang-lam-viec/rochdale-3.jpg", caption:"Rochdale — đánh bóng mặt bàn tròn sơn PU tại xưởng hoàn thiện" },
-  { group:"Rochdale", photo:"img/khach-hang-lam-viec/rochdale-5.jpg", caption:"Rochdale — khu vực buffing hoàn thiện đồ nội thất" },
-  { group:"AA Corporation", photo:"img/khach-hang-lam-viec/aa-1.jpg", caption:"AA Corporation — cổng nhà máy tại Trảng Bàng, Tây Ninh" },
-  { group:"AA Corporation", photo:"img/khach-hang-lam-viec/aa-3.jpg", caption:"AA Corporation — đánh bóng bề mặt sơn bằng máy Mirka DEROS" },
-  { group:"AA Corporation", photo:"img/khach-hang-lam-viec/aa-5.jpg", caption:"AA Corporation — toàn cảnh xưởng gia công đá tại nhà máy" },
-  { group:"Sài Gòn River", photo:"img/khach-hang-lam-viec/saigon-river-1.jpg", caption:"Sài Gòn River — kiểm tra bề mặt bàn composite bóng gương" },
-  { group:"Sài Gòn River", photo:"img/khach-hang-lam-viec/saigon-river-2.jpg", caption:"Sài Gòn River — kiểm tra bề mặt sản phẩm bê tông đúc sẵn" },
-  { group:"Sài Gòn River", photo:"img/khach-hang-lam-viec/saigon-river-3.jpg", caption:"Sài Gòn River — kỹ thuật Nhất Quán và Mirka trao đổi tại xưởng sản xuất" },
-  { group:"Porsche Sài Gòn", photo:"img/khach-hang-lam-viec/porsche-saigon-1.jpg", caption:"Porsche Sài Gòn — xưởng dịch vụ thân vỏ và sơn" },
-  { group:"Porsche Sài Gòn", photo:"img/khach-hang-lam-viec/porsche-saigon-2.jpg", caption:"Porsche Sài Gòn — buồng sơn sấy xử lý phụ tùng thân xe" },
-  { group:"Porsche Sài Gòn", photo:"img/khach-hang-lam-viec/porsche-saigon-3.jpg", caption:"Porsche Sài Gòn — bộ súng phun sơn DeVilbiss tại trạm sơn" },
-  { group:"Tân Hòa", photo:"img/khach-hang-lam-viec/tanhoa-1.jpg", caption:"Tân Hòa — khu vực chuyên sơn lót trên dây chuyền" },
-  { group:"Tân Hòa", photo:"img/khach-hang-lam-viec/tanhoa-2.jpg", caption:"Tân Hòa — công nhân chà nhám mặt bàn trước khi sơn" },
-  { group:"Tân Hòa", photo:"img/khach-hang-lam-viec/tanhoa-3.jpg", caption:"Tân Hòa — dây chuyền sản xuất bàn ghế gỗ ngoài trời" },
-  { group:"D & D", photo:"img/khach-hang-lam-viec/dd-1.jpg", caption:"D & D — xưởng sản xuất tủ gỗ sơn phủ" },
-  { group:"D & D", photo:"img/khach-hang-lam-viec/dd-2.jpg", caption:"D & D — thiết bị súng phun mới bàn giao cho xưởng" },
-  { group:"D & D", photo:"img/khach-hang-lam-viec/dd-3.jpg", caption:"D & D — dàn cabin phun sơn trên dây chuyền" },
-  { group:"Mỹ Xuân", photo:"img/khach-hang-lam-viec/my-xuan-1.jpg", caption:"Mỹ Xuân — máy sấy/chà nhám trên dây chuyền sản xuất ngói" },
-  { group:"Mỹ Xuân", photo:"img/khach-hang-lam-viec/my-xuan-2.jpg", caption:"Mỹ Xuân — dây chuyền phun sơn màu ngói bê tông" },
-  { group:"Mỹ Xuân", photo:"img/khach-hang-lam-viec/my-xuan-3.jpg", caption:"Mỹ Xuân — bơm màng Wagner cấp sơn cho dây chuyền" },
-  { group:"Gỗ Hạnh Phúc", photo:"img/khach-hang-lam-viec/go-hanh-phuc-1.jpg", caption:"Gỗ Hạnh Phúc — xưởng sản xuất và hoàn thiện nội thất gỗ" },
-  { group:"Gỗ Hạnh Phúc", photo:"img/khach-hang-lam-viec/go-hanh-phuc-2.jpg", caption:"Gỗ Hạnh Phúc — công nhân chà nhám tấm gỗ thông bằng máy cầm tay" },
-  { group:"Gỗ Hạnh Phúc", photo:"img/khach-hang-lam-viec/go-hanh-phuc-3.jpg", caption:"Gỗ Hạnh Phúc — chà nhám chi tiết trước khi hoàn thiện bề mặt" },
+  { group:"Triệu Phú Lộc", photo:"/api/media/work-photos/trieu-phu-loc-1.jpg", caption:"Triệu Phú Lộc — dây chuyền sơn phủ bề mặt gỗ" },
+  { group:"Triệu Phú Lộc", photo:"/api/media/work-photos/trieu-phu-loc-2.jpg", caption:"Triệu Phú Lộc — dàn bơm màng Wagner cấp sơn" },
+  { group:"Triệu Phú Lộc", photo:"/api/media/work-photos/trieu-phu-loc-4.jpg", caption:"Triệu Phú Lộc — kỹ thuật Nhất Quán kiểm tra hệ thống bơm sơn Wagner" },
+  { group:"Viglacera", photo:"/api/media/work-photos/viglacera-1.jpg", caption:"Viglacera — dây chuyền phun men sứ vệ sinh" },
+  { group:"Viglacera", photo:"/api/media/work-photos/viglacera-2.jpg", caption:"Viglacera — cabin robot phun men tự động" },
+  { group:"Viglacera", photo:"/api/media/work-photos/viglacera-3.jpg", caption:"Viglacera — thành phẩm sứ vệ sinh sau nung" },
+  { group:"Rochdale", photo:"/api/media/work-photos/rochdale-1.jpg", caption:"Rochdale — kỹ thuật Nhất Quán và Mirka hướng dẫn xử lý bề mặt bàn gỗ sơn bóng" },
+  { group:"Rochdale", photo:"/api/media/work-photos/rochdale-3.jpg", caption:"Rochdale — đánh bóng mặt bàn tròn sơn PU tại xưởng hoàn thiện" },
+  { group:"Rochdale", photo:"/api/media/work-photos/rochdale-5.jpg", caption:"Rochdale — khu vực buffing hoàn thiện đồ nội thất" },
+  { group:"AA Corporation", photo:"/api/media/work-photos/aa-1.jpg", caption:"AA Corporation — cổng nhà máy tại Trảng Bàng, Tây Ninh" },
+  { group:"AA Corporation", photo:"/api/media/work-photos/aa-3.jpg", caption:"AA Corporation — đánh bóng bề mặt sơn bằng máy Mirka DEROS" },
+  { group:"AA Corporation", photo:"/api/media/work-photos/aa-5.jpg", caption:"AA Corporation — toàn cảnh xưởng gia công đá tại nhà máy" },
+  { group:"Sài Gòn River", photo:"/api/media/work-photos/saigon-river-1.jpg", caption:"Sài Gòn River — kiểm tra bề mặt bàn composite bóng gương" },
+  { group:"Sài Gòn River", photo:"/api/media/work-photos/saigon-river-2.jpg", caption:"Sài Gòn River — kiểm tra bề mặt sản phẩm bê tông đúc sẵn" },
+  { group:"Sài Gòn River", photo:"/api/media/work-photos/saigon-river-3.jpg", caption:"Sài Gòn River — kỹ thuật Nhất Quán và Mirka trao đổi tại xưởng sản xuất" },
+  { group:"Porsche Sài Gòn", photo:"/api/media/work-photos/porsche-saigon-1.jpg", caption:"Porsche Sài Gòn — xưởng dịch vụ thân vỏ và sơn" },
+  { group:"Porsche Sài Gòn", photo:"/api/media/work-photos/porsche-saigon-2.jpg", caption:"Porsche Sài Gòn — buồng sơn sấy xử lý phụ tùng thân xe" },
+  { group:"Porsche Sài Gòn", photo:"/api/media/work-photos/porsche-saigon-3.jpg", caption:"Porsche Sài Gòn — bộ súng phun sơn DeVilbiss tại trạm sơn" },
+  { group:"Tân Hòa", photo:"/api/media/work-photos/tanhoa-1.jpg", caption:"Tân Hòa — khu vực chuyên sơn lót trên dây chuyền" },
+  { group:"Tân Hòa", photo:"/api/media/work-photos/tanhoa-2.jpg", caption:"Tân Hòa — công nhân chà nhám mặt bàn trước khi sơn" },
+  { group:"Tân Hòa", photo:"/api/media/work-photos/tanhoa-3.jpg", caption:"Tân Hòa — dây chuyền sản xuất bàn ghế gỗ ngoài trời" },
+  { group:"D & D", photo:"/api/media/work-photos/dd-1.jpg", caption:"D & D — xưởng sản xuất tủ gỗ sơn phủ" },
+  { group:"D & D", photo:"/api/media/work-photos/dd-2.jpg", caption:"D & D — thiết bị súng phun mới bàn giao cho xưởng" },
+  { group:"D & D", photo:"/api/media/work-photos/dd-3.jpg", caption:"D & D — dàn cabin phun sơn trên dây chuyền" },
+  { group:"Mỹ Xuân", photo:"/api/media/work-photos/my-xuan-1.jpg", caption:"Mỹ Xuân — máy sấy/chà nhám trên dây chuyền sản xuất ngói" },
+  { group:"Mỹ Xuân", photo:"/api/media/work-photos/my-xuan-2.jpg", caption:"Mỹ Xuân — dây chuyền phun sơn màu ngói bê tông" },
+  { group:"Mỹ Xuân", photo:"/api/media/work-photos/my-xuan-3.jpg", caption:"Mỹ Xuân — bơm màng Wagner cấp sơn cho dây chuyền" },
+  { group:"Gỗ Hạnh Phúc", photo:"/api/media/work-photos/go-hanh-phuc-1.jpg", caption:"Gỗ Hạnh Phúc — xưởng sản xuất và hoàn thiện nội thất gỗ" },
+  { group:"Gỗ Hạnh Phúc", photo:"/api/media/work-photos/go-hanh-phuc-2.jpg", caption:"Gỗ Hạnh Phúc — công nhân chà nhám tấm gỗ thông bằng máy cầm tay" },
+  { group:"Gỗ Hạnh Phúc", photo:"/api/media/work-photos/go-hanh-phuc-3.jpg", caption:"Gỗ Hạnh Phúc — chà nhám chi tiết trước khi hoàn thiện bề mặt" },
 ];
 
 const WORK_PHOTO_CUSTOMERS = ["Triệu Phú Lộc", "Rochdale", "AA Corporation", "Sài Gòn River", "Porsche Sài Gòn", "Tân Hòa", "D & D", "Mỹ Xuân", "Gỗ Hạnh Phúc", "Viglacera"];
@@ -1780,7 +1778,19 @@ function observeFadeUps(){
   document.querySelectorAll(".fade-up:not(.in-view)").forEach(el=>fadeObserver.observe(el));
 }
 
+function canSeeWorkPhotos(){
+  return !!currentUser && (currentUser.role === "admin" || currentUser.role === "staff");
+}
+
+function applyWorkPhotosAccess(){
+  const tab = document.querySelector('.site-tab[data-page="workphotos"]');
+  if(tab) tab.style.display = canSeeWorkPhotos() ? "" : "none";
+  if(!canSeeWorkPhotos() && pageFromHash() === "workphotos") setPage("home");
+  if(canSeeWorkPhotos() && pageFromHash() === "workphotos") setPage("workphotos");
+}
+
 function setPage(page){
+  if(page === "workphotos" && !canSeeWorkPhotos()) page = "home";
   document.querySelectorAll(".site-tab").forEach(t=>t.classList.remove("active"));
   const activeBtn = document.querySelector(`.site-tab[data-page="${page}"]`);
   if(activeBtn) activeBtn.classList.add("active");

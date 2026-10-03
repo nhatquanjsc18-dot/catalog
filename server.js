@@ -1,3 +1,4 @@
+const fs = require("fs");
 const express = require("express");
 const session = require("express-session");
 const bcrypt = require("bcryptjs");
@@ -154,6 +155,13 @@ app.post("/api/customer/interests", requireRole("customer"), (req, res) => {
 app.delete("/api/customer/interests/:key", requireRole("customer"), (req, res) => {
   db.get("interests").remove({ customerId: req.session.user.id, key: req.params.key }).write();
   res.json({ ok: true });
+});
+
+const WORK_PHOTOS_DIR = path.join(__dirname, "protected-media", "work-photos");
+app.get("/api/media/work-photos/:file", requireRole("admin", "staff"), (req, res) => {
+  const filePath = path.join(WORK_PHOTOS_DIR, path.basename(req.params.file));
+  if (!fs.existsSync(filePath)) return res.status(404).end();
+  res.sendFile(filePath);
 });
 
 app.use(
