@@ -10,7 +10,7 @@ if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
 
 const adapter = new FileSync(path.join(DB_DIR, "db.json"));
 const db = low(adapter);
-db.defaults({ users: [], interests: [], featured: [] }).write();
+db.defaults({ users: [], interests: [], featured: [], featuredSeeded: false }).write();
 
 function seedAdmin() {
   const hasAdmin = db.get("users").find({ role: "admin" }).value();
@@ -40,7 +40,8 @@ seedAdmin();
 
 function seedFeatured() {
   const seedFile = path.join(__dirname, "featured-seed.json");
-  if (!fs.existsSync(seedFile)) return;
+  if (!fs.existsSync(seedFile) || db.get("featuredSeeded").value()) return;
+  db.set("featuredSeeded", true).write();
   const keys = JSON.parse(fs.readFileSync(seedFile, "utf8"));
   const current = db.get("featured").value();
   const missing = keys.filter((k) => !current.includes(k));
