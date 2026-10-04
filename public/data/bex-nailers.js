@@ -9,7 +9,7 @@
       "wood"
     ],
     "shortDesc": "Mini Palm Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/APNF1.jpg",
     "specs": {
       "Loại đinh/ghim": "Bulk nails",
       "Chiều dài đinh": "50 - 90 mm",
@@ -29,7 +29,7 @@
       "wood"
     ],
     "shortDesc": "23 Ga Micro-pin Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/AMP2335.jpg",
     "specs": {
       "Loại đinh/ghim": "23 GA head / headless pin",
       "Chiều dài đinh": "12, 15, 18, 19, 25, 30, 35 mm",
@@ -50,7 +50,7 @@
       "wood"
     ],
     "shortDesc": "18 Ga 1-1/4\" Finish Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ASBN1830.jpg",
     "specs": {
       "Loại đinh/ghim": "18 Gauge F30",
       "Chiều dài đinh": "10 - 30 mm",
@@ -71,7 +71,7 @@
       "wood"
     ],
     "shortDesc": "18 Ga 2\" Finish Nailer (w/o Contact Trip) — BEX.",
-    "img": "",
+    "img": "img/bex/ASBN1850SX.jpg",
     "specs": {
       "Loại đinh/ghim": "18 GA F50",
       "Chiều dài đinh": "10 - 50 mm",
@@ -92,7 +92,7 @@
       "wood"
     ],
     "shortDesc": "18 Ga 2\" Finish Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ASBN1850.jpg",
     "specs": {
       "Loại đinh/ghim": "18 GA F50",
       "Chiều dài đinh": "10 - 50 mm",
@@ -113,7 +113,7 @@
       "wood"
     ],
     "shortDesc": "20 Ga 422j Fine Wire Stapler — BEX.",
-    "img": "",
+    "img": "img/bex/AS422J.jpg",
     "specs": {
       "Loại đinh/ghim": "20 GA 422J",
       "Chiều dài đinh": "13 - 22 mm",
@@ -135,7 +135,7 @@
       "wood"
     ],
     "shortDesc": "20 Ga 1013j Fine Wire Stapler — BEX.",
-    "img": "",
+    "img": "img/bex/AS1013J.jpg",
     "specs": {
       "Loại đinh/ghim": "20 GA 1013J",
       "Chiều dài đinh": "4 - 13 mm",
@@ -158,7 +158,7 @@
       "construction"
     ],
     "shortDesc": "16 Ga 2-1/2\" Finish Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ASBN1664.jpg",
     "specs": {
       "Loại đinh/ghim": "16 GA T64",
       "Chiều dài đinh": "19 - 64 mm",
@@ -180,7 +180,7 @@
       "construction"
     ],
     "shortDesc": "16 Ga Fst50 Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ASBN1650.jpg",
     "specs": {
       "Loại đinh/ghim": "16 GA FST / T Type",
       "Chiều dài đinh": "15 - 50 mm",
@@ -202,7 +202,7 @@
       "wood"
     ],
     "shortDesc": "16 Ga 2-1/2\" Finish Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/AT2264.jpg",
     "specs": {
       "Loại đinh/ghim": "14 Gauge T64",
       "Chiều dài đinh": "18 - 64 mm",
@@ -223,7 +223,7 @@
       "wood"
     ],
     "shortDesc": "18 Ga. 1/4\" Narrow Crown Stapler — BEX.",
-    "img": "",
+    "img": "img/bex/AS9040.jpg",
     "specs": {
       "Loại đinh/ghim": "18 Gauge L / 90 type",
       "Chiều dài đinh": "13 - 40 mm",
@@ -246,7 +246,7 @@
       "wood"
     ],
     "shortDesc": "16 Ga. Heavy Duty Medium Crown N-stapler — BEX.",
-    "img": "",
+    "img": "img/bex/AS16851N.jpg",
     "specs": {
       "Loại đinh/ghim": "16 GA N Type",
       "Chiều dài đinh": "19 - 51 mm",
@@ -268,7 +268,7 @@
       "construction"
     ],
     "shortDesc": "Concrete Pin Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/AT3038.jpg",
     "specs": {
       "Loại đinh/ghim": "Concrete Pin",
       "Chiều dài đinh": "15 - 40 mm",
@@ -289,7 +289,7 @@
       "construction"
     ],
     "shortDesc": "Industrial Cn57 Coil Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ACN57.jpg",
     "specs": {
       "Loại đinh/ghim": "15 degree Wire Coil Nail",
       "Chiều dài đinh": "25 - 57 mm",
@@ -310,7 +310,7 @@
       "construction"
     ],
     "shortDesc": "Industrial Cn70 Coil Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ACN70.jpg",
     "specs": {
       "Loại đinh/ghim": "15 degree Wire Coil Nail",
       "Chiều dài đinh": "45 - 70 mm",
@@ -331,7 +331,7 @@
       "construction"
     ],
     "shortDesc": "Industrial Cn90 Coil Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ACN90.jpg",
     "specs": {
       "Loại đinh/ghim": "15 degree Wire Coil Nail",
       "Chiều dài đinh": "45 - 90 mm",
@@ -352,7 +352,7 @@
       "construction"
     ],
     "shortDesc": "Industrial Cn100 Coil Nailer — BEX.",
-    "img": "",
+    "img": "img/bex/ACN100.jpg",
     "specs": {
       "Loại đinh/ghim": "15 degree Wire Coil Nail",
       "Chiều dài đinh": "55 - 100 mm",
