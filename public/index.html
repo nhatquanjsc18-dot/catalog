@@ -1214,10 +1214,12 @@
 <script src="data/tonghop-products.js"></script>
 <script src="data/prona-products.js"></script>
 <script src="data/walther-pilot-automatic-guns.js"></script>
+<script src="data/bex-nailers.js"></script>
 <script src="data/3m-abrasive-discs.js"></script>
 
 <script>
 const BRAND_META = [
+  { id:"bex",        name:"BEX", country:"—", category:"Súng bắn đinh khí nén", color:"#E4002B", on:"#FFFFFF" },
   { id:"walther",    name:"Walther Pilot", country:"Đức", category:"Súng phun tự động & thiết bị sơn công nghiệp", color:"#1B4F72", on:"#FFFFFF" },
   { id:"featured",   name:"Sản phẩm nổi bật", country:"", category:"", color:"#D4A017", on:"#141414" },
   { id:"mirka",      name:"Mirka",       country:"Phần Lan", category:"Máy chà nhám",         color:"#FDC100", on:"#141414" },
@@ -1276,6 +1278,7 @@ const ALL_PRODUCTS = []
   .concat(normalizeBrand(window.TONGHOP_PRODUCTS, "tonghop"))
   .concat(normalizeBrand(window.PRONA_PRODUCTS, "prona"))
   .concat(normalizeBrand(window.WALTHER_PRODUCTS, "walther"))
+  .concat(normalizeBrand(window.BEX_PRODUCTS, "bex"))
   .concat(normalizeBrand(window.M3_PRODUCTS, "3m"));
 
 document.getElementById("subtitleCount").textContent =
