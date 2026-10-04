@@ -1278,7 +1278,7 @@ const ALL_PRODUCTS = []
   .concat(normalizeBrand(window.M3_PRODUCTS, "3m"));
 
 document.getElementById("subtitleCount").textContent =
-  `${ALL_PRODUCTS.length} sản phẩm thật · ${BRAND_META.length} thương hiệu — dữ liệu trực tiếp từ website chính hãng.`;
+  `${ALL_PRODUCTS.length} sản phẩm thật · ${BRAND_META.filter(b=>b.id!=="featured" && ALL_PRODUCTS.some(p=>p.brandId===b.id)).length} thương hiệu — dữ liệu trực tiếp từ website chính hãng.`;
 
 const brandsWithProductsCount = BRAND_META.filter(b => ALL_PRODUCTS.some(p => p.brandId === b.id)).length;
 document.getElementById("productsTabCount").textContent =
@@ -1464,7 +1464,7 @@ function renderFilters(){
   bar.appendChild(selectAllChip);
 
   BRAND_META.forEach(b=>{
-    const count = b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured).length : ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
+    const count = (b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured) : ALL_PRODUCTS.filter(p=>p.brandId===b.id)).filter(p=>state.activeIndustries.size===0 || p.industries.some(i=>state.activeIndustries.has(i))).length;
     const chip = document.createElement("button");
     chip.className = "chip" + (state.activeBrands.has(b.id) ? " on" : "");
     chip.style.setProperty("--dot", b.color);
@@ -1493,6 +1493,7 @@ function renderFilters(){
     chip.innerHTML = `<svg viewBox="0 0 24 24">${ind.icon}</svg><span>${ind.label}</span><span class="count">${count}</span>`;
     chip.addEventListener("click", ()=>{
       state.activeIndustries = state.activeIndustries.has(ind.id) ? new Set() : new Set([ind.id]);
+      if(state.activeIndustries.size) state.activeBrands = new Set(BRAND_META.map(b=>b.id));
       renderFilters(); renderAll();
     });
     industryRow.appendChild(chip);
@@ -1517,6 +1518,7 @@ function renderGrid(){
     const totalForBrand = b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured).length : ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
     if(totalForBrand === 0) return;
     const products = productsForBrand(b.id);
+    if(products.length === 0) return;
     const section = document.createElement("section");
     section.className = "brand-section";
     section.style.setProperty("--bc", b.color);
@@ -1563,6 +1565,7 @@ function renderTable(){
     const totalForBrand = b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured).length : ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
     if(totalForBrand === 0) return;
     const products = productsForBrand(b.id);
+    if(products.length === 0) return;
     // Union of spec keys across products in this brand's filtered set, capped to keep table readable
     const keySet = [];
     products.forEach(p=>Object.keys(p.specs).forEach(k=>{ if(!keySet.includes(k)) keySet.push(k); }));
@@ -1607,6 +1610,7 @@ function renderSheet(){
     const totalForBrand = b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured).length : ALL_PRODUCTS.filter(p=>p.brandId===b.id).length;
     if(totalForBrand === 0) return;
     const products = productsForBrand(b.id);
+    if(products.length === 0) return;
     const section = document.createElement("section");
     section.className = "brand-section";
     section.style.setProperty("--bc", b.color);

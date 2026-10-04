@@ -81,7 +81,7 @@
           <label>Họ tên</label>
           <input name="name" required>
         </div>
-        <div>
+        <div id="companyField">
           <label>Công ty</label>
           <input name="company">
         </div>
@@ -138,6 +138,15 @@
   const usersTableWrap = document.getElementById("usersTableWrap");
   const createForm = document.getElementById("createForm");
   const createMsg = document.getElementById("createMsg");
+  const roleEl = document.getElementById("role");
+  const companyField = document.getElementById("companyField");
+  function syncCompanyField(){
+    const isStaff = roleEl.value === "staff";
+    companyField.style.display = isStaff ? "none" : "";
+    companyField.querySelector("input").disabled = isStaff;
+  }
+  roleEl.addEventListener("change", syncCompanyField);
+  syncCompanyField();
 
   async function requireAdmin(){
     const r = await fetch("/api/me");
