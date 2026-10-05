@@ -1456,6 +1456,12 @@ function productsForBrand(brandId){
   return list;
 }
 
+function brandChipOrder(){
+  const top = BRAND_META.filter(b=>b.id==="featured");
+  const rest = BRAND_META.filter(b=>b.id!=="featured").sort((x,y)=>x.name.localeCompare(y.name,"vi",{sensitivity:"base"}));
+  return [...top, ...rest];
+}
+
 function renderFilters(){
   const bar = document.getElementById("filterBar");
   bar.querySelectorAll(".chip").forEach(el=>el.remove());
@@ -1472,7 +1478,7 @@ function renderFilters(){
   });
   bar.appendChild(selectAllChip);
 
-  BRAND_META.forEach(b=>{
+  brandChipOrder().forEach(b=>{
     const count = (b.id === "featured" ? ALL_PRODUCTS.filter(isFeatured) : ALL_PRODUCTS.filter(p=>p.brandId===b.id)).filter(p=>state.activeIndustries.size===0 || p.industries.some(i=>state.activeIndustries.has(i))).length;
     const chip = document.createElement("button");
     chip.className = "chip" + (state.activeBrands.has(b.id) ? " on" : "");
