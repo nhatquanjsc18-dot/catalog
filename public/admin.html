@@ -89,6 +89,26 @@
           <label>Số điện thoại</label>
           <input name="phone">
         </div>
+        <div id="industryField">
+          <label>Nhóm ngành</label>
+          <select name="industry" id="industrySel">
+            <option value="">-- Chọn nhóm ngành --</option>
+            <option value="collision">Sửa chữa va chạm ô tô</option>
+            <option value="wood">Gỗ &amp; nội thất</option>
+            <option value="construction">Xây dựng &amp; hoàn thiện nội thất</option>
+            <option value="marine">Tàu thuyền</option>
+            <option value="automotive">Giải pháp ngành sản xuất Ô tô</option>
+            <option value="composite">Vật liệu composite</option>
+            <option value="metalworking">Gia công kim loại</option>
+            <option value="tool-manufacturing">Sản xuất dụng cụ</option>
+            <option value="aerospace">Hàng không</option>
+            <option value="wind-energy">Điện gió</option>
+            <option value="powder-coating">Sơn tĩnh điện</option>
+            <option value="pharma-food">Công nghệ thực phẩm và dược</option>
+            <option value="other">Khác</option>
+          </select>
+          <input name="industryOther" id="industryOther" placeholder="Nhập nhóm ngành khác" style="margin-top:8px;display:none;">
+        </div>
         <div>
           <label>Tên đăng nhập</label>
           <input name="username" required>
@@ -145,8 +165,20 @@
     companyField.style.display = isStaff ? "none" : "";
     companyField.querySelector("input").disabled = isStaff;
   }
-  roleEl.addEventListener("change", syncCompanyField);
+  const industryField = document.getElementById("industryField");
+  const industrySel = document.getElementById("industrySel");
+  const industryOther = document.getElementById("industryOther");
+  function syncIndustryField(){
+    const isCustomer = roleEl.value === "customer";
+    industryField.style.display = isCustomer ? "" : "none";
+    industrySel.disabled = !isCustomer;
+    industryOther.disabled = !isCustomer;
+    industryOther.style.display = isCustomer && industrySel.value === "other" ? "" : "none";
+  }
+  industrySel.addEventListener("change", syncIndustryField);
+  roleEl.addEventListener("change", () => { syncCompanyField(); syncIndustryField(); });
   syncCompanyField();
+  syncIndustryField();
 
   async function requireAdmin(){
     const r = await fetch("/api/me");

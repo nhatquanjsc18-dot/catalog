@@ -24,6 +24,16 @@ app.use(
   })
 );
 
+const CUSTOMER_INDUSTRIES = ["collision", "wood", "construction", "marine", "automotive", "composite", "metalworking", "tool-manufacturing", "aerospace", "wind-energy", "powder-coating", "pharma-food", "other"];
+
+function industryFields(body) {
+  const industry = body.industry || "";
+  if (!industry) return { industry: "", industryOther: "" };
+  if (!CUSTOMER_INDUSTRIES.includes(industry)) return null;
+  if (industry === "other") return { industry, industryOther: String(body.industryOther || "").trim() };
+  return { industry, industryOther: "" };
+}
+
 function publicUser(u) {
   return {
     id: u.id,
@@ -32,6 +42,8 @@ function publicUser(u) {
     company: u.company,
     phone: u.phone,
     username: u.username,
+    industry: u.industry || "",
+    industryOther: u.industryOther || "",
   };
 }
 
@@ -75,6 +87,9 @@ app.get("/api/admin/users", requireRole("admin"), (req, res) => {
 app.post("/api/admin/users", requireRole("admin"), (req, res) => {
   const { role, name, company, phone, username, password } = req.body || {};
   if (!["staff", "customer"].includes(role)) return res.status(400).json({ error: "Vai trò không hợp lệ" });
+  const ind = role === "customer" ? industryFields(req.body || {}) : { industry: "", industryOther: "" };
+  if (!ind) return res.status(400).json({ error: "Nhóm ngành không hợp lệ" });
+  if (ind.industry === "other" && !ind.industryOther) return res.status(400).json({ error: "Vui lòng nhập nhóm ngành khác" });
   if (!name || !username || !password) return res.status(400).json({ error: "Thiếu tên, tên đăng nhập hoặc mật khẩu" });
   if (db.get("users").find({ username }).value()) return res.status(409).json({ error: "Tên đăng nhập đã tồn tại" });
   const user = {
@@ -85,6 +100,8 @@ app.post("/api/admin/users", requireRole("admin"), (req, res) => {
     phone: phone || "",
     username,
     passwordHash: bcrypt.hashSync(password, 10),
+    industry: ind.industry,
+    industryOther: ind.industryOther,
     createdAt: new Date().toISOString(),
   };
   db.get("users").push(user).write();
