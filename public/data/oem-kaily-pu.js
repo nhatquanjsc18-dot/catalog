@@ -13,7 +13,7 @@
       "Đường kính trong (I.D)": "2.5 mm",
       "Đường kính ngoài (O.D)": "4 mm",
       "Chiều dài cuộn": "200 m",
-      "Màu sẵn có": "Trong (C), Cam (O), Xanh dương (BU), Đen (B)"
+      "Màu dây": "Trong (C), Cam (O), Xanh dương (BU), Đen (B)"
     },
     "specConfidence": "verified"
   },
@@ -30,7 +30,7 @@
       "Đường kính trong (I.D)": "4 mm",
       "Đường kính ngoài (O.D)": "6 mm",
       "Chiều dài cuộn": "200 m",
-      "Màu sẵn có": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
+      "Màu dây": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
     },
     "specConfidence": "verified"
   },
@@ -47,7 +47,7 @@
       "Đường kính trong (I.D)": "5 mm",
       "Đường kính ngoài (O.D)": "8 mm",
       "Chiều dài cuộn": "100 m",
-      "Màu sẵn có": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
+      "Màu dây": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
     },
     "specConfidence": "verified"
   },
@@ -64,7 +64,7 @@
       "Đường kính trong (I.D)": "6.5 mm",
       "Đường kính ngoài (O.D)": "10 mm",
       "Chiều dài cuộn": "100 m",
-      "Màu sẵn có": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
+      "Màu dây": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
     },
     "specConfidence": "verified"
   },
@@ -81,7 +81,7 @@
       "Đường kính trong (I.D)": "8 mm",
       "Đường kính ngoài (O.D)": "12 mm",
       "Chiều dài cuộn": "100 m",
-      "Màu sẵn có": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
+      "Màu dây": "Trong (C), Cam (O), Xanh dương (BU), Đen (B), Vàng (Y)"
     },
     "specConfidence": "verified"
   }
