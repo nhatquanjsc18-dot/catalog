@@ -196,7 +196,9 @@
     "name": "WAXV — Súng phun tự động Walther Pilot",
     "model": "WAXV",
     "subCategory": "Súng phun tự động",
-    "industries": [],
+    "industries": [
+      "pharma-food"
+    ],
     "shortDesc": ">Benefits",
     "img": "img/walther/walther-wa-xv.jpg",
     "specs": {
