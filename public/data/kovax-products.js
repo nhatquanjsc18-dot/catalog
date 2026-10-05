@@ -168,6 +168,110 @@
         "Nguồn": "en.kovax.com (Products)"
       },
       "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-eagle-max",
+      "name": "Eagle Brand EAGLE MAX (SiC)",
+      "model": "EAGLE MAX, SiC",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước đa năng, hạt SiC, nền dẻo. Dải hạt P240 đến P2000, khổ 230 × 280 mm. Dùng cho sửa chữa ô tô.",
+      "img": "img/kovax/eagle-max.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-bonega",
+      "name": "Eagle Brand BONEGA (SiC)",
+      "model": "BONEGA, SiC",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước, kết hợp độ dẻo cao và độ bền, giảm áp lực khi chà và cho kết quả chuyên nghiệp. Hạt SiC, dải P240 đến P2000, khổ 230 × 280 mm.",
+      "img": "img/kovax/bonega.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-kfaa",
+      "name": "Eagle Brand KFAA (AlO)",
+      "model": "KFAA, AlO",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước đa năng, hạt oxit nhôm, nền dẻo. Dải hạt P240 đến P2000, khổ 230 × 280 mm.",
+      "img": "img/kovax/kfaa.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-next",
+      "name": "Eagle Brand NEXT (SiC)",
+      "model": "NEXT, SiC",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước đa năng, hạt SiC. Dải hạt P240 đến P2000, khổ 230 × 280 mm. Có bảng dữ liệu an toàn (SDS).",
+      "img": "img/kovax/next.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-sfac",
+      "name": "Eagle Brand SFAC/SFCC (SiC)",
+      "model": "SFAC/SFCC, SiC",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước đa năng, hạt SiC, nền dẻo. Dải hạt P240 đến P2000, khổ 230 × 280 mm.",
+      "img": "img/kovax/sfac.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-sgfac",
+      "name": "Eagle Brand SGFAC/SGFCC (SiC)",
+      "model": "SGFAC/SGFCC, SiC",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Giấy nhám chống nước đa năng, hạt SiC. Dải hạt P220 đến P1200, khổ 230 × 280 mm.",
+      "img": "img/kovax/sgfac.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-buflex",
+      "name": "Buflex",
+      "model": "Buflex",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Hệ thống chà ướt cuối cùng trước khi đánh bóng, cho sơn đặc/cứng cao, sơn trong chống xước và sơn cũ. Giảm đáng kể thời gian đánh bóng và rủi ro làm lại. Khổ 70 × 114 mm và đĩa Φ150 mm, hạt K-2000 và K-3000.",
+      "img": "img/kovax/buflex.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
+    },
+    {
+      "slug": "kovax-super-buflex",
+      "name": "Super Buflex (chà khô)",
+      "model": "Super Buflex Dry",
+      "subCategory": "Sản phẩm Kovax",
+      "industries": [],
+      "shortDesc": "Hệ thống chà khô cuối cùng trước khi đánh bóng, không cần nước. Dùng cho sơn đặc/cứng cao, sơn trong chống xước và sơn gốc nước. Có hạt K-2000 đến K-4000, khổ 130 × 170 mm và đĩa Φ152 mm 15 lỗ.",
+      "img": "img/kovax/dry-super-buflex.jpg",
+      "specs": {
+        "Nguồn": "en.kovax.com (Products)"
+      },
+      "specConfidence": "partial"
     }
   ];
   window.KOVAX_PRODUCTS = (window.KOVAX_PRODUCTS || []).concat(list);
