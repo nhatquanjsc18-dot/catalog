@@ -92,7 +92,7 @@
   }
   .account-widget a:hover, .account-widget button:hover{background:rgba(255,255,255,0.18); border-color:var(--chrome-line);}
   .account-widget .acc-name{color:var(--chrome-line); font-weight:800;}
-  @media (max-width:640px){ .account-widget .acc-label{display:none;} }
+  @media (max-width:640px){ .account-widget a, .account-widget button{padding:6px 11px; font-size:12px;} }
 
   .header-search{position:relative; display:flex; align-items:center; gap:8px; min-width:0;}
   .header-search-btn{
@@ -1370,7 +1370,7 @@ function renderAccountWidget(){
       renderAll();
     });
   } else {
-    el.innerHTML = `<a href="https://catalog.nhatquan.vn/login.html"><span class="acc-label">Đăng nhập</span></a>`;
+    el.innerHTML = `<a href="/login.html">Đăng nhập</a>`;
   }
 }
 
