@@ -1219,11 +1219,15 @@
 <script src="data/oem-kaily-pu.js"></script>
 <script src="data/oem-kaily-pe.js"></script>
 <script src="data/sames-products.js"></script>
+<script src="data/kovax-products.js"></script>
+<script src="data/starcke-products.js"></script>
 <script src="data/3m-abrasive-discs.js"></script>
 
 <script>
 const BRAND_META = [
   { id:"meiji",      name:"Meiji", country:"Nhật Bản", category:"Súng phun sơn cầm tay & tự động", color:"#0071BD", on:"#FFFFFF" },
+  { id:"kovax",      name:"Kovax", country:"Nhật Bản", category:"Vật liệu mài (giấy nhám, đĩa, phim)", color:"#1F3A5F", on:"#FFFFFF" },
+  { id:"starcke",   name:"Starcke", country:"Đức", category:"Vật liệu mài (đĩa, tam giác, dải)", color:"#8A1C1C", on:"#FFFFFF" },
   { id:"sames",      name:"Sames", country:"—", category:"Thiết bị phun sơn & keo chất lỏng", color:"#00537A", on:"#FFFFFF" },
   { id:"bex",        name:"BEX", country:"—", category:"Súng bắn đinh khí nén", color:"#E4002B", on:"#FFFFFF" },
   { id:"walther",    name:"Walther Pilot", country:"Đức", category:"Súng phun tự động & thiết bị sơn công nghiệp", color:"#1B4F72", on:"#FFFFFF", article:"bai-viet/walther-sung-phun-tu-dong.html" },
@@ -1289,6 +1293,8 @@ const ALL_PRODUCTS = []
   .concat(normalizeBrand(window.MEIJI_PRODUCTS, "meiji"))
   .concat(normalizeBrand(window.OEM_KAILY_PRODUCTS, "oem"))
   .concat(normalizeBrand(window.SAMES_PRODUCTS, "sames"))
+  .concat(normalizeBrand(window.KOVAX_PRODUCTS, "kovax"))
+  .concat(normalizeBrand(window.STARCKE_PRODUCTS, "starcke"))
   .concat(normalizeBrand(window.M3_PRODUCTS, "3m"));
 
 document.getElementById("subtitleCount").textContent =
