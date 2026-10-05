@@ -1055,10 +1055,7 @@
 
     <div class="industries-more">
       <h3>Ngành nghề khác Nhất Quán phục vụ</h3>
-      <ul class="industries-more-list">
-        <li>Sản xuất kính cường lực</li>
-        <li>Sản xuất gốm sứ</li>
-      </ul>
+      <ul class="industries-more-list" id="otherIndustriesList"></ul>
     </div>
 
     <div class="why-us">
@@ -2010,6 +2007,16 @@ function renderIndustriesGrid(){
   });
 }
 
+async function loadOtherIndustries(){
+  const ul = document.getElementById("otherIndustriesList");
+  if(!ul) return;
+  try{
+    const r = await fetch("/api/industry-options");
+    const { options } = await r.json();
+    ul.innerHTML = options.filter(o=>o.group==="service").map(o=>`<li>${o.label.replace(/&/g,"&amp;").replace(/</g,"&lt;")}</li>`).join("");
+  }catch(e){}
+}
+
 function renderMirkaIndustriesGrid(){
   const grid = document.getElementById("industriesGrid");
   grid.innerHTML = "";
@@ -2036,6 +2043,7 @@ function renderMirkaIndustriesGrid(){
 }
 
 renderMirkaIndustriesGrid();
+loadOtherIndustries();
 renderCustomerLogos();
 renderWorkPhotosGrid();
 setPage(pageFromHash() || "home");

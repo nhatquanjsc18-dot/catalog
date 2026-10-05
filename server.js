@@ -24,7 +24,84 @@ app.use(
   })
 );
 
-const CUSTOMER_INDUSTRIES = ["collision", "wood", "construction", "marine", "automotive", "composite", "metalworking", "tool-manufacturing", "aerospace", "wind-energy", "powder-coating", "pharma-food", "glass-tempered", "ceramics", "b2b-trade", "other"];
+const INDUSTRY_OPTIONS = [
+  {
+    "id": "collision",
+    "label": "Sửa chữa va chạm ô tô",
+    "group": "product"
+  },
+  {
+    "id": "wood",
+    "label": "Gỗ & nội thất",
+    "group": "product"
+  },
+  {
+    "id": "construction",
+    "label": "Xây dựng & hoàn thiện nội thất",
+    "group": "product"
+  },
+  {
+    "id": "marine",
+    "label": "Tàu thuyền",
+    "group": "product"
+  },
+  {
+    "id": "automotive",
+    "label": "Giải pháp ngành sản xuất Ô tô",
+    "group": "product"
+  },
+  {
+    "id": "composite",
+    "label": "Vật liệu composite",
+    "group": "product"
+  },
+  {
+    "id": "metalworking",
+    "label": "Gia công kim loại",
+    "group": "product"
+  },
+  {
+    "id": "tool-manufacturing",
+    "label": "Sản xuất dụng cụ",
+    "group": "product"
+  },
+  {
+    "id": "aerospace",
+    "label": "Hàng không",
+    "group": "product"
+  },
+  {
+    "id": "wind-energy",
+    "label": "Điện gió",
+    "group": "product"
+  },
+  {
+    "id": "powder-coating",
+    "label": "Sơn tĩnh điện",
+    "group": "product"
+  },
+  {
+    "id": "pharma-food",
+    "label": "Công nghệ thực phẩm và dược",
+    "group": "product"
+  },
+  {
+    "id": "glass-tempered",
+    "label": "Sản xuất kính cường lực",
+    "group": "service"
+  },
+  {
+    "id": "ceramics",
+    "label": "Sản xuất gốm sứ",
+    "group": "service"
+  },
+  {
+    "id": "b2b-trade",
+    "label": "Thương mại B2B",
+    "group": "service"
+  }
+];
+const CUSTOMER_INDUSTRIES = [...INDUSTRY_OPTIONS.map(o=>o.id), "other"];
 
 function industryFields(body) {
   const industry = body.industry || "";
@@ -68,6 +145,10 @@ app.post("/api/login", (req, res) => {
 
 app.post("/api/logout", (req, res) => {
   req.session.destroy(() => res.json({ ok: true }));
+});
+
+app.get("/api/industry-options", (req, res) => {
+  res.json({ options: INDUSTRY_OPTIONS.concat([{ id: "other", label: "Khác", group: "form" }]) });
 });
 
 app.get("/api/me", (req, res) => {

@@ -93,22 +93,6 @@
           <label>Nhóm ngành</label>
           <select name="industry" id="industrySel">
             <option value="">-- Chọn nhóm ngành --</option>
-            <option value="collision">Sửa chữa va chạm ô tô</option>
-            <option value="wood">Gỗ &amp; nội thất</option>
-            <option value="construction">Xây dựng &amp; hoàn thiện nội thất</option>
-            <option value="marine">Tàu thuyền</option>
-            <option value="automotive">Giải pháp ngành sản xuất Ô tô</option>
-            <option value="composite">Vật liệu composite</option>
-            <option value="metalworking">Gia công kim loại</option>
-            <option value="tool-manufacturing">Sản xuất dụng cụ</option>
-            <option value="aerospace">Hàng không</option>
-            <option value="wind-energy">Điện gió</option>
-            <option value="powder-coating">Sơn tĩnh điện</option>
-            <option value="pharma-food">Công nghệ thực phẩm và dược</option>
-            <option value="glass-tempered">Sản xuất kính cường lực</option>
-            <option value="ceramics">Sản xuất gốm sứ</option>
-            <option value="b2b-trade">Thương mại B2B</option>
-            <option value="other">Khác</option>
           </select>
           <input name="industryOther" id="industryOther" placeholder="Nhập nhóm ngành khác" style="margin-top:8px;display:none;">
         </div>
@@ -304,6 +288,10 @@
     const user = await requireAdmin();
     if(user){ loadUsers(); loadDrive(); }
   })();
+  fetch("/api/industry-options").then(r=>r.json()).then(({options})=>{
+    const sel=document.getElementById("industrySel");
+    options.forEach(o=>{ const op=document.createElement("option"); op.value=o.id; op.textContent=o.label; sel.appendChild(op); });
+  });
 </script>
 </body>
 </html>
