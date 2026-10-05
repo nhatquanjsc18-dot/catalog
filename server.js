@@ -84,7 +84,7 @@ app.get("/api/admin/users", requireRole("admin"), (req, res) => {
   res.json({ users });
 });
 
-app.post("/api/admin/users", requireRole("admin"), (req, res) => {
+function createUser(req, res) {
   const { role, name, company, phone, username, password } = req.body || {};
   if (!["staff", "customer"].includes(role)) return res.status(400).json({ error: "Vai trò không hợp lệ" });
   const ind = role === "customer" ? industryFields(req.body || {}) : { industry: "", industryOther: "" };
@@ -106,6 +106,13 @@ app.post("/api/admin/users", requireRole("admin"), (req, res) => {
   };
   db.get("users").push(user).write();
   res.json({ user: publicUser(user) });
+}
+
+app.post("/api/admin/users", requireRole("admin"), createUser);
+
+app.post("/api/staff/customers/new", requireRole("admin", "staff"), (req, res) => {
+  req.body = { ...(req.body || {}), role: "customer" };
+  createUser(req, res);
 });
 
 app.put("/api/admin/users/:id", requireRole("admin"), (req, res) => {

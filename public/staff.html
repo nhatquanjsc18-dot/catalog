@@ -48,6 +48,15 @@
   .interest-list .date{color:var(--text-muted); font-size:11px; display:block; margin-top:2px;}
   .empty-interests{color:var(--text-muted); font-size:13px; font-style:italic;}
   .empty{color:var(--text-muted); font-size:13.5px; padding:30px 0; text-align:center;}
+  .create-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:22px;}
+  .create-card h2{font-family:var(--font-display);font-size:16px;margin:0 0 14px;color:var(--chrome);}
+  .form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+  .create-card label{display:block;font-size:12.5px;font-weight:700;margin:0 0 5px;}
+  .create-card input,.create-card select{width:100%;padding:9px 11px;border:1px solid var(--border);border-radius:8px;font-size:13.5px;font-family:var(--font-body);background:#fff;box-sizing:border-box;}
+  .create-card button{margin-top:14px;padding:10px 20px;border:none;border-radius:8px;background:var(--chrome-line);color:#141414;font-weight:800;font-size:13.5px;cursor:pointer;font-family:var(--font-body);}
+  .create-msg{font-size:13px;margin-left:8px;}
+  .create-msg.err{color:#B3261E;}
+  .create-msg.ok{color:#1F8A4C;}
 </style>
 </head>
 <body>
@@ -60,6 +69,40 @@
   </div>
 </header>
 <main>
+  <div class="create-card">
+    <h2>Tạo tài khoản khách hàng</h2>
+    <form id="createCustomerForm">
+      <div class="form-grid">
+        <div><label>Họ tên</label><input name="name" required></div>
+        <div><label>Công ty</label><input name="company"></div>
+        <div><label>Số điện thoại</label><input name="phone"></div>
+        <div><label>Nhóm ngành</label>
+          <select name="industry" id="custIndustry">
+            <option value="">-- Chọn nhóm ngành --</option>
+            <option value="collision">Sửa chữa va chạm ô tô</option>
+            <option value="wood">Gỗ &amp; nội thất</option>
+            <option value="construction">Xây dựng &amp; hoàn thiện nội thất</option>
+            <option value="marine">Tàu thuyền</option>
+            <option value="automotive">Giải pháp ngành sản xuất Ô tô</option>
+            <option value="composite">Vật liệu composite</option>
+            <option value="metalworking">Gia công kim loại</option>
+            <option value="tool-manufacturing">Sản xuất dụng cụ</option>
+            <option value="aerospace">Hàng không</option>
+            <option value="wind-energy">Điện gió</option>
+            <option value="powder-coating">Sơn tĩnh điện</option>
+            <option value="pharma-food">Công nghệ thực phẩm và dược</option>
+            <option value="other">Khác</option>
+          </select>
+          <input name="industryOther" id="custIndustryOther" placeholder="Nhập nhóm ngành khác" style="margin-top:8px;display:none;" disabled>
+        </div>
+        <div><label>Tên đăng nhập</label><input name="username" required></div>
+        <div><label>Mật khẩu</label><input name="password" type="text" required></div>
+      </div>
+      <button type="submit">Tạo tài khoản</button>
+      <span class="create-msg" id="createCustMsg"></span>
+    </form>
+  </div>
+
   <div class="toolbar">
     <input type="text" id="searchBox" placeholder="Tìm theo tên khách, công ty hoặc sản phẩm…">
     <span class="count" id="countLabel"></span>
@@ -130,6 +173,27 @@
   }
 
   searchBox.addEventListener("input", applyFilter);
+
+  const custIndustry = document.getElementById("custIndustry");
+  const custIndustryOther = document.getElementById("custIndustryOther");
+  custIndustry.addEventListener("change", () => {
+    const isOther = custIndustry.value === "other";
+    custIndustryOther.style.display = isOther ? "" : "none";
+    custIndustryOther.disabled = !isOther;
+  });
+  document.getElementById("createCustomerForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const msg = document.getElementById("createCustMsg");
+    msg.textContent = ""; msg.className = "create-msg";
+    const body = Object.fromEntries(new FormData(form).entries());
+    const r = await fetch("/api/staff/customers/new", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(body) });
+    const data = await r.json();
+    if(!r.ok){ msg.textContent = data.error || "Có lỗi xảy ra"; msg.className = "create-msg err"; return; }
+    msg.textContent = "Đã tạo tài khoản \"" + data.user.username + "\"."; msg.className = "create-msg ok";
+    form.reset(); custIndustryOther.style.display = "none"; custIndustryOther.disabled = true;
+    loadCustomers();
+  });
 
   async function loadCustomers(){
     const r = await fetch("/api/staff/customers");
