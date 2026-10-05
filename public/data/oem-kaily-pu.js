@@ -41,7 +41,7 @@
     "subCategory": "Ống hơi khí nén PU",
     "industries": [],
     "shortDesc": "Ống hơi khí nén PU KAILY, đường kính trong 5 mm, đường kính ngoài 8 mm, cuộn 100 m.",
-    "img": "img/kaily/pu-roll.jpg",
+    "img": "img/kaily/pu-roll-cam.jpeg",
     "specs": {
       "Mã sản phẩm": "PU(K)-0850",
       "Đường kính trong (I.D)": "5 mm",
@@ -58,7 +58,7 @@
     "subCategory": "Ống hơi khí nén PU",
     "industries": [],
     "shortDesc": "Ống hơi khí nén PU KAILY, đường kính trong 6.5 mm, đường kính ngoài 10 mm, cuộn 100 m.",
-    "img": "img/kaily/pu-roll.jpg",
+    "img": "img/kaily/pu-roll-cam.jpeg",
     "specs": {
       "Mã sản phẩm": "PU(K)-1065",
       "Đường kính trong (I.D)": "6.5 mm",
@@ -75,7 +75,7 @@
     "subCategory": "Ống hơi khí nén PU",
     "industries": [],
     "shortDesc": "Ống hơi khí nén PU KAILY, đường kính trong 8 mm, đường kính ngoài 12 mm, cuộn 100 m.",
-    "img": "img/kaily/pu-roll.jpg",
+    "img": "img/kaily/pu-roll-cam.jpeg",
     "specs": {
       "Mã sản phẩm": "PU(K)-1280",
       "Đường kính trong (I.D)": "8 mm",
