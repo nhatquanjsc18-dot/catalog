@@ -6,8 +6,8 @@
       "model": "Magic Disc (AOD)",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Đĩa kim cương giúp hoàn thiện nhanh các tấm sơn ED rất cứng với ít đĩa hơn. Dùng cho sửa chữa ô tô, gắn trên máy chà quay.",
-      "img": "img/kovax/aod.png",
+      "shortDesc": "Đĩa Magic Disc (AOD) hoàn thiện nhanh các tấm sơn ED rất cứng với ít đĩa hơn. Hạt kim cương bền cho phép chạy ở tốc độ cao. Nền màng dẻo, bề mặt đều, không để lại vết xước sâu.",
+      "img": "img/kovax/st-aod.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -33,7 +33,7 @@
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
       "shortDesc": "Giấy nhám khô đa năng, cân bằng. Nền giấy dẻo, phù hợp hầu hết công việc chà nhám. Lớp trên xử lý chống bám bụi.",
-      "img": "img/kovax/finkat.png",
+      "img": "img/kovax/st-finkat.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -45,8 +45,8 @@
       "model": "GARUDA SOFT",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Giấy nhám khô có lực cắt mạnh, dùng cho toàn bộ quy trình đến lớp sơn lót. Độ bền và lực cắt được cải thiện rõ so với giấy thông thường.",
-      "img": "img/kovax/garuda-soft.png",
+      "shortDesc": "Giấy nhám khô rất mạnh, dùng cho toàn bộ quy trình đến lớp sơn lót. Nền giấy dẻo, bền và lực cắt vượt trội. Lớp trên xử lý chống bám bụi. Có bảng dữ liệu an toàn (SDS).",
+      "img": "img/kovax/st-garuda-soft.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -71,8 +71,8 @@
       "model": "MAXCUT",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Giấy nhám khô bền và mạnh, cho công việc nặng như loại bỏ oxy hóa, lớp sơn dày, kim loại và bột trét. Ít bám bụi và chà mát hơn.",
-      "img": "img/kovax/maxcut.png",
+      "shortDesc": "Giấy nhám khô bền và mạnh, cho công việc nặng như loại bỏ oxy hóa, lớp sơn dày, kim loại và bột trét cứng. Thiết kế đặc biệt giúp ít bám bụi và chà mát hơn.",
+      "img": "img/kovax/st-maxcut.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -97,8 +97,8 @@
       "model": "MAX FILM (POMMAX)",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Màng nhám khô hạng nhất, dùng cho toàn bộ quy trình đến lớp sơn lót. Nền màng phẳng, bền và tăng lực cắt rõ rệt so với giấy thông thường.",
-      "img": "img/kovax/pommax.png",
+      "shortDesc": "Màng nhám khô hạng nhất, dùng cho toàn bộ quy trình đến lớp sơn lót. Nền màng phẳng, bền, lực cắt cao và bề mặt mịn đều. Lớp trên chống bám bụi, số hạt in ở mặt nhám.",
+      "img": "img/kovax/st-pommax.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -110,8 +110,8 @@
       "model": "Premium",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Giấy nhám khô hiệu năng cao, cân bằng lực cắt, độ bền và độ hoàn thiện. Nền giấy cao cấp dẻo, lớp trên chống bám bụi.",
-      "img": "img/kovax/premium.png",
+      "shortDesc": "Giấy nhám khô hiệu năng cao, cân bằng lực cắt, độ bền và độ hoàn thiện. Nền giấy cao cấp dẻo, lớp trên chống bám bụi. Có dạng đĩa dán, cuộn và tấm dán.",
+      "img": "img/kovax/st-premium.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -136,8 +136,8 @@
       "model": "Surflatt",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Đĩa nhám khô hiệu năng cao, loại bỏ bụi và bụi nhỏ nhanh, cho lớp sơn trong mịn. Giảm thời gian đánh bóng, lý tưởng cho sơn sửa ô tô.",
-      "img": "img/kovax/surflatt.png",
+      "shortDesc": "Đĩa nhám khô hiệu năng cao, loại bỏ bụi và bụi nhỏ nhanh, làm phẳng bề mặt và cho lớp sơn trong mịn. Chà khô để nhìn rõ, giảm thời gian đánh bóng. Lý tưởng cho sơn sửa ô tô.",
+      "img": "img/kovax/st-surflatt.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -149,8 +149,8 @@
       "model": "TRI-PRO",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Giấy nhám khô cắt tốt, dùng cho toàn bộ quy trình đến lớp sơn lót. Lớp trên chống bám bụi, cho bề mặt hoàn thiện đều.",
-      "img": "img/kovax/tripro.png",
+      "shortDesc": "Giấy nhám khô cắt tốt, dùng cho toàn bộ quy trình đến lớp sơn lót. Phù hợp hầu hết công việc chà nhám. Lớp trên chống bám bụi, cho bề mặt đều từ cách chà mạnh. Có bảng dữ liệu an toàn (SDS).",
+      "img": "img/kovax/st-tripro.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
@@ -162,8 +162,8 @@
       "model": "Yellow Film (POMM)",
       "subCategory": "Sản phẩm Kovax",
       "industries": [],
-      "shortDesc": "Màng nhám khô, phù hợp làm mờ lớp sơn trong, chà vùng chuyển màu và loại bỏ lỗi như vỏ cam, chảy sơn, bụi nhỏ. Cũng dùng chà nhẹ trước khi sơn.",
-      "img": "img/kovax/yellow-film-pomm.png",
+      "shortDesc": "Màng nhám khô, phù hợp làm mờ lớp sơn trong, chà vùng chuyển màu và loại bỏ lỗi như vỏ cam, chảy sơn, bụi nhỏ. Cũng dùng chà nhẹ trước khi sơn. Nền màng dẻo, mịn lâu dài, lớp trên chống bám bụi, tốt cho sơn HS clear.",
+      "img": "img/kovax/st-yellow-film-pomm.jpg",
       "specs": {
         "Nguồn": "en.kovax.com (Products)"
       },
