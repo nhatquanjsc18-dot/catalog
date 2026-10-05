@@ -83,11 +83,7 @@
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Đăng nhập thất bại");
-      const role = data.user.role;
-      const next = nextUrlFromQuery();
-      if (role === "admin") location.href = "/admin.html";
-      else if (role === "staff") location.href = "/staff.html";
-      else location.href = next || "/";
+      location.href = "/";
     } catch (err) {
       errorBox.textContent = err.message;
       errorBox.classList.add("show");
