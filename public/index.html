@@ -1457,6 +1457,13 @@ function productsForBrand(brandId){
   return list;
 }
 
+const DISTRIBUTOR_BRAND_IDS = ["mirka", "anestiwata", "devilbiss", "binks", "dynabrade"];
+function brandMetaText(b){
+  const parts = [b.country, b.category];
+  if(!DISTRIBUTOR_BRAND_IDS.includes(b.id) && b.id !== "featured" && b.id !== "tonghop") parts.push("Đối tác thương mại");
+  return parts.filter(Boolean).join(" · ");
+}
+
 function brandChipOrder(){
   const top = BRAND_META.filter(b=>b.id==="featured");
   const rest = BRAND_META.filter(b=>b.id!=="featured").sort((x,y)=>x.name.localeCompare(y.name,"vi",{sensitivity:"base"}));
@@ -1543,7 +1550,7 @@ function renderGrid(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
+          <div class="brand-meta">${brandMetaText(b)}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
         ${b.article ? `<a class="brand-article" href="${b.article}" target="_blank" rel="noopener">Đọc bài viết →</a>` : ""}
@@ -1595,7 +1602,7 @@ function renderTable(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
+          <div class="brand-meta">${brandMetaText(b)}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
       </div>
@@ -1636,7 +1643,7 @@ function renderSheet(){
       <div class="brand-head">
         <div class="brand-head-left">
           <div class="brand-name">${b.name}</div>
-          <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
+          <div class="brand-meta">${brandMetaText(b)}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
       </div>
