@@ -1225,7 +1225,7 @@
 const BRAND_META = [
   { id:"meiji",      name:"Meiji", country:"Nhật Bản", category:"Súng phun sơn cầm tay & tự động", color:"#0071BD", on:"#FFFFFF" },
   { id:"bex",        name:"BEX", country:"—", category:"Súng bắn đinh khí nén", color:"#E4002B", on:"#FFFFFF" },
-  { id:"walther",    name:"Walther Pilot", country:"Đức", category:"Súng phun tự động & thiết bị sơn công nghiệp", color:"#1B4F72", on:"#FFFFFF" },
+  { id:"walther",    name:"Walther Pilot", country:"Đức", category:"Súng phun tự động & thiết bị sơn công nghiệp", color:"#1B4F72", on:"#FFFFFF", article:"bai-viet/walther-sung-phun-tu-dong.html" },
   { id:"featured",   name:"Sản phẩm nổi bật", country:"", category:"", color:"#D4A017", on:"#141414" },
   { id:"mirka",      name:"Mirka",       country:"Phần Lan", category:"Máy chà nhám",         color:"#FDC100", on:"#141414" },
   { id:"devilbiss",  name:"DeVilbiss",   country:"Mỹ",        category:"Súng phun sơn",         color:"#C4300E", on:"#FFFFFF" },
@@ -1547,6 +1547,7 @@ function renderGrid(){
           <div class="brand-meta">${[b.country, b.category].filter(Boolean).join(" · ")}</div>
         </div>
         <div class="brand-count">${products.length} sản phẩm</div>
+        ${b.article ? `<a class="brand-article" href="${b.article}" target="_blank" rel="noopener">Đọc bài viết →</a>` : ""}
       </div>
       ${subCatTabsHTML(b.id)}
       ${products.length === 0 ? `<div class="disclaimer">Không có sản phẩm nào khớp với bộ lọc hiện tại.</div>` : `<div class="card-grid">
