@@ -24,7 +24,7 @@ app.use(
   })
 );
 
-const CUSTOMER_INDUSTRIES = ["collision", "wood", "construction", "marine", "automotive", "composite", "metalworking", "tool-manufacturing", "aerospace", "wind-energy", "powder-coating", "pharma-food", "other"];
+const CUSTOMER_INDUSTRIES = ["collision", "wood", "construction", "marine", "automotive", "composite", "metalworking", "tool-manufacturing", "aerospace", "wind-energy", "powder-coating", "pharma-food", "glass-tempered", "ceramics", "b2b-trade", "other"];
 
 function industryFields(body) {
   const industry = body.industry || "";
