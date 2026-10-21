@@ -1,0 +1,3 @@
+# Catalog nội bộ của Nhất Quán (có đăng nhập), không dành cho công cụ tìm kiếm
+User-agent: *
+Disallow: /
